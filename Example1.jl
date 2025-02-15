@@ -35,7 +35,7 @@ p1 = scatter!(SpikeLoc,0*SpikeLoc,markersize=5,color=:red,marker=:dot,label="Est
 p1 = plot!(x,true_y,linecolor=:blue,linewidth=2,linestyle=:dash,legend=:topright,framestyle=:box,label="True Density")
 p1 = scatter!(true_spikes,0*true_spikes,markersize=5,color=:blue,marker=:xcross,label="True Spikes")
 savefig(p1,joinpath(imgFolder, "Ex1Fig1.png"))
-tb1 = DataFrame(true_spikes,SpikeLoc,abs.(true_spikes-SpikeLoc))
+tb1 = DataFrame(A=true_spikes,B=SpikeLoc,C=abs.(true_spikes-SpikeLoc))
 CSV.write(joinpath(tableFolder,"Ex1Tb1.csv"),tb1)
 
 d = 0.5
@@ -62,7 +62,7 @@ p2 = scatter!(SpikeLoc,0*SpikeLoc,markersize=5,color=:red,marker=:dot,label="Est
 p2 = plot!(x,true_y,linecolor=:blue,linewidth=2,linestyle=:dash,legend=:topright,framestyle=:box,label="True Density")
 p2 = scatter!(true_spikes,0*true_spikes,markersize=5,color=:blue,marker=:xcross,label="True Spikes")
 savefig(p2,joinpath(imgFolder, "Ex1Fig2.png"))
-tb2 = DataFrame(true_spikes,SpikeLoc,abs.(true_spikes-SpikeLoc))
+tb2 = DataFrame(A=true_spikes,B=SpikeLoc,C=abs.(true_spikes-SpikeLoc))
 CSV.write(joinpath(tableFolder,"Ex1Tb2.csv"),tb2)
 
 d = 0.9
@@ -90,7 +90,7 @@ p3 = scatter!(SpikeLoc,0*SpikeLoc,markersize=5,color=:red,marker=:dot,label="Est
 p3 = plot!(x,true_y,linecolor=:blue,linewidth=2,linestyle=:dash,legend=:topright,framestyle=:box,label="True Density")
 p3 = scatter!(true_spikes,0*true_spikes,markersize=5,color=:blue,marker=:xcross,label="True Spikes")
 savefig(p3,joinpath(imgFolder, "Ex1Fig3.png"))
-tb3 = DataFrame(true_spikes,SpikeLoc,abs.(true_spikes-SpikeLoc))
+tb3 = DataFrame(A=true_spikes,B=SpikeLoc,C=abs.(true_spikes-SpikeLoc))
 CSV.write(joinpath(tableFolder,"Ex1Tb3.csv"),tb3)
 
 Nvec = 100:100:8000
