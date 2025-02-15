@@ -1,5 +1,5 @@
 using LinearAlgebra, Distributions, Plots, LaTeXStrings, DataFrames, CSV
-include("SpikeEstimation")
+include("SpikeEstimation.jl")
 imgFolder = "Figures"
 tableFolder = "Tables"
 
