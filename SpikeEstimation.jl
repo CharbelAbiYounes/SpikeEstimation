@@ -154,27 +154,33 @@ function EstimDensity(x,ModChol,N::Integer)
     return  dens/len
 end
 
-function EstimSpike(TrueChol,N::Integer;δ::Float64=0.25,c::Float64=1.0,γ=0,ThreshOut::Bool=false)
+function EstimSpike(TrueChol,N::Integer;δ::Float64=0.25,c::Float64=1.0,ThreshOut::Bool=false)
     len = length(TrueChol)
+    Vec = zeros(Float64,len)
     sizelist = zeros(Int64,len)
+    γplus = (TrueChol[1][end,end]+TrueChol[1][end,end-1])^2
     for i=1:len
-        sizelist[i] = size(TrueChol[i],1)
+        L = TrueChol[i]
+        evals = eigvals(SymTridiagonal(L*L'))
+        j = size(L,1)
+        sizelist[i] = j
+        while j>1 && evals[j]>γplus+c*N^(-δ)
+            Vec[i] += 1
+            j-=1
+        end
     end
+    freq = Dict{Int, Int}()
+    for v in Vec
+        freq[v] = get(freq, v, 0) + 1
+    end
+    Nbr = findmax(freq)[2]
     maxval,maxidx = findmin(sizelist)
     L = TrueChol[maxidx]
-    γplus = γ==0 ? (L[maxval,maxval]+L[maxval,maxval-1])^2 : γ
     evals = eigvals(SymTridiagonal(L*L'))
-    Loc = []
-    i = maxval
-    while i>1 && evals[i]>γplus+c*N^(-δ)
-        push!(Loc,evals[i])
-        i-=1
-    end
-    Nbr = length(Loc)
     if !ThreshOut
-        return Nbr,Loc
+        return Nbr, evals[end-Nbr+1:end]
     else
-        return Nbr,Loc,γplus+c*N^(-δ)
+        return Nbr, evals[end-Nbr+1:end], γplus+c*N^(-δ)
     end
 end
 
@@ -322,26 +328,32 @@ function EstimDensityTri(x,ModJac,N::Integer)
     return  dens/len
 end
 
-function EstimSpikeTri(TrueJac,N::Integer;δ::Float64=0.25,c::Float64=1.0,γ::Float64=0.0,ThreshOut::Bool=false)
+function EstimSpikeTri(TrueJac,N::Integer;δ::Float64=0.25,c::Float64=1.0,ThreshOut::Bool=false)
     len = length(TrueJac)
+    Vec = zeros(Float64,len)
     sizelist = zeros(Int64,len)
+    γplus = TrueJac[1][end,end]+2*TrueJac[1][end,end-1]
     for i=1:len
-        sizelist[i] = size(TrueJac[i],1)
+        T = TrueJac[i]
+        evals = eigvals(T)
+        j = size(T,1)
+        sizelist[i] = j
+        while j>1 && evals[j]>γplus+c*N^(-δ)
+            Vec[i] += 1
+            j-=1
+        end
     end
+    freq = Dict{Int, Int}()
+    for v in Vec
+        freq[v] = get(freq, v, 0) + 1
+    end
+    Nbr = findmax(freq)[2]
     maxval,maxidx = findmin(sizelist)
     T = TrueJac[maxidx]
-    γplus = γ==0 ? T[maxval,maxval]+2*T[maxval,maxval-1] : γ
     evals = eigvals(T)
-    Loc = []
-    i = maxval
-    while i>1 && evals[i]>γplus+c*N^(-δ)
-        push!(Loc,evals[i])
-        i-=1
-    end
-    Nbr = length(Loc)
     if !ThreshOut
-        return Nbr,Loc
+        return Nbr, evals[end-Nbr+1:end]
     else
-        return Nbr,Loc,γplus+c*N^(-δ)
+        return Nbr, evals[end-Nbr+1:end], γplus+c*N^(-δ)
     end
 end
