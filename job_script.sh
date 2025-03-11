@@ -21,4 +21,4 @@ cat hosts.txt  # Print node list for debugging
 export JULIA_NUM_THREADS=40  # Each process will use 40 threads
 
 # Run Julia with Distributed Computing
-nohup srun julia -p 160 Example1.jl > output.log 2>&1 &
+srun julia -p 160 Example1.jl > output.log 2>&1 
