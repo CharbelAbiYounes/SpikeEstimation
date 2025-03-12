@@ -79,7 +79,7 @@ tableFolder = "Tables"
 #         σvec[1:3] = σ_out
 #         sqrtΣ = Diagonal(sqrt.(σvec))
 #         for ℓ = 1:SampleNbr
-#             randn!(X)
+#             X = randn(N,M)
 #             W = sqrtΣ*(1/M*X*X')*sqrtΣ'|>Symmetric
 #             TChol,L_list = CholList(W,tol,k,jmp,max_iter,vecNbr)
 #             γmin, γplus = EstimSupp(L_list)
@@ -154,7 +154,7 @@ hErr = zeros(Float64,len_d,SampleNbr,len_N)
                 hAvrg[j] = yAvrg[j]/(sqrt(γplus-x[j])*sqrt(x[j]-γmin))
             end
             hErr[m,κ,ℓ] = maximum(abs.(hAvrg-true_h))
-            msg = "Block 2 with d=$(d) and N=$(N)\n"
+            msg = "Block 2 with d=$(d) and N=$(N) Sample =$(κ)\n"
             print(msg)
             write(log_file_t2Det, msg)
             flush(log_file_t2Det)
