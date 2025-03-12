@@ -17,7 +17,7 @@ scontrol show hostnames > hosts.txt
 cat hosts.txt  
 
 # Set the number of Julia threads and assign CPUs to the task
-export JULIA_NUM_THREADS=140
+export JULIA_NUM_THREADS=100
 
 # Run the Julia script with taskset to bind the process to specific CPUs
-srun taskset -c 0-139 nice -n 0 julia Example1.jl > output.log 2>&1
+srun taskset -c 0-99 nice -n 0 julia Example1.jl > output.log 2>&1
