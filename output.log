@@ -3,9 +3,6 @@
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
    Resolving package versions...
 Precompiling project...
-┌ Warning: attempting to remove probably stale pidfile
-│   path = "/mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile"
-└ @ FileWatching.Pidfile /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:244
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
   ? ApproxFun
@@ -14,24 +11,26 @@ Precompiling project...
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3233, pid: 44706, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3268, pid: 12247, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
    Resolving package versions...
   ? ApproxFun
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3268, pid: 13439, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ? TracyWidomBeta
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3223, pid: 91558, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3271, pid: 7331, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ ApproxFun
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3223, pid: 92097, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3271, pid: 8505, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ? TracyWidomBeta
   1 dependency successfully precompiled in 25 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
@@ -48,10 +47,315 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3233, pid: 44706, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3268, pid: 12247, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 25 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
   ✓ ApproxFun
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3233, pid: 45380, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3271, pid: 7331, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3271, pid: 7331, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3271, pid: 7331, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 54 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 134 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3269, pid: 8024, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 134 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3268, pid: 14147, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 115 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+  ✓ ApproxFun
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 66 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3270, pid: 44748, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 87 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: g3103, pid: 37445, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+Block 2 with d=0.5 and N=200 Sample =7
+Block 2 with d=0.5 and N=200 Sample =3
+Block 2 with d=0.5 and N=200 Sample =157
+Block 2 with d=0.5 and N=200 Sample =1
+Block 2 with d=0.5 and N=200 Sample =133
+Block 2 with d=0.5 and N=200 Sample =103
+Block 2 with d=0.5 and N=200 Sample =121
+Block 2 with d=0.5 and N=200 Sample =5
+  ✓ ApproxFun
+Block 2 with d=0.5 and N=200 Sample =25
+Block 2 with d=0.5 and N=200 Sample =97
+Block 2 with d=0.5 and N=200 Sample =9
+Block 2 with d=0.5 and N=200 Sample =99
+Block 2 with d=0.5 and N=200 Sample =139
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 35 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: g3103, pid: 43189, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: g3103, pid: 37445, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+Block 2 with d=0.5 and N=800 Sample =25
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 41 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: g3103, pid: 50055, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+Block 2 with d=0.5 and N=200 Sample =53
+Block 2 with d=0.5 and N=800 Sample =137
+Block 2 with d=0.5 and N=1000 Sample =79
+Block 2 with d=0.5 and N=2000 Sample =199
+Block 2 with d=0.5 and N=2000 Sample =181
+Block 2 with d=0.9 and N=800 Sample =9
+Block 2 with d=0.5 and N=2000 Sample =179
+Block 2 with d=0.5 and N=2000 Sample =77
+Block 2 with d=0.5 and N=2000 Sample =197
+Block 2 with d=0.5 and N=2000 Sample =191
+Block 2 with d=0.5 and N=2000 Sample =121
+Block 2 with d=0.5 and N=2000 Sample =9
+Block 2 with d=0.5 and N=2000 Sample =15
+Block 2 with d=0.5 and N=2000 Sample =151
+Block 2 with d=0.5 and N=2000 Sample =69
+Block 2 with d=0.5 and N=2000 Sample =23
+Block 2 with d=0.5 and N=1800 Sample =1
+Block 2 with d=0.5 and N=2000 Sample =31
+Block 2 with d=0.5 and N=2000 Sample =177
+Block 2 with d=0.5 and N=2000 Sample =125
+Block 2 with d=0.5 and N=2000 Sample =45
+Block 2 with d=0.5 and N=2000 Sample =11
+Block 2 with d=0.9 and N=800 Sample =69
+Block 2 with d=0.5 and N=2000 Sample =165
+Block 2 with d=0.9 and N=600 Sample =197
+Block 2 with d=0.5 and N=2000 Sample =5
+Block 2 with d=0.9 and N=800 Sample =5
+Block 2 with d=0.5 and N=2000 Sample =157
+Block 2 with d=0.5 and N=2000 Sample =135
+Block 2 with d=0.5 and N=2000 Sample =55
+Block 2 with d=0.5 and N=2000 Sample =109
+Block 2 with d=0.5 and N=2000 Sample =75
+Block 2 with d=0.9 and N=800 Sample =11
+Block 2 with d=0.5 and N=2000 Sample =111
+Block 2 with d=0.9 and N=800 Sample =53
+  ✓ ApproxFun
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 154 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Block 2 with d=0.5 and N=2000 Sample =59
+Block 2 with d=0.1 and N=400 Sample =151
+Block 2 with d=0.9 and N=800 Sample =183
+Block 2 with d=0.9 and N=800 Sample =141
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3270, pid: 44748, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+Block 2 with d=0.5 and N=2000 Sample =43
+  ✓ ApproxFun
+Block 2 with d=0.5 and N=1800 Sample =183
+Block 2 with d=0.9 and N=800 Sample =13
+Block 2 with d=0.9 and N=800 Sample =17
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 75 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+Block 2 with d=0.5 and N=2000 Sample =1
+Block 2 with d=0.1 and N=200 Sample =169
+Block 2 with d=0.1 and N=600 Sample =53
+Block 2 with d=0.1 and N=600 Sample =7
+Block 2 with d=0.5 and N=200 Sample =101
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Block 2 with d=0.5 and N=600 Sample =15
+Block 2 with d=0.5 and N=200 Sample =13
+Block 2 with d=0.5 and N=200 Sample =7
+Block 2 with d=0.5 and N=200 Sample =37
+Block 2 with d=0.5 and N=600 Sample =25
+Block 2 with d=0.9 and N=800 Sample =3
+Block 2 with d=0.5 and N=200 Sample =9
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3269, pid: 6531, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+Block 2 with d=0.5 and N=2000 Sample =123
+Block 2 with d=0.5 and N=200 Sample =5
   ? TracyWidomBeta
   1 dependency successfully precompiled in 23 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
@@ -68,8 +372,9 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3223, pid: 91558, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3270, pid: 44748, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ ApproxFun
+Block 2 with d=0.9 and N=800 Sample =7
   ? TracyWidomBeta
   1 dependency successfully precompiled in 24 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
@@ -85,11 +390,15 @@ Precompiling project...
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Block 2 with d=0.9 and N=1400 Sample =105
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3233, pid: 44706, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3269, pid: 6531, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+Block 2 with d=0.9 and N=800 Sample =1
   ✓ ApproxFun
+Block 2 with d=0.5 and N=2000 Sample =19
+Block 2 with d=0.5 and N=2000 Sample =155
   ? TracyWidomBeta
-  1 dependency successfully precompiled in 23 seconds. 285 already precompiled.
+  1 dependency successfully precompiled in 24 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
@@ -103,16 +412,15 @@ Precompiling project...
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-  ✓ ApproxFun
+Block 2 with d=0.9 and N=1400 Sample =119
+Block 2 with d=0.9 and N=1400 Sample =9
+Block 2 with d=0.5 and N=200 Sample =43
 Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3230, pid: 17611, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3270, pid: 44748, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3230, pid: 17611, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3230, pid: 17611, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+Block 2 with d=0.5 and N=200 Sample =147
   ? TracyWidomBeta
-  1 dependency successfully precompiled in 92 seconds. 285 already precompiled.
+  1 dependency successfully precompiled in 24 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
@@ -123,1179 +431,1650 @@ Precompiling project...
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3236, pid: 17440, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 104 seconds. 285 already precompiled.
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3223, pid: 91558, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 95 seconds. 285 already precompiled.
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3230, pid: 17611, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 62 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3233, pid: 44706, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 124 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3223, pid: 91558, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 62 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3236, pid: 17440, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 104 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3230, pid: 17611, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3233, pid: 44706, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3223, pid: 91558, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3236, pid: 17440, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3230, pid: 17611, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3233, pid: 44706, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3223, pid: 91558, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 82 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 74 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3230, pid: 19562, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 63 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3233, pid: 44706, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+Block 2 with d=0.5 and N=200 Sample =1
+Block 2 with d=0.9 and N=1400 Sample =155
+Block 2 with d=0.5 and N=200 Sample =127
+Block 2 with d=0.5 and N=2000 Sample =73
+Block 2 with d=0.5 and N=2000 Sample =95
   ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3233, pid: 44706, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 73 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 44 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3236, pid: 17440, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 74 seconds. 285 already precompiled.
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3230, pid: 17611, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 32 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 23 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
+Block 2 with d=0.5 and N=200 Sample =43
+Block 2 with d=0.5 and N=1800 Sample =89
+Block 2 with d=0.5 and N=2000 Sample =89
   ? TracyWidomBeta
-Block 2 with d=0.5 and N=400 Sample =111
-Block 2 with d=0.5 and N=400 Sample =41
-Block 2 with d=0.5 and N=400 Sample =145
-Block 2 with d=0.5 and N=400 Sample =115
-Block 2 with d=0.5 and N=600 Sample =185
-Block 2 with d=0.5 and N=400 Sample =11
-Block 2 with d=0.5 and N=400 Sample =13
-Block 2 with d=0.5 and N=400 Sample =103
-Block 2 with d=0.5 and N=400 Sample =77
-Block 2 with d=0.5 and N=400 Sample =23
-Block 2 with d=0.5 and N=400 Sample =122
-Block 2 with d=0.5 and N=400 Sample =51
-Block 2 with d=0.5 and N=400 Sample =93
-Block 2 with d=0.5 and N=400 Sample =85
-Block 2 with d=0.9 and N=400 Sample =166
-Block 2 with d=0.5 and N=400 Sample =130
-Block 2 with d=0.9 and N=400 Sample =25
-Block 2 with d=0.5 and N=400 Sample =3
-Block 2 with d=0.5 and N=400 Sample =1
-Block 2 with d=0.5 and N=400 Sample =61
-Block 2 with d=0.5 and N=400 Sample =101
-Block 2 with d=0.9 and N=600 Sample =192
-Block 2 with d=0.5 and N=800 Sample =165
-Block 2 with d=0.1 and N=1400 Sample =142
-Block 2 with d=0.1 and N=600 Sample =174
-Block 2 with d=0.1 and N=600 Sample =136
-Block 2 with d=0.1 and N=200 Sample =5
-Block 2 with d=0.5 and N=400 Sample =97
-Block 2 with d=0.1 and N=200 Sample =1
-Block 2 with d=0.1 and N=200 Sample =3
-Block 2 with d=0.1 and N=200 Sample =150
-Block 2 with d=0.1 and N=200 Sample =17
-Block 2 with d=0.1 and N=200 Sample =89
-Block 2 with d=0.9 and N=200 Sample =83
-Block 2 with d=0.9 and N=200 Sample =71
-Block 2 with d=0.5 and N=1400 Sample =103
-Block 2 with d=0.9 and N=1000 Sample =140
-Block 2 with d=0.1 and N=2200 Sample =133
-Block 2 with d=0.1 and N=2200 Sample =73
-Block 2 with d=0.9 and N=200 Sample =19
-Block 2 with d=0.1 and N=2200 Sample =127
-Block 2 with d=0.1 and N=2200 Sample =49
-Block 2 with d=0.1 and N=2200 Sample =75
-Block 2 with d=0.1 and N=2200 Sample =63
-Block 2 with d=0.1 and N=1600 Sample =177
-Block 2 with d=0.1 and N=2200 Sample =7
-Block 2 with d=0.1 and N=2200 Sample =17
-Block 2 with d=0.1 and N=2200 Sample =186
-Block 2 with d=0.5 and N=1800 Sample =173
-Block 2 with d=0.5 and N=1400 Sample =138
-Block 2 with d=0.9 and N=1600 Sample =75
-Block 2 with d=0.9 and N=1600 Sample =195
-Block 2 with d=0.9 and N=1600 Sample =27
-Block 2 with d=0.9 and N=1600 Sample =51
-Block 2 with d=0.9 and N=1600 Sample =29
-Block 2 with d=0.9 and N=1600 Sample =59
-Block 2 with d=0.9 and N=1600 Sample =79
-Block 2 with d=0.1 and N=2200 Sample =13
-Block 2 with d=0.9 and N=1600 Sample =23
-Block 2 with d=0.9 and N=1600 Sample =9
-Block 2 with d=0.9 and N=1600 Sample =21
-Block 2 with d=0.9 and N=1600 Sample =107
-Block 2 with d=0.9 and N=1600 Sample =39
-Block 2 with d=0.9 and N=1600 Sample =149
-Block 2 with d=0.9 and N=1600 Sample =182
-Block 2 with d=0.5 and N=200 Sample =161
-Block 2 with d=0.9 and N=1600 Sample =151
-Block 2 with d=0.9 and N=1600 Sample =131
-Block 2 with d=0.9 and N=1600 Sample =132
-Block 2 with d=0.5 and N=1000 Sample =163
-Block 2 with d=0.1 and N=1000 Sample =89
-Block 2 with d=0.1 and N=2200 Sample =117
-Block 2 with d=0.5 and N=2200 Sample =159
-Block 2 with d=0.5 and N=2200 Sample =111
-Block 2 with d=0.1 and N=2000 Sample =195
-Block 2 with d=0.1 and N=2600 Sample =31
-Block 2 with d=0.5 and N=2200 Sample =25
-Block 2 with d=0.5 and N=2200 Sample =43
-Block 2 with d=0.9 and N=1600 Sample =135
-Block 2 with d=0.9 and N=1600 Sample =146
-Block 2 with d=0.5 and N=2200 Sample =99
-Block 2 with d=0.5 and N=2200 Sample =119
-Block 2 with d=0.1 and N=2200 Sample =3
-Block 2 with d=0.9 and N=2000 Sample =193
-Block 2 with d=0.1 and N=2000 Sample =197
-Block 2 with d=0.9 and N=1800 Sample =105
-Block 2 with d=0.1 and N=1600 Sample =89
-slurmstepd: error: Detected 1 oom_kill event in StepId=24725205.0. Some of the step tasks have been OOM Killed.
-srun: error: n3223: task 0: Out Of Memory
-Block 2 with d=0.5 and N=2600 Sample =123
-Block 2 with d=0.5 and N=2600 Sample =158
-Block 2 with d=0.1 and N=2400 Sample =137
-Block 2 with d=0.5 and N=2600 Sample =39
-Block 2 with d=0.5 and N=2600 Sample =109
-Block 2 with d=0.5 and N=2600 Sample =41
-Block 2 with d=0.5 and N=2600 Sample =154
-Block 2 with d=0.5 and N=2600 Sample =81
-Block 2 with d=0.5 and N=2600 Sample =29
-Block 2 with d=0.5 and N=2600 Sample =25
-Block 2 with d=0.5 and N=2600 Sample =51
-Block 2 with d=0.5 and N=2600 Sample =1
-Block 2 with d=0.5 and N=2000 Sample =9
-Block 2 with d=0.5 and N=2000 Sample =177
-Block 2 with d=0.9 and N=1600 Sample =155
-Block 2 with d=0.1 and N=3500 Sample =69
-Block 2 with d=0.9 and N=1600 Sample =49
-Block 2 with d=0.5 and N=2600 Sample =45
-Block 2 with d=0.1 and N=1800 Sample =81
-Block 2 with d=0.5 and N=3000 Sample =43
-Block 2 with d=0.5 and N=3000 Sample =153
-Block 2 with d=0.5 and N=2600 Sample =59
-Block 2 with d=0.1 and N=4500 Sample =89
-Block 2 with d=0.1 and N=2400 Sample =158
-Block 2 with d=0.1 and N=2400 Sample =35
-Block 2 with d=0.5 and N=3500 Sample =124
-Block 2 with d=0.1 and N=2400 Sample =5
-Block 2 with d=0.1 and N=2400 Sample =85
-Block 2 with d=0.1 and N=2400 Sample =25
-Block 2 with d=0.5 and N=3500 Sample =193
-Block 2 with d=0.1 and N=2400 Sample =197
-Block 2 with d=0.1 and N=600 Sample =142
-Block 2 with d=0.5 and N=3500 Sample =119
-Block 2 with d=0.1 and N=4500 Sample =182
-Block 2 with d=0.1 and N=6000 Sample =119
-Block 2 with d=0.1 and N=5000 Sample =71
-Block 2 with d=0.1 and N=5000 Sample =145
-Block 2 with d=0.5 and N=4500 Sample =187
-Block 2 with d=0.1 and N=2400 Sample =27
-Block 2 with d=0.1 and N=400 Sample =129
-Block 2 with d=0.5 and N=5000 Sample =189
-Block 2 with d=0.1 and N=5500 Sample =177
-Block 2 with d=0.5 and N=5000 Sample =107
-Block 2 with d=0.1 and N=2000 Sample =124
-Block 2 with d=0.1 and N=1000 Sample =153
-Block 2 with d=0.1 and N=1800 Sample =99
-Block 2 with d=0.1 and N=2200 Sample =27
-Block 2 with d=0.5 and N=5000 Sample =41
-Block 2 with d=0.9 and N=200 Sample =189
-Block 2 with d=0.1 and N=2400 Sample =155
-Block 2 with d=0.1 and N=2000 Sample =83
-Block 2 with d=0.5 and N=4500 Sample =75
-Block 2 with d=0.1 and N=3500 Sample =182
-Block 2 with d=0.9 and N=1800 Sample =137
-Block 2 with d=0.1 and N=2800 Sample =107
-Block 2 with d=0.1 and N=2000 Sample =168
-Block 2 with d=0.5 and N=400 Sample =168
-Block 2 with d=0.5 and N=3000 Sample =1
-Block 2 with d=0.5 and N=2400 Sample =153
-Block 2 with d=0.5 and N=2600 Sample =97
-Block 2 with d=0.5 and N=400 Sample =19
-Block 2 with d=0.1 and N=2000 Sample =73
-Block 2 with d=0.1 and N=2000 Sample =193
-Block 2 with d=0.1 and N=2200 Sample =41
-Block 2 with d=0.5 and N=2600 Sample =15
-Block 2 with d=0.1 and N=4000 Sample =9
-Block 2 with d=0.9 and N=4500 Sample =122
-Block 2 with d=0.9 and N=4500 Sample =150
-Block 2 with d=0.9 and N=4500 Sample =63
-Block 2 with d=0.9 and N=600 Sample =153
-Block 2 with d=0.9 and N=4500 Sample =133
-Block 2 with d=0.1 and N=400 Sample =89
-Block 2 with d=0.5 and N=1800 Sample =41
-Block 2 with d=0.1 and N=7500 Sample =151
-Block 2 with d=0.5 and N=400 Sample =31
-Block 2 with d=0.1 and N=7500 Sample =161
-Block 2 with d=0.1 and N=7500 Sample =170
-Block 2 with d=0.9 and N=4500 Sample =23
-Block 2 with d=0.5 and N=400 Sample =57
-Block 2 with d=0.9 and N=4500 Sample =51
-Block 2 with d=0.9 and N=4500 Sample =71
-Block 2 with d=0.1 and N=1800 Sample =11
-Block 2 with d=0.9 and N=4500 Sample =33
-Block 2 with d=0.9 and N=4500 Sample =81
-Block 2 with d=0.5 and N=2800 Sample =174
-Block 2 with d=0.9 and N=4500 Sample =55
-Block 2 with d=0.9 and N=4500 Sample =167
-Block 2 with d=0.1 and N=2000 Sample =107
-Block 2 with d=0.9 and N=4500 Sample =187
-Block 2 with d=0.9 and N=4500 Sample =192
-Block 2 with d=0.9 and N=4500 Sample =49
-Block 2 with d=0.9 and N=4500 Sample =115
-Block 2 with d=0.9 and N=4500 Sample =164
-Block 2 with d=0.9 and N=1200 Sample =35
-Block 2 with d=0.9 and N=4500 Sample =59
-Block 2 with d=0.5 and N=4000 Sample =181
-Block 2 with d=0.1 and N=7500 Sample =170
-Block 2 with d=0.9 and N=4500 Sample =47
-Block 2 with d=0.9 and N=4500 Sample =191
-Block 2 with d=0.5 and N=5000 Sample =21
-Block 2 with d=0.9 and N=4500 Sample =181
-Block 2 with d=0.9 and N=4500 Sample =65
-Block 2 with d=0.5 and N=1800 Sample =91
-Block 2 with d=0.1 and N=6500 Sample =185
-Block 2 with d=0.9 and N=4500 Sample =144
-Block 2 with d=0.9 and N=4500 Sample =43
-Block 2 with d=0.9 and N=4500 Sample =3
-Block 2 with d=0.1 and N=2000 Sample =157
-Block 2 with d=0.9 and N=4500 Sample =41
-Block 2 with d=0.9 and N=2000 Sample =47
-Block 2 with d=0.9 and N=4500 Sample =57
-Block 2 with d=0.9 and N=4500 Sample =31
-Block 2 with d=0.9 and N=4500 Sample =149
-Block 2 with d=0.5 and N=1800 Sample =125
-Block 2 with d=0.9 and N=4500 Sample =37
-Block 2 with d=0.9 and N=4500 Sample =25
-Block 2 with d=0.9 and N=4500 Sample =163
-Block 2 with d=0.9 and N=4500 Sample =138
-Block 2 with d=0.5 and N=6000 Sample =126
-Block 2 with d=0.9 and N=4500 Sample =21
-Block 2 with d=0.1 and N=7500 Sample =65
-Block 2 with d=0.9 and N=4500 Sample =160
-Block 2 with d=0.5 and N=5500 Sample =190
-Block 2 with d=0.5 and N=4000 Sample =143
-Block 2 with d=0.5 and N=5500 Sample =3
-Block 2 with d=0.5 and N=5500 Sample =179
-Block 2 with d=0.9 and N=4500 Sample =73
-Block 2 with d=0.1 and N=400 Sample =77
-Block 2 with d=0.5 and N=2600 Sample =194
-Block 2 with d=0.5 and N=3500 Sample =5
-Block 2 with d=0.9 and N=4500 Sample =77
-Block 2 with d=0.9 and N=4500 Sample =198
-Block 2 with d=0.9 and N=4500 Sample =154
-Block 2 with d=0.9 and N=4500 Sample =127
-Block 2 with d=0.1 and N=8000 Sample =75
-Block 2 with d=0.9 and N=4500 Sample =173
-Block 2 with d=0.9 and N=4500 Sample =199
-Block 2 with d=0.5 and N=5500 Sample =47
-Block 2 with d=0.5 and N=2200 Sample =179
-Block 2 with d=0.9 and N=5000 Sample =170
-Block 2 with d=0.9 and N=4500 Sample =13
-Block 2 with d=0.5 and N=5500 Sample =178
-Block 2 with d=0.5 and N=2600 Sample =41
-Block 2 with d=0.9 and N=6000 Sample =43
-Block 2 with d=0.5 and N=5500 Sample =145
-Block 2 with d=0.9 and N=6000 Sample =41
-Block 2 with d=0.5 and N=400 Sample =126
-Block 2 with d=0.9 and N=4500 Sample =117
-Block 2 with d=0.9 and N=1400 Sample =89
-Block 2 with d=0.5 and N=1800 Sample =128
-Block 2 with d=0.9 and N=1600 Sample =19
-Block 2 with d=0.9 and N=1600 Sample =170
-Block 2 with d=0.5 and N=6000 Sample =23
-Block 2 with d=0.5 and N=6000 Sample =169
-Block 2 with d=0.5 and N=5000 Sample =9
-Block 2 with d=0.9 and N=1600 Sample =103
-Block 2 with d=0.9 and N=200 Sample =97
-Block 2 with d=0.5 and N=200 Sample =170
-Block 2 with d=0.5 and N=6000 Sample =195
-Block 2 with d=0.9 and N=4500 Sample =166
-Block 2 with d=0.5 and N=7000 Sample =134
-Block 2 with d=0.5 and N=6000 Sample =141
-Block 2 with d=0.9 and N=6000 Sample =196
-Block 2 with d=0.9 and N=3500 Sample =29
-Block 2 with d=0.5 and N=6000 Sample =190
-Block 2 with d=0.9 and N=4500 Sample =11
-Block 2 with d=0.5 and N=6000 Sample =57
-Block 2 with d=0.5 and N=6000 Sample =1
-Block 2 with d=0.9 and N=6000 Sample =133
-Block 2 with d=0.1 and N=400 Sample =196
-Block 2 with d=0.1 and N=400 Sample =186
-Block 2 with d=0.1 and N=400 Sample =87
-Block 2 with d=0.5 and N=6000 Sample =181
-Block 2 with d=0.9 and N=3500 Sample =37
-Block 2 with d=0.9 and N=4000 Sample =21
-Block 2 with d=0.1 and N=400 Sample =199
-Block 2 with d=0.9 and N=4000 Sample =130
-Block 2 with d=0.9 and N=3500 Sample =35
-Block 2 with d=0.5 and N=3500 Sample =103
-Block 2 with d=0.1 and N=2200 Sample =158
-Block 2 with d=0.1 and N=400 Sample =131
-Block 2 with d=0.9 and N=4000 Sample =154
-Block 2 with d=0.1 and N=400 Sample =141
-Block 2 with d=0.9 and N=6000 Sample =15
-Block 2 with d=0.5 and N=2200 Sample =129
-Block 2 with d=0.9 and N=4000 Sample =51
-Block 2 with d=0.9 and N=4500 Sample =35
-Block 2 with d=0.9 and N=4000 Sample =53
-Block 2 with d=0.9 and N=3500 Sample =79
-Block 2 with d=0.9 and N=1600 Sample =5
-Block 2 with d=0.9 and N=4000 Sample =57
-Block 2 with d=0.9 and N=4000 Sample =3
-Block 2 with d=0.9 and N=3500 Sample =45
-Block 2 with d=0.5 and N=4500 Sample =127
-Block 2 with d=0.9 and N=4000 Sample =107
-Block 2 with d=0.9 and N=4000 Sample =190
-Block 2 with d=0.9 and N=6500 Sample =158
-Block 2 with d=0.1 and N=2000 Sample =39
-Block 2 with d=0.9 and N=4500 Sample =87
-Block 2 with d=0.9 and N=200 Sample =109
-Block 2 with d=0.9 and N=4000 Sample =61
-Block 2 with d=0.1 and N=3500 Sample =125
-Block 2 with d=0.9 and N=4000 Sample =125
-Block 2 with d=0.9 and N=4000 Sample =1
-Block 2 with d=0.9 and N=3500 Sample =39
-Block 2 with d=0.5 and N=400 Sample =137
-Block 2 with d=0.9 and N=3500 Sample =11
-Block 2 with d=0.1 and N=3000 Sample =168
-Block 2 with d=0.1 and N=400 Sample =136
-Block 2 with d=0.9 and N=4000 Sample =192
-Block 2 with d=0.9 and N=4000 Sample =180
-Block 2 with d=0.5 and N=400 Sample =5
-Block 2 with d=0.9 and N=4000 Sample =31
-Block 2 with d=0.1 and N=2000 Sample =199
-Block 2 with d=0.9 and N=4500 Sample =130
-Block 2 with d=0.5 and N=5000 Sample =125
-Block 2 with d=0.9 and N=3500 Sample =33
-Block 2 with d=0.9 and N=3500 Sample =83
-Block 2 with d=0.9 and N=7500 Sample =65
-Block 2 with d=0.9 and N=4000 Sample =47
-Block 2 with d=0.9 and N=4000 Sample =149
-Block 2 with d=0.9 and N=3500 Sample =19
-Block 2 with d=0.5 and N=2600 Sample =13
-Block 2 with d=0.9 and N=4000 Sample =55
-Block 2 with d=0.9 and N=4000 Sample =165
-Block 2 with d=0.9 and N=4500 Sample =149
-Block 2 with d=0.9 and N=4000 Sample =151
-Block 2 with d=0.9 and N=4500 Sample =105
-Block 2 with d=0.1 and N=1400 Sample =134
-Block 2 with d=0.1 and N=400 Sample =93
-Block 2 with d=0.9 and N=4000 Sample =167
-Block 2 with d=0.5 and N=6000 Sample =172
-Block 2 with d=0.9 and N=6000 Sample =182
-Block 2 with d=0.1 and N=2000 Sample =182
-Block 2 with d=0.9 and N=4000 Sample =146
-Block 2 with d=0.9 and N=4500 Sample =177
-Block 2 with d=0.9 and N=4000 Sample =87
-Block 2 with d=0.9 and N=4000 Sample =161
-Block 2 with d=0.9 and N=4000 Sample =147
-Block 2 with d=0.9 and N=4500 Sample =190
-Block 2 with d=0.9 and N=4000 Sample =63
-Block 2 with d=0.9 and N=4000 Sample =75
-Block 2 with d=0.9 and N=4000 Sample =9
-Block 2 with d=0.9 and N=4500 Sample =19
-Block 2 with d=0.9 and N=4500 Sample =85
-Block 2 with d=0.1 and N=400 Sample =165
-Block 2 with d=0.9 and N=4500 Sample =153
-Block 2 with d=0.5 and N=400 Sample =43
-Block 2 with d=0.9 and N=4500 Sample =27
-Block 2 with d=0.9 and N=4500 Sample =61
-Block 2 with d=0.9 and N=4000 Sample =11
-Block 2 with d=0.5 and N=6000 Sample =5
-Block 2 with d=0.9 and N=4000 Sample =43
-Block 2 with d=0.9 and N=4500 Sample =128
-Block 2 with d=0.9 and N=4000 Sample =126
-Block 2 with d=0.1 and N=3500 Sample =187
-Block 2 with d=0.1 and N=2800 Sample =151
-Block 2 with d=0.9 and N=4500 Sample =158
-Block 2 with d=0.9 and N=4000 Sample =195
-Block 2 with d=0.9 and N=4500 Sample =13
-Block 2 with d=0.9 and N=4000 Sample =115
-Block 2 with d=0.9 and N=4000 Sample =49
-Block 2 with d=0.9 and N=4000 Sample =67
-Block 2 with d=0.9 and N=4000 Sample =135
-Block 2 with d=0.9 and N=4000 Sample =183
-Block 2 with d=0.9 and N=4500 Sample =136
-Block 2 with d=0.9 and N=4000 Sample =5
-Block 2 with d=0.9 and N=4000 Sample =128
-Block 2 with d=0.9 and N=4500 Sample =151
-Block 2 with d=0.9 and N=4000 Sample =7
-Block 2 with d=0.9 and N=4000 Sample =79
-Block 2 with d=0.9 and N=3500 Sample =17
-Block 2 with d=0.9 and N=4000 Sample =169
-Block 2 with d=0.5 and N=6000 Sample =125
-Block 2 with d=0.1 and N=2000 Sample =165
-Block 2 with d=0.9 and N=4500 Sample =11
-Block 2 with d=0.9 and N=4000 Sample =127
-Block 2 with d=0.5 and N=6000 Sample =192
-Block 2 with d=0.9 and N=4500 Sample =81
-Block 2 with d=0.9 and N=4500 Sample =123
-Block 2 with d=0.9 and N=4500 Sample =133
-Block 2 with d=0.9 and N=4000 Sample =182
-Block 2 with d=0.5 and N=6000 Sample =63
-Block 2 with d=0.9 and N=4500 Sample =77
-Block 2 with d=0.9 and N=4500 Sample =9
-Block 2 with d=0.9 and N=4000 Sample =65
-Block 2 with d=0.9 and N=4500 Sample =99
-Block 2 with d=0.9 and N=4500 Sample =5
-Block 2 with d=0.9 and N=4500 Sample =153
-Block 2 with d=0.1 and N=2000 Sample =147
-Block 2 with d=0.9 and N=4000 Sample =69
-Block 2 with d=0.9 and N=4000 Sample =193
-Block 2 with d=0.9 and N=4500 Sample =156
-Block 2 with d=0.9 and N=4500 Sample =124
-Block 2 with d=0.1 and N=2000 Sample =63
-Block 2 with d=0.9 and N=6000 Sample =162
-Block 2 with d=0.5 and N=6000 Sample =25
-Block 2 with d=0.5 and N=6000 Sample =77
-Block 2 with d=0.5 and N=3500 Sample =136
-Block 2 with d=0.1 and N=5500 Sample =168
-Block 2 with d=0.1 and N=2000 Sample =143
-Block 2 with d=0.9 and N=4500 Sample =5
-Block 2 with d=0.1 and N=2000 Sample =141
-Block 2 with d=0.5 and N=400 Sample =17
-Block 2 with d=0.5 and N=600 Sample =150
-Block 2 with d=0.9 and N=3500 Sample =149
-Block 2 with d=0.1 and N=3000 Sample =115
-Block 2 with d=0.9 and N=4500 Sample =192
-Block 2 with d=0.9 and N=4500 Sample =105
-Block 2 with d=0.5 and N=6000 Sample =121
-Block 2 with d=0.9 and N=4000 Sample =184
-Block 2 with d=0.9 and N=4500 Sample =45
-Block 2 with d=0.9 and N=1600 Sample =37
-Block 2 with d=0.9 and N=4500 Sample =95
-Block 2 with d=0.5 and N=2000 Sample =67
-Block 2 with d=0.9 and N=4000 Sample =119
-Block 2 with d=0.5 and N=1600 Sample =160
-Block 2 with d=0.9 and N=4500 Sample =71
-Block 2 with d=0.5 and N=2600 Sample =143
-Block 2 with d=0.5 and N=2400 Sample =157
-Block 2 with d=0.9 and N=600 Sample =122
-Block 2 with d=0.9 and N=6000 Sample =1
-Block 2 with d=0.9 and N=3500 Sample =95
-Block 2 with d=0.1 and N=5000 Sample =115
-Block 2 with d=0.5 and N=400 Sample =197
-Block 2 with d=0.9 and N=4000 Sample =200
-Block 2 with d=0.9 and N=4000 Sample =91
-Block 2 with d=0.9 and N=4000 Sample =152
-Block 2 with d=0.9 and N=4500 Sample =107
-Block 2 with d=0.5 and N=2600 Sample =21
-Block 2 with d=0.9 and N=4500 Sample =129
-Block 2 with d=0.1 and N=7500 Sample =149
-Block 2 with d=0.1 and N=2400 Sample =199
-Block 2 with d=0.1 and N=2000 Sample =130
-Block 2 with d=0.1 and N=2000 Sample =17
-Block 2 with d=0.5 and N=6000 Sample =152
-Block 2 with d=0.9 and N=4500 Sample =141
-Block 2 with d=0.1 and N=200 Sample =13
-Block 2 with d=0.5 and N=2600 Sample =17
-Block 2 with d=0.1 and N=2000 Sample =200
-Block 2 with d=0.5 and N=1400 Sample =75
-Block 2 with d=0.5 and N=2600 Sample =184
-Block 2 with d=0.1 and N=200 Sample =9
-Block 2 with d=0.5 and N=2000 Sample =170
-Block 2 with d=0.1 and N=5000 Sample =169
-Block 2 with d=0.5 and N=2800 Sample =165
-Block 2 with d=0.1 and N=2000 Sample =163
-Block 2 with d=0.9 and N=3000 Sample =133
-Block 2 with d=0.9 and N=7500 Sample =5
-Block 2 with d=0.5 and N=400 Sample =125
-Block 2 with d=0.9 and N=7500 Sample =7
-Block 2 with d=0.1 and N=7500 Sample =103
-Block 2 with d=0.9 and N=3500 Sample =85
-Block 2 with d=0.5 and N=400 Sample =177
-Block 2 with d=0.9 and N=7500 Sample =59
-Block 2 with d=0.1 and N=2000 Sample =150
-Block 2 with d=0.9 and N=1800 Sample =184
-Block 2 with d=0.9 and N=4500 Sample =97
-Block 2 with d=0.1 and N=400 Sample =180
-Block 2 with d=0.9 and N=7500 Sample =21
-Block 2 with d=0.5 and N=5500 Sample =23
-Block 2 with d=0.1 and N=600 Sample =143
-Block 2 with d=0.9 and N=4500 Sample =85
-Block 2 with d=0.1 and N=400 Sample =3
-Block 2 with d=0.9 and N=1600 Sample =25
-Block 2 with d=0.1 and N=2000 Sample =51
-Block 2 with d=0.1 and N=200 Sample =147
-Block 2 with d=0.1 and N=2400 Sample =33
-Block 2 with d=0.9 and N=1600 Sample =55
-Block 2 with d=0.5 and N=5500 Sample =177
-Block 2 with d=0.9 and N=7500 Sample =29
-Block 2 with d=0.5 and N=4000 Sample =161
-Block 2 with d=0.5 and N=6000 Sample =168
-Block 2 with d=0.9 and N=2000 Sample =33
-Block 2 with d=0.1 and N=2600 Sample =166
-Block 2 with d=0.5 and N=5500 Sample =123
-Block 2 with d=0.5 and N=5500 Sample =79
-Block 2 with d=0.9 and N=1600 Sample =1
-Block 2 with d=0.5 and N=400 Sample =83
-Block 2 with d=0.9 and N=1600 Sample =13
-Block 2 with d=0.5 and N=2600 Sample =165
-Block 2 with d=0.9 and N=3500 Sample =164
-Block 2 with d=0.1 and N=2000 Sample =95
-Block 2 with d=0.9 and N=4500 Sample =148
-Block 2 with d=0.1 and N=1800 Sample =121
-Block 2 with d=0.1 and N=5000 Sample =185
-Block 2 with d=0.9 and N=200 Sample =186
-Block 2 with d=0.1 and N=2000 Sample =1
-Block 2 with d=0.5 and N=6000 Sample =150
-Block 2 with d=0.5 and N=3500 Sample =167
-Block 2 with d=0.1 and N=400 Sample =161
-Block 2 with d=0.1 and N=2000 Sample =134
-Block 2 with d=0.9 and N=7500 Sample =13
-Block 2 with d=0.1 and N=200 Sample =25
-Block 2 with d=0.9 and N=600 Sample =176
-Block 2 with d=0.9 and N=7500 Sample =85
-Block 2 with d=0.5 and N=4000 Sample =169
-Block 2 with d=0.9 and N=7500 Sample =150
-Block 2 with d=0.9 and N=7500 Sample =91
-Block 2 with d=0.9 and N=7500 Sample =39
-Block 2 with d=0.9 and N=3500 Sample =41
-Block 2 with d=0.9 and N=3500 Sample =137
-Block 2 with d=0.1 and N=5000 Sample =63
-Block 2 with d=0.5 and N=2600 Sample =160
-Block 2 with d=0.5 and N=6000 Sample =174
-Block 2 with d=0.5 and N=400 Sample =95
-Block 2 with d=0.9 and N=1600 Sample =89
-Block 2 with d=0.9 and N=3500 Sample =55
-Block 2 with d=0.5 and N=6000 Sample =138
-Block 2 with d=0.5 and N=6000 Sample =185
-Block 2 with d=0.9 and N=7500 Sample =1
-Block 2 with d=0.5 and N=6000 Sample =166
-Block 2 with d=0.9 and N=7500 Sample =164
-Block 2 with d=0.9 and N=7500 Sample =35
-Block 2 with d=0.9 and N=7500 Sample =133
-Block 2 with d=0.9 and N=2800 Sample =190
-Block 2 with d=0.5 and N=2600 Sample =159
-Block 2 with d=0.5 and N=6000 Sample =160
-Block 2 with d=0.1 and N=2000 Sample =47
-Block 2 with d=0.1 and N=1400 Sample =182
-Block 2 with d=0.9 and N=7500 Sample =41
-Block 2 with d=0.9 and N=200 Sample =95
-Block 2 with d=0.9 and N=7500 Sample =181
-Block 2 with d=0.1 and N=1600 Sample =77
-Block 2 with d=0.5 and N=6000 Sample =194
-Block 2 with d=0.5 and N=6000 Sample =155
-Block 2 with d=0.5 and N=1800 Sample =176
-Block 2 with d=0.1 and N=200 Sample =45
-Block 2 with d=0.5 and N=2600 Sample =71
-Block 2 with d=0.1 and N=2400 Sample =49
-Block 2 with d=0.9 and N=4500 Sample =29
-Block 2 with d=0.1 and N=2000 Sample =186
-Block 2 with d=0.9 and N=200 Sample =57
-Block 2 with d=0.1 and N=2000 Sample =144
-Block 2 with d=0.1 and N=1200 Sample =179
-Block 2 with d=0.9 and N=7500 Sample =31
-Block 2 with d=0.9 and N=1600 Sample =158
-Block 2 with d=0.1 and N=1800 Sample =161
-Block 2 with d=0.9 and N=7500 Sample =3
-Block 2 with d=0.5 and N=2400 Sample =165
-Block 2 with d=0.9 and N=3500 Sample =93
-slurmstepd: error: Detected 1 oom_kill event in StepId=24725205.0. Some of the step tasks have been OOM Killed.
-Block 2 with d=0.9 and N=7500 Sample =15
-Block 2 with d=0.9 and N=600 Sample =139
-Block 2 with d=0.5 and N=6500 Sample =137
-Block 2 with d=0.1 and N=2000 Sample =153
-Block 2 with d=0.5 and N=2000 Sample =177
-Block 2 with d=0.9 and N=4500 Sample =69
-Block 2 with d=0.5 and N=3500 Sample =97
-Block 2 with d=0.1 and N=2000 Sample =152
-Block 2 with d=0.5 and N=2600 Sample =97
-Block 2 with d=0.5 and N=6000 Sample =113
-Block 2 with d=0.1 and N=400 Sample =41
-Block 2 with d=0.5 and N=6000 Sample =199
-Block 2 with d=0.9 and N=1600 Sample =33
-Block 2 with d=0.9 and N=4500 Sample =19
-Block 2 with d=0.5 and N=5500 Sample =7
-Block 2 with d=0.1 and N=2400 Sample =19
-Block 2 with d=0.5 and N=2400 Sample =153
-Block 2 with d=0.1 and N=7500 Sample =33
-Block 2 with d=0.9 and N=4500 Sample =165
-Block 2 with d=0.5 and N=2000 Sample =197
-Block 2 with d=0.9 and N=2400 Sample =171
-Block 2 with d=0.1 and N=2000 Sample =119
-Block 2 with d=0.1 and N=2000 Sample =139
-Block 2 with d=0.1 and N=2400 Sample =97
-Block 2 with d=0.1 and N=2000 Sample =132
-Block 2 with d=0.5 and N=3500 Sample =111
-Block 2 with d=0.1 and N=5000 Sample =85
-Block 2 with d=0.9 and N=3000 Sample =93
-Block 2 with d=0.9 and N=3500 Sample =77
-Block 2 with d=0.1 and N=5000 Sample =99
-Block 2 with d=0.9 and N=4500 Sample =27
-Block 2 with d=0.5 and N=1800 Sample =141
-Block 2 with d=0.5 and N=600 Sample =138
-Block 2 with d=0.9 and N=3500 Sample =57
-Block 2 with d=0.9 and N=3500 Sample =9
-Block 2 with d=0.5 and N=2400 Sample =31
-Block 2 with d=0.1 and N=2000 Sample =13
-Block 2 with d=0.9 and N=1600 Sample =186
-Block 2 with d=0.1 and N=1600 Sample =166
-Block 2 with d=0.1 and N=1400 Sample =140
-Block 2 with d=0.1 and N=200 Sample =185
-Block 2 with d=0.1 and N=2000 Sample =148
-Block 2 with d=0.1 and N=1600 Sample =153
-Block 2 with d=0.9 and N=3500 Sample =187
-Block 2 with d=0.1 and N=2000 Sample =142
-Block 2 with d=0.9 and N=4000 Sample =172
-Block 2 with d=0.9 and N=1800 Sample =65
-Block 2 with d=0.1 and N=5000 Sample =157
-Block 2 with d=0.9 and N=2400 Sample =195
-Block 2 with d=0.5 and N=2000 Sample =154
-Block 2 with d=0.9 and N=3000 Sample =199
-Block 2 with d=0.9 and N=4500 Sample =135
-Block 2 with d=0.1 and N=1400 Sample =163
-Block 2 with d=0.9 and N=5500 Sample =175
-Block 2 with d=0.9 and N=3500 Sample =21
-Block 2 with d=0.9 and N=4500 Sample =193
-Block 2 with d=0.9 and N=200 Sample =81
-Block 2 with d=0.1 and N=400 Sample =162
-Block 2 with d=0.9 and N=200 Sample =39
-Block 2 with d=0.5 and N=200 Sample =29
-Block 2 with d=0.9 and N=3500 Sample =143
-Block 2 with d=0.1 and N=400 Sample =121
-Block 2 with d=0.9 and N=600 Sample =61
-Block 2 with d=0.1 and N=2200 Sample =53
-Block 2 with d=0.1 and N=2000 Sample =117
-Block 2 with d=0.9 and N=1600 Sample =91
-Block 2 with d=0.1 and N=2000 Sample =101
-Block 2 with d=0.9 and N=3500 Sample =189
-Block 2 with d=0.1 and N=400 Sample =59
-Block 2 with d=0.9 and N=3500 Sample =191
-Block 2 with d=0.1 and N=2600 Sample =168
-Block 2 with d=0.9 and N=4500 Sample =119
-Block 2 with d=0.1 and N=400 Sample =113
-Block 2 with d=0.9 and N=1600 Sample =61
-Block 2 with d=0.9 and N=7500 Sample =153
-Block 2 with d=0.1 and N=2000 Sample =174
-Block 2 with d=0.1 and N=2000 Sample =19
-Block 2 with d=0.9 and N=4500 Sample =63
-Block 2 with d=0.1 and N=2600 Sample =134
-Block 2 with d=0.5 and N=6000 Sample =175
-Block 2 with d=0.9 and N=3500 Sample =182
-Block 2 with d=0.9 and N=4000 Sample =124
-Block 2 with d=0.5 and N=3500 Sample =163
-Block 2 with d=0.5 and N=6000 Sample =193
-Block 2 with d=0.1 and N=2000 Sample =198
-Block 2 with d=0.1 and N=400 Sample =146
-Block 2 with d=0.1 and N=5500 Sample =156
-Block 2 with d=0.5 and N=2200 Sample =99
-Block 2 with d=0.1 and N=2200 Sample =45
-Block 2 with d=0.9 and N=4000 Sample =17
-Block 2 with d=0.1 and N=1200 Sample =154
-Block 2 with d=0.5 and N=3000 Sample =101
-Block 2 with d=0.5 and N=2600 Sample =57
-Block 2 with d=0.5 and N=2800 Sample =169
-Block 2 with d=0.5 and N=3500 Sample =79
-Block 2 with d=0.9 and N=4500 Sample =134
-Block 2 with d=0.9 and N=5500 Sample =71
-Block 2 with d=0.9 and N=6000 Sample =193
-Block 2 with d=0.9 and N=3500 Sample =185
-Block 2 with d=0.1 and N=2400 Sample =37
-Block 2 with d=0.5 and N=3000 Sample =27
-Block 2 with d=0.1 and N=5000 Sample =198
-Block 2 with d=0.5 and N=3500 Sample =183
-Block 2 with d=0.5 and N=8000 Sample =129
-Block 2 with d=0.5 and N=3000 Sample =186
-Block 2 with d=0.5 and N=6000 Sample =101
-Block 2 with d=0.1 and N=2000 Sample =126
-Block 2 with d=0.5 and N=6000 Sample =19
-Block 2 with d=0.5 and N=3000 Sample =172
-Block 2 with d=0.5 and N=5500 Sample =5
-Block 2 with d=0.9 and N=200 Sample =149
-Block 2 with d=0.9 and N=2800 Sample =137
-Block 2 with d=0.1 and N=2000 Sample =55
-Block 2 with d=0.5 and N=3000 Sample =55
-Block 2 with d=0.9 and N=2000 Sample =152
-Block 2 with d=0.1 and N=400 Sample =11
-Block 2 with d=0.5 and N=3000 Sample =167
-Block 2 with d=0.1 and N=2800 Sample =178
-Block 2 with d=0.5 and N=800 Sample =83
-Block 2 with d=0.5 and N=2000 Sample =197
-Block 2 with d=0.5 and N=1800 Sample =156
-Block 2 with d=0.5 and N=6000 Sample =81
-Block 2 with d=0.9 and N=3500 Sample =57
-Block 2 with d=0.1 and N=2000 Sample =122
-Block 2 with d=0.1 and N=2400 Sample =61
-Block 2 with d=0.5 and N=3500 Sample =190
-Block 2 with d=0.1 and N=2600 Sample =141
-Block 2 with d=0.5 and N=3000 Sample =25
+  1 dependency successfully precompiled in 24 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+Block 2 with d=0.9 and N=1400 Sample =25
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Block 2 with d=0.5 and N=2600 Sample =175
+Block 2 with d=0.5 and N=200 Sample =145
+Block 2 with d=0.9 and N=800 Sample =107
+Block 2 with d=0.5 and N=200 Sample =89
+Precompiling project...
+  ? ApproxFun
+Block 2 with d=0.5 and N=2000 Sample =71
+Block 2 with d=0.5 and N=2600 Sample =111
+  ? TracyWidomBeta
 Block 2 with d=0.5 and N=3000 Sample =175
-Block 2 with d=0.9 and N=800 Sample =154
-Block 2 with d=0.9 and N=600 Sample =111
-Block 2 with d=0.5 and N=3000 Sample =187
-Block 2 with d=0.9 and N=4500 Sample =15
-Block 2 with d=0.9 and N=1800 Sample =61
-Block 2 with d=0.5 and N=3000 Sample =190
-Block 2 with d=0.5 and N=6000 Sample =134
-Block 2 with d=0.1 and N=2000 Sample =177
-Block 2 with d=0.5 and N=2000 Sample =97
-Block 2 with d=0.5 and N=2600 Sample =15
-Block 2 with d=0.9 and N=1800 Sample =37
-Block 2 with d=0.1 and N=2000 Sample =129
-Block 2 with d=0.5 and N=3000 Sample =19
-Block 2 with d=0.9 and N=3500 Sample =85
-Block 2 with d=0.9 and N=2400 Sample =125
-Block 2 with d=0.9 and N=3500 Sample =197
-Block 2 with d=0.9 and N=4500 Sample =132
-Block 2 with d=0.9 and N=4000 Sample =45
-Block 2 with d=0.1 and N=2000 Sample =138
-Block 2 with d=0.5 and N=3000 Sample =154
-Block 2 with d=0.5 and N=5000 Sample =164
-Block 2 with d=0.9 and N=4000 Sample =77
-Block 2 with d=0.9 and N=3500 Sample =145
-Block 2 with d=0.5 and N=3500 Sample =166
-Block 2 with d=0.9 and N=2200 Sample =165
-Block 2 with d=0.5 and N=5500 Sample =41
-Block 2 with d=0.9 and N=3500 Sample =51
-Block 2 with d=0.1 and N=8000 Sample =9
-Block 2 with d=0.1 and N=1600 Sample =164
-Block 2 with d=0.1 and N=1400 Sample =17
-Block 2 with d=0.9 and N=1000 Sample =136
-Block 2 with d=0.9 and N=5500 Sample =109
-Block 2 with d=0.9 and N=4000 Sample =89
-Block 2 with d=0.5 and N=5500 Sample =156
-Block 2 with d=0.9 and N=4000 Sample =101
-Block 2 with d=0.9 and N=2000 Sample =43
-Block 2 with d=0.9 and N=4000 Sample =162
-Block 2 with d=0.1 and N=1400 Sample =115
-Block 2 with d=0.9 and N=7000 Sample =161
-slurmstepd: error: Detected 1 oom_kill event in StepId=24725205.0. Some of the step tasks have been OOM Killed.
-Block 2 with d=0.9 and N=2800 Sample =5
-Block 2 with d=0.5 and N=3000 Sample =169
-Block 2 with d=0.5 and N=3000 Sample =197
-Block 2 with d=0.9 and N=4000 Sample =15
-Block 2 with d=0.9 and N=4000 Sample =25
-Block 2 with d=0.9 and N=4000 Sample =188
-Block 2 with d=0.9 and N=2800 Sample =99
-Block 2 with d=0.5 and N=3000 Sample =47
-Block 2 with d=0.9 and N=1200 Sample =169
-Block 2 with d=0.9 and N=2800 Sample =39
-Block 2 with d=0.1 and N=7500 Sample =195
-Block 2 with d=0.1 and N=600 Sample =11
-Block 2 with d=0.9 and N=3000 Sample =59
-Block 2 with d=0.9 and N=2800 Sample =123
-Block 2 with d=0.9 and N=2800 Sample =172
-Block 2 with d=0.9 and N=4000 Sample =179
-Block 2 with d=0.5 and N=1000 Sample =164
-Block 2 with d=0.5 and N=3000 Sample =183
-Block 2 with d=0.1 and N=7500 Sample =91
-Block 2 with d=0.9 and N=3500 Sample =31
-Block 2 with d=0.5 and N=3000 Sample =13
-Block 2 with d=0.9 and N=2800 Sample =47
-Block 2 with d=0.9 and N=2800 Sample =187
-Block 2 with d=0.1 and N=7500 Sample =77
-Block 2 with d=0.5 and N=8000 Sample =142
-Block 2 with d=0.1 and N=1200 Sample =177
-Block 2 with d=0.5 and N=3500 Sample =13
-Block 2 with d=0.1 and N=2600 Sample =171
-Block 2 with d=0.5 and N=3500 Sample =169
-Block 2 with d=0.9 and N=4000 Sample =138
-Block 2 with d=0.9 and N=2800 Sample =97
-Block 2 with d=0.9 and N=4000 Sample =148
-Block 2 with d=0.9 and N=4000 Sample =145
-Block 2 with d=0.9 and N=3500 Sample =3
-Block 2 with d=0.5 and N=600 Sample =73
-Block 2 with d=0.9 and N=7500 Sample =23
-Block 2 with d=0.1 and N=800 Sample =193
-Block 2 with d=0.9 and N=1800 Sample =41
-Block 2 with d=0.9 and N=2600 Sample =132
-Block 2 with d=0.9 and N=5000 Sample =105
-Block 2 with d=0.9 and N=3500 Sample =9
-Block 2 with d=0.5 and N=5500 Sample =187
-Block 2 with d=0.9 and N=2800 Sample =29
-Block 2 with d=0.9 and N=4500 Sample =157
-Block 2 with d=0.9 and N=4500 Sample =126
-Block 2 with d=0.9 and N=600 Sample =183
-Block 2 with d=0.9 and N=4500 Sample =128
-Block 2 with d=0.9 and N=4500 Sample =113
-Block 2 with d=0.9 and N=4000 Sample =191
-Block 2 with d=0.9 and N=4500 Sample =174
-Block 2 with d=0.9 and N=4000 Sample =27
-Block 2 with d=0.9 and N=3500 Sample =35
-Block 2 with d=0.5 and N=6500 Sample =161
-Block 2 with d=0.5 and N=3500 Sample =43
-Block 2 with d=0.5 and N=3500 Sample =97
-Block 2 with d=0.9 and N=5000 Sample =71
-Block 2 with d=0.9 and N=4000 Sample =134
-Block 2 with d=0.1 and N=2400 Sample =91
-Block 2 with d=0.9 and N=4000 Sample =164
-Block 2 with d=0.9 and N=4500 Sample =163
-Block 2 with d=0.9 and N=5000 Sample =178
-Block 2 with d=0.9 and N=4000 Sample =117
-Block 2 with d=0.9 and N=7500 Sample =9
-Block 2 with d=0.9 and N=4000 Sample =19
-Block 2 with d=0.1 and N=6500 Sample =9
-Block 2 with d=0.5 and N=3500 Sample =197
-Block 2 with d=0.5 and N=5500 Sample =105
-Block 2 with d=0.1 and N=7500 Sample =184
-Block 2 with d=0.9 and N=4000 Sample =35
-Block 2 with d=0.9 and N=5000 Sample =142
-Block 2 with d=0.9 and N=1400 Sample =200
-Block 2 with d=0.9 and N=1600 Sample =172
-Block 2 with d=0.9 and N=4000 Sample =140
-Block 2 with d=0.1 and N=2400 Sample =3
-Block 2 with d=0.9 and N=7500 Sample =47
-Block 2 with d=0.1 and N=2600 Sample =163
-Block 2 with d=0.5 and N=2400 Sample =35
-Block 2 with d=0.9 and N=3500 Sample =23
-Block 2 with d=0.5 and N=3000 Sample =87
-Block 2 with d=0.9 and N=2800 Sample =133
-Block 2 with d=0.9 and N=7500 Sample =119
-Block 2 with d=0.9 and N=2800 Sample =122
-Block 2 with d=0.9 and N=7500 Sample =17
-Block 2 with d=0.5 and N=4000 Sample =9
-Block 2 with d=0.1 and N=1600 Sample =29
-Block 2 with d=0.9 and N=2800 Sample =183
-Block 2 with d=0.9 and N=4000 Sample =81
-Block 2 with d=0.5 and N=3000 Sample =29
-Block 2 with d=0.1 and N=2400 Sample =41
-Block 2 with d=0.5 and N=3000 Sample =192
-Block 2 with d=0.9 and N=7500 Sample =27
-Block 2 with d=0.9 and N=800 Sample =160
-Block 2 with d=0.9 and N=7500 Sample =49
-Block 2 with d=0.9 and N=200 Sample =59
-Block 2 with d=0.5 and N=3500 Sample =27
-Block 2 with d=0.9 and N=5000 Sample =75
-Block 2 with d=0.1 and N=2600 Sample =107
-Block 2 with d=0.9 and N=4500 Sample =147
-Block 2 with d=0.9 and N=5000 Sample =49
-Block 2 with d=0.5 and N=3500 Sample =71
-Block 2 with d=0.9 and N=4000 Sample =122
-Block 2 with d=0.9 and N=7500 Sample =178
-Block 2 with d=0.9 and N=1200 Sample =123
-Block 2 with d=0.9 and N=800 Sample =148
-Block 2 with d=0.9 and N=2800 Sample =131
-Block 2 with d=0.1 and N=1200 Sample =189
-Block 2 with d=0.5 and N=1400 Sample =138
-Block 2 with d=0.5 and N=3000 Sample =133
-Block 2 with d=0.9 and N=4500 Sample =193
-Block 2 with d=0.1 and N=400 Sample =17
-Block 2 with d=0.9 and N=7500 Sample =25
-Block 2 with d=0.9 and N=2800 Sample =148
-Block 2 with d=0.9 and N=7500 Sample =45
-Block 2 with d=0.1 and N=2800 Sample =172
+Block 2 with d=0.5 and N=200 Sample =81
+Block 2 with d=0.9 and N=1400 Sample =1
+Block 2 with d=0.9 and N=1800 Sample =191
+Block 2 with d=0.5 and N=400 Sample =57
+Block 2 with d=0.5 and N=400 Sample =19
+Block 2 with d=0.5 and N=200 Sample =21
+Block 2 with d=0.1 and N=600 Sample =195
+Block 2 with d=0.9 and N=1400 Sample =81
+Block 2 with d=0.5 and N=2000 Sample =29
+Block 2 with d=0.1 and N=600 Sample =149
+Block 2 with d=0.5 and N=400 Sample =43
+Block 2 with d=0.5 and N=2600 Sample =85
+Block 2 with d=0.5 and N=4500 Sample =19
+Block 2 with d=0.9 and N=2000 Sample =79
+Block 2 with d=0.5 and N=200 Sample =69
+Block 2 with d=0.5 and N=5500 Sample =51
+Block 2 with d=0.5 and N=5500 Sample =95
+Block 2 with d=0.5 and N=5500 Sample =91
+Block 2 with d=0.5 and N=5500 Sample =85
+Block 2 with d=0.5 and N=5500 Sample =169
+Block 2 with d=0.5 and N=5500 Sample =77
+Block 2 with d=0.5 and N=200 Sample =63
+Block 2 with d=0.5 and N=5500 Sample =183
+Block 2 with d=0.5 and N=5500 Sample =15
+Block 2 with d=0.5 and N=5500 Sample =71
+Block 2 with d=0.5 and N=5500 Sample =63
+Block 2 with d=0.5 and N=5500 Sample =137
+Block 2 with d=0.5 and N=200 Sample =79
+Block 2 with d=0.9 and N=1400 Sample =115
 Block 2 with d=0.5 and N=5500 Sample =109
-Block 2 with d=0.9 and N=5000 Sample =190
-Block 2 with d=0.9 and N=800 Sample =137
-Block 2 with d=0.9 and N=2800 Sample =185
-Block 2 with d=0.1 and N=2600 Sample =179
-Block 2 with d=0.9 and N=8000 Sample =157
-Block 2 with d=0.9 and N=4000 Sample =132
-Block 2 with d=0.5 and N=3000 Sample =174
-Block 2 with d=0.9 and N=400 Sample =63
+Block 2 with d=0.5 and N=5500 Sample =79
+Block 2 with d=0.9 and N=800 Sample =75
+Block 2 with d=0.5 and N=5500 Sample =9
+Block 2 with d=0.5 and N=5500 Sample =3
+Block 2 with d=0.5 and N=200 Sample =25
+Block 2 with d=0.5 and N=5500 Sample =1
+Block 2 with d=0.1 and N=200 Sample =127
+Block 2 with d=0.5 and N=2000 Sample =65
+Block 2 with d=0.5 and N=5500 Sample =125
+Block 2 with d=0.9 and N=800 Sample =41
+Block 2 with d=0.9 and N=800 Sample =15
+Block 2 with d=0.5 and N=7000 Sample =143
+Block 2 with d=0.5 and N=7000 Sample =169
+Block 2 with d=0.9 and N=800 Sample =37
+Block 2 with d=0.5 and N=1400 Sample =91
+Block 2 with d=0.5 and N=400 Sample =25
+Block 2 with d=0.5 and N=8000 Sample =189
+Block 2 with d=0.9 and N=800 Sample =167
+Block 2 with d=0.5 and N=2000 Sample =83
+Block 2 with d=0.9 and N=3000 Sample =153
+Block 2 with d=0.9 and N=2800 Sample =23
+Block 2 with d=0.5 and N=6500 Sample =15
+Block 2 with d=0.5 and N=2000 Sample =153
+Block 2 with d=0.5 and N=2000 Sample =187
+Block 2 with d=0.9 and N=800 Sample =33
+Block 2 with d=0.5 and N=2000 Sample =49
+Block 2 with d=0.5 and N=2000 Sample =21
+Block 2 with d=0.5 and N=1600 Sample =173
+Block 2 with d=0.5 and N=1800 Sample =81
+Block 2 with d=0.5 and N=2000 Sample =93
+Block 2 with d=0.5 and N=1600 Sample =109
+Block 2 with d=0.5 and N=2000 Sample =61
+Block 2 with d=0.5 and N=2000 Sample =79
+Block 2 with d=0.5 and N=400 Sample =37
+Block 2 with d=0.5 and N=200 Sample =131
+Block 2 with d=0.5 and N=400 Sample =79
+Block 2 with d=0.9 and N=1400 Sample =159
+Block 2 with d=0.5 and N=400 Sample =177
+Block 2 with d=0.5 and N=400 Sample =129
+Block 2 with d=0.5 and N=400 Sample =71
+Block 2 with d=0.1 and N=1800 Sample =25
+Block 2 with d=0.5 and N=2000 Sample =119
+Block 2 with d=0.5 and N=4500 Sample =5
+Block 2 with d=0.9 and N=800 Sample =47
+Block 2 with d=0.5 and N=2200 Sample =155
+Block 2 with d=0.9 and N=1800 Sample =85
+Block 2 with d=0.5 and N=800 Sample =143
+Block 2 with d=0.9 and N=4000 Sample =19
+Block 2 with d=0.5 and N=800 Sample =105
+Block 2 with d=0.5 and N=200 Sample =57
+Block 2 with d=0.5 and N=2200 Sample =175
+Block 2 with d=0.9 and N=4500 Sample =93
+Block 2 with d=0.5 and N=2000 Sample =173
+Block 2 with d=0.5 and N=5500 Sample =53
+Block 2 with d=0.5 and N=200 Sample =19
+Block 2 with d=0.5 and N=4500 Sample =131
+Block 2 with d=0.5 and N=1400 Sample =191
+Block 2 with d=0.9 and N=200 Sample =75
+Block 2 with d=0.1 and N=200 Sample =105
+Block 2 with d=0.5 and N=5500 Sample =157
+Block 2 with d=0.9 and N=5000 Sample =181
+Block 2 with d=0.5 and N=5500 Sample =99
+Block 2 with d=0.5 and N=5500 Sample =191
+Block 2 with d=0.9 and N=1600 Sample =165
+Block 2 with d=0.5 and N=200 Sample =11
+Block 2 with d=0.5 and N=5500 Sample =187
+Block 2 with d=0.5 and N=5500 Sample =27
+Block 2 with d=0.9 and N=6000 Sample =151
+Block 2 with d=0.1 and N=600 Sample =79
+Block 2 with d=0.5 and N=3000 Sample =9
+Block 2 with d=0.9 and N=2000 Sample =163
+Block 2 with d=0.9 and N=6000 Sample =53
+Block 2 with d=0.9 and N=1000 Sample =183
+Block 2 with d=0.1 and N=2400 Sample =31
+Block 2 with d=0.9 and N=2000 Sample =171
+Block 2 with d=0.9 and N=2000 Sample =39
+Block 2 with d=0.5 and N=400 Sample =97
+Block 2 with d=0.5 and N=3000 Sample =67
+Block 2 with d=0.5 and N=3500 Sample =117
+Block 2 with d=0.5 and N=6500 Sample =197
+Block 2 with d=0.9 and N=1600 Sample =139
+Block 2 with d=0.5 and N=2000 Sample =147
+Block 2 with d=0.9 and N=200 Sample =113
+Block 2 with d=0.5 and N=400 Sample =99
+Block 2 with d=0.5 and N=1800 Sample =23
+Block 2 with d=0.9 and N=1200 Sample =153
+Block 2 with d=0.5 and N=5500 Sample =7
+Block 2 with d=0.9 and N=1400 Sample =127
+Block 2 with d=0.9 and N=4000 Sample =61
+Block 2 with d=0.5 and N=3500 Sample =159
+Block 2 with d=0.1 and N=2400 Sample =13
+Block 2 with d=0.9 and N=2000 Sample =127
+Block 2 with d=0.5 and N=1600 Sample =139
+Block 2 with d=0.5 and N=2800 Sample =115
+Block 2 with d=0.5 and N=5500 Sample =175
+Block 2 with d=0.5 and N=2400 Sample =191
+Block 2 with d=0.5 and N=2400 Sample =159
+Block 2 with d=0.5 and N=2200 Sample =109
+Block 2 with d=0.9 and N=1600 Sample =61
+Block 2 with d=0.5 and N=2400 Sample =109
+Block 2 with d=0.5 and N=400 Sample =103
+Block 2 with d=0.9 and N=400 Sample =25
+Block 2 with d=0.5 and N=2400 Sample =147
+Block 2 with d=0.5 and N=2400 Sample =199
+Block 2 with d=0.5 and N=2400 Sample =71
+Block 2 with d=0.5 and N=400 Sample =149
+Block 2 with d=0.5 and N=200 Sample =95
+Block 2 with d=0.5 and N=200 Sample =59
+Block 2 with d=0.5 and N=1400 Sample =43
+Block 2 with d=0.9 and N=400 Sample =95
+Block 2 with d=0.5 and N=5500 Sample =129
+Block 2 with d=0.9 and N=2000 Sample =125
+Block 2 with d=0.9 and N=400 Sample =23
+Block 2 with d=0.9 and N=2000 Sample =73
+Block 2 with d=0.9 and N=2600 Sample =101
+Block 2 with d=0.9 and N=800 Sample =67
+Block 2 with d=0.5 and N=400 Sample =163
+Block 2 with d=0.9 and N=2200 Sample =61
+Block 2 with d=0.5 and N=1400 Sample =9
+Block 2 with d=0.9 and N=2000 Sample =185
+Block 2 with d=0.5 and N=2400 Sample =1
+Block 2 with d=0.5 and N=2400 Sample =63
+Block 2 with d=0.5 and N=2400 Sample =77
+Block 2 with d=0.5 and N=2400 Sample =79
+Block 2 with d=0.5 and N=1400 Sample =53
+Block 2 with d=0.5 and N=2200 Sample =191
+Block 2 with d=0.9 and N=1400 Sample =19
+Block 2 with d=0.5 and N=1400 Sample =149
+Block 2 with d=0.9 and N=2000 Sample =197
+Block 2 with d=0.9 and N=4000 Sample =73
+Block 2 with d=0.5 and N=2000 Sample =141
+Block 2 with d=0.5 and N=2200 Sample =43
+Block 2 with d=0.1 and N=3000 Sample =89
+Block 2 with d=0.5 and N=3500 Sample =105
+Block 2 with d=0.1 and N=3000 Sample =21
+Block 2 with d=0.5 and N=2400 Sample =131
+Block 2 with d=0.5 and N=2400 Sample =51
+Block 2 with d=0.9 and N=1000 Sample =35
+Block 2 with d=0.5 and N=2400 Sample =111
+Block 2 with d=0.5 and N=3500 Sample =161
+Block 2 with d=0.1 and N=3000 Sample =123
+Block 2 with d=0.1 and N=3000 Sample =161
+Block 2 with d=0.5 and N=5500 Sample =185
+Block 2 with d=0.5 and N=2000 Sample =185
+Block 2 with d=0.5 and N=2200 Sample =137
+Block 2 with d=0.5 and N=3500 Sample =1
+Block 2 with d=0.9 and N=600 Sample =185
+Block 2 with d=0.1 and N=3000 Sample =71
+Block 2 with d=0.5 and N=200 Sample =55
+Block 2 with d=0.5 and N=2400 Sample =87
+Block 2 with d=0.9 and N=2000 Sample =135
+Block 2 with d=0.5 and N=2400 Sample =33
+Block 2 with d=0.1 and N=1400 Sample =39
+Block 2 with d=0.9 and N=6000 Sample =197
+Block 2 with d=0.5 and N=2400 Sample =189
+Block 2 with d=0.1 and N=3000 Sample =1
+Block 2 with d=0.5 and N=2400 Sample =59
+Block 2 with d=0.1 and N=3000 Sample =171
+Block 2 with d=0.9 and N=800 Sample =153
+Block 2 with d=0.1 and N=3000 Sample =115
+Block 2 with d=0.1 and N=3000 Sample =155
+Block 2 with d=0.1 and N=3000 Sample =85
+Block 2 with d=0.1 and N=2800 Sample =115
+Block 2 with d=0.1 and N=3000 Sample =3
+Block 2 with d=0.1 and N=3000 Sample =147
+Block 2 with d=0.1 and N=3000 Sample =83
+Block 2 with d=0.5 and N=2000 Sample =139
+Block 2 with d=0.9 and N=1600 Sample =177
+Block 2 with d=0.5 and N=400 Sample =47
+Block 2 with d=0.1 and N=3000 Sample =69
+Block 2 with d=0.5 and N=2400 Sample =183
+Block 2 with d=0.1 and N=3000 Sample =165
+Block 2 with d=0.5 and N=5500 Sample =121
+Block 2 with d=0.5 and N=2400 Sample =9
+Block 2 with d=0.5 and N=2000 Sample =99
+Block 2 with d=0.5 and N=400 Sample =139
+Block 2 with d=0.9 and N=2000 Sample =169
+Block 2 with d=0.5 and N=200 Sample =179
+Block 2 with d=0.5 and N=400 Sample =147
+Block 2 with d=0.9 and N=1600 Sample =69
+Block 2 with d=0.9 and N=2000 Sample =193
+Block 2 with d=0.5 and N=7000 Sample =193
+Block 2 with d=0.5 and N=3500 Sample =109
+Block 2 with d=0.5 and N=3500 Sample =157
+Block 2 with d=0.5 and N=1800 Sample =27
+Block 2 with d=0.5 and N=2000 Sample =131
+Block 2 with d=0.9 and N=2000 Sample =71
+Block 2 with d=0.5 and N=400 Sample =161
+Block 2 with d=0.9 and N=2200 Sample =191
+Block 2 with d=0.9 and N=2200 Sample =133
+Block 2 with d=0.9 and N=200 Sample =25
+Block 2 with d=0.5 and N=2000 Sample =37
+Block 2 with d=0.1 and N=2200 Sample =81
+Block 2 with d=0.1 and N=2200 Sample =53
+Block 2 with d=0.9 and N=6000 Sample =35
+Block 2 with d=0.5 and N=2400 Sample =29
+Block 2 with d=0.1 and N=2200 Sample =17
+Block 2 with d=0.5 and N=2400 Sample =163
+Block 2 with d=0.5 and N=2400 Sample =115
+Block 2 with d=0.5 and N=5500 Sample =45
+Block 2 with d=0.5 and N=2400 Sample =27
+Block 2 with d=0.1 and N=1600 Sample =61
+Block 2 with d=0.9 and N=4000 Sample =189
+Block 2 with d=0.5 and N=2400 Sample =61
+Block 2 with d=0.5 and N=400 Sample =171
+Block 2 with d=0.1 and N=2200 Sample =9
+Block 2 with d=0.5 and N=400 Sample =69
+Block 2 with d=0.9 and N=2000 Sample =165
+Block 2 with d=0.9 and N=2000 Sample =49
+Block 2 with d=0.5 and N=2200 Sample =75
+Block 2 with d=0.1 and N=3000 Sample =153
+Block 2 with d=0.9 and N=1200 Sample =163
+Block 2 with d=0.9 and N=1000 Sample =15
+Block 2 with d=0.5 and N=2000 Sample =103
+Block 2 with d=0.1 and N=2200 Sample =105
+Block 2 with d=0.9 and N=6000 Sample =135
+Block 2 with d=0.9 and N=2000 Sample =45
+Block 2 with d=0.1 and N=3000 Sample =109
+Block 2 with d=0.1 and N=3000 Sample =175
+Block 2 with d=0.1 and N=3000 Sample =33
+Block 2 with d=0.9 and N=6000 Sample =193
+Block 2 with d=0.9 and N=1000 Sample =167
+Block 2 with d=0.1 and N=2400 Sample =21
+Block 2 with d=0.5 and N=200 Sample =39
+Block 2 with d=0.1 and N=3000 Sample =79
+Block 2 with d=0.5 and N=400 Sample =39
+Block 2 with d=0.1 and N=3000 Sample =181
+Block 2 with d=0.5 and N=1400 Sample =155
+Block 2 with d=0.1 and N=3500 Sample =25
+Block 2 with d=0.5 and N=400 Sample =141
+Block 2 with d=0.9 and N=1200 Sample =51
+Block 2 with d=0.9 and N=1000 Sample =153
+Block 2 with d=0.5 and N=2400 Sample =57
+Block 2 with d=0.5 and N=1800 Sample =193
+Block 2 with d=0.5 and N=2000 Sample =189
+Block 2 with d=0.5 and N=2400 Sample =151
+Block 2 with d=0.5 and N=400 Sample =89
+Block 2 with d=0.1 and N=5500 Sample =41
+Block 2 with d=0.1 and N=5500 Sample =23
+Block 2 with d=0.5 and N=3500 Sample =39
+Block 2 with d=0.5 and N=2400 Sample =53
+Block 2 with d=0.5 and N=2400 Sample =31
+Block 2 with d=0.1 and N=3000 Sample =27
+Block 2 with d=0.5 and N=2000 Sample =117
+Block 2 with d=0.1 and N=3000 Sample =127
+Block 2 with d=0.5 and N=200 Sample =47
+Block 2 with d=0.1 and N=3000 Sample =121
+Block 2 with d=0.9 and N=1600 Sample =187
+Block 2 with d=0.5 and N=5500 Sample =33
+Block 2 with d=0.9 and N=2800 Sample =13
+Block 2 with d=0.5 and N=400 Sample =179
+Block 2 with d=0.9 and N=800 Sample =49
+Block 2 with d=0.5 and N=2000 Sample =137
+Block 2 with d=0.9 and N=1000 Sample =19
+Block 2 with d=0.9 and N=1000 Sample =81
+Block 2 with d=0.1 and N=3000 Sample =133
+Block 2 with d=0.1 and N=3000 Sample =45
+Block 2 with d=0.5 and N=5500 Sample =5
+Block 2 with d=0.5 and N=400 Sample =21
+Block 2 with d=0.1 and N=3000 Sample =61
+Block 2 with d=0.9 and N=6000 Sample =37
+Block 2 with d=0.9 and N=1200 Sample =97
+Block 2 with d=0.5 and N=400 Sample =101
+Block 2 with d=0.1 and N=5500 Sample =155
+Block 2 with d=0.1 and N=5000 Sample =59
+Block 2 with d=0.9 and N=200 Sample =97
+Block 2 with d=0.5 and N=400 Sample =169
+Block 2 with d=0.1 and N=5500 Sample =125
+Block 2 with d=0.5 and N=2400 Sample =85
+Block 2 with d=0.1 and N=3000 Sample =31
+Block 2 with d=0.5 and N=2200 Sample =153
+Block 2 with d=0.1 and N=3000 Sample =187
+Block 2 with d=0.9 and N=1600 Sample =137
+Block 2 with d=0.1 and N=3000 Sample =145
+Block 2 with d=0.1 and N=6000 Sample =121
+Block 2 with d=0.1 and N=5500 Sample =45
+Block 2 with d=0.5 and N=2000 Sample =13
+Block 2 with d=0.1 and N=5500 Sample =183
+Block 2 with d=0.9 and N=1000 Sample =175
+Block 2 with d=0.9 and N=1600 Sample =145
+Block 2 with d=0.9 and N=2000 Sample =143
+Block 2 with d=0.9 and N=1000 Sample =137
+Block 2 with d=0.9 and N=4500 Sample =121
+Block 2 with d=0.9 and N=1200 Sample =27
+Block 2 with d=0.9 and N=1200 Sample =189
+Block 2 with d=0.1 and N=5500 Sample =39
+Block 2 with d=0.9 and N=2000 Sample =15
+Block 2 with d=0.9 and N=1200 Sample =13
+Block 2 with d=0.1 and N=6000 Sample =159
+Block 2 with d=0.9 and N=3000 Sample =175
+Block 2 with d=0.1 and N=5500 Sample =5
+Block 2 with d=0.9 and N=2200 Sample =169
+Block 2 with d=0.1 and N=5500 Sample =47
+Block 2 with d=0.9 and N=1000 Sample =65
+Block 2 with d=0.9 and N=1200 Sample =31
+Block 2 with d=0.9 and N=1200 Sample =9
+Block 2 with d=0.9 and N=1000 Sample =111
+Block 2 with d=0.9 and N=1200 Sample =101
+Block 2 with d=0.5 and N=400 Sample =165
+Block 2 with d=0.1 and N=5500 Sample =171
+Block 2 with d=0.9 and N=2200 Sample =171
+Block 2 with d=0.9 and N=6000 Sample =31
+Block 2 with d=0.5 and N=400 Sample =97
+Block 2 with d=0.9 and N=1200 Sample =65
+Block 2 with d=0.5 and N=2000 Sample =143
+Block 2 with d=0.9 and N=1200 Sample =77
+Block 2 with d=0.9 and N=1200 Sample =167
+Block 2 with d=0.9 and N=1200 Sample =25
+Block 2 with d=0.5 and N=5500 Sample =49
+Block 2 with d=0.9 and N=1200 Sample =93
+Block 2 with d=0.9 and N=1200 Sample =141
+Block 2 with d=0.9 and N=1200 Sample =151
+Block 2 with d=0.1 and N=5500 Sample =7
+Block 2 with d=0.5 and N=3500 Sample =17
+Block 2 with d=0.9 and N=2000 Sample =105
+Block 2 with d=0.5 and N=2000 Sample =25
+Block 2 with d=0.9 and N=1200 Sample =21
+Block 2 with d=0.5 and N=400 Sample =133
+Block 2 with d=0.9 and N=1200 Sample =143
+Block 2 with d=0.9 and N=1600 Sample =155
+Block 2 with d=0.9 and N=1200 Sample =39
+Block 2 with d=0.9 and N=1600 Sample =25
+Block 2 with d=0.9 and N=1200 Sample =67
+Block 2 with d=0.9 and N=1200 Sample =179
+Block 2 with d=0.1 and N=8000 Sample =19
+Block 2 with d=0.5 and N=2200 Sample =195
+Block 2 with d=0.5 and N=5500 Sample =149
+Block 2 with d=0.9 and N=2200 Sample =165
+Block 2 with d=0.1 and N=3000 Sample =129
+Block 2 with d=0.5 and N=2000 Sample =3
+Block 2 with d=0.9 and N=1200 Sample =75
+Block 2 with d=0.9 and N=7000 Sample =149
+Block 2 with d=0.9 and N=1200 Sample =23
+Block 2 with d=0.9 and N=200 Sample =123
+Block 2 with d=0.1 and N=3500 Sample =127
+Block 2 with d=0.1 and N=2600 Sample =145
+Block 2 with d=0.9 and N=1200 Sample =3
+Block 2 with d=0.9 and N=1200 Sample =47
+Block 2 with d=0.1 and N=5500 Sample =3
+Block 2 with d=0.9 and N=1200 Sample =75
+Block 2 with d=0.1 and N=3500 Sample =41
+Block 2 with d=0.5 and N=4500 Sample =137
+Block 2 with d=0.5 and N=3500 Sample =165
+Block 2 with d=0.1 and N=3000 Sample =37
+Block 2 with d=0.5 and N=3500 Sample =15
+Block 2 with d=0.9 and N=2000 Sample =31
+Block 2 with d=0.1 and N=3500 Sample =47
+Block 2 with d=0.1 and N=2600 Sample =73
+Block 2 with d=0.5 and N=400 Sample =9
+Block 2 with d=0.9 and N=2000 Sample =51
+Block 2 with d=0.5 and N=400 Sample =145
+Block 2 with d=0.1 and N=3000 Sample =167
+Block 2 with d=0.9 and N=2200 Sample =107
+Block 2 with d=0.5 and N=400 Sample =23
+Block 2 with d=0.5 and N=3500 Sample =125
+Block 2 with d=0.1 and N=2400 Sample =89
+Block 2 with d=0.5 and N=400 Sample =121
+Block 2 with d=0.9 and N=1200 Sample =63
+Block 2 with d=0.5 and N=2400 Sample =129
+Block 2 with d=0.1 and N=8000 Sample =187
+Block 2 with d=0.5 and N=8000 Sample =45
+Block 2 with d=0.5 and N=2800 Sample =115
+Block 2 with d=0.1 and N=5500 Sample =63
+Block 2 with d=0.9 and N=1200 Sample =73
+Block 2 with d=0.9 and N=7000 Sample =107
+Block 2 with d=0.9 and N=1200 Sample =43
+Block 2 with d=0.5 and N=1200 Sample =155
+Block 2 with d=0.9 and N=1200 Sample =5
+Block 2 with d=0.1 and N=8000 Sample =141
+Block 2 with d=0.1 and N=3500 Sample =113
+Block 2 with d=0.9 and N=2200 Sample =79
+Block 2 with d=0.5 and N=2000 Sample =51
+Block 2 with d=0.9 and N=1600 Sample =65
+Block 2 with d=0.5 and N=5500 Sample =165
+Block 2 with d=0.1 and N=5500 Sample =87
+Block 2 with d=0.1 and N=3000 Sample =159
+Block 2 with d=0.9 and N=2000 Sample =61
+Block 2 with d=0.9 and N=1600 Sample =169
+Block 2 with d=0.9 and N=200 Sample =13
+Block 2 with d=0.9 and N=1400 Sample =163
+Block 2 with d=0.9 and N=1200 Sample =1
+Block 2 with d=0.5 and N=4500 Sample =107
+Block 2 with d=0.5 and N=3500 Sample =193
+Block 2 with d=0.9 and N=1800 Sample =39
+Block 2 with d=0.9 and N=2400 Sample =117
+Block 2 with d=0.5 and N=3500 Sample =139
+Block 2 with d=0.5 and N=5500 Sample =11
+Block 2 with d=0.9 and N=1200 Sample =129
+Block 2 with d=0.5 and N=2000 Sample =67
+Block 2 with d=0.5 and N=400 Sample =27
+Block 2 with d=0.5 and N=200 Sample =153
+Block 2 with d=0.5 and N=200 Sample =149
+Block 2 with d=0.1 and N=3500 Sample =29
+Block 2 with d=0.9 and N=2000 Sample =199
+Block 2 with d=0.5 and N=2000 Sample =113
+Block 2 with d=0.5 and N=400 Sample =61
+Block 2 with d=0.5 and N=2000 Sample =87
+Block 2 with d=0.5 and N=400 Sample =105
+Block 2 with d=0.5 and N=5500 Sample =155
+Block 2 with d=0.5 and N=5500 Sample =141
+Block 2 with d=0.5 and N=3500 Sample =91
+Block 2 with d=0.5 and N=5500 Sample =25
+Block 2 with d=0.5 and N=400 Sample =45
+Block 2 with d=0.5 and N=1800 Sample =49
+Block 2 with d=0.9 and N=2000 Sample =59
+Block 2 with d=0.1 and N=3000 Sample =93
+Block 2 with d=0.5 and N=4500 Sample =167
+Block 2 with d=0.9 and N=1200 Sample =53
+Block 2 with d=0.5 and N=200 Sample =167
+Block 2 with d=0.1 and N=8000 Sample =51
+Block 2 with d=0.1 and N=400 Sample =185
+Block 2 with d=0.9 and N=1200 Sample =89
+Block 2 with d=0.5 and N=6000 Sample =1
+Block 2 with d=0.9 and N=2200 Sample =81
+Block 2 with d=0.1 and N=2600 Sample =91
+Block 2 with d=0.5 and N=2000 Sample =39
+Block 2 with d=0.9 and N=1200 Sample =159
+Block 2 with d=0.1 and N=5000 Sample =31
+Block 2 with d=0.1 and N=2600 Sample =193
+Block 2 with d=0.9 and N=1200 Sample =19
+Block 2 with d=0.5 and N=2000 Sample =41
+Block 2 with d=0.9 and N=1600 Sample =191
+Block 2 with d=0.1 and N=4000 Sample =41
+Block 2 with d=0.5 and N=400 Sample =185
+Block 2 with d=0.5 and N=400 Sample =183
+Block 2 with d=0.9 and N=1200 Sample =111
+Block 2 with d=0.9 and N=2200 Sample =59
+Block 2 with d=0.1 and N=2600 Sample =65
+Block 2 with d=0.5 and N=2200 Sample =149
+Block 2 with d=0.5 and N=200 Sample =41
+Block 2 with d=0.5 and N=200 Sample =83
+Block 2 with d=0.9 and N=2000 Sample =187
+Block 2 with d=0.5 and N=200 Sample =23
+Block 2 with d=0.5 and N=200 Sample =71
+Block 2 with d=0.5 and N=6500 Sample =135
+Block 2 with d=0.1 and N=8000 Sample =9
+Block 2 with d=0.9 and N=2000 Sample =95
+Block 2 with d=0.9 and N=600 Sample =99
+Block 2 with d=0.1 and N=800 Sample =119
+Block 2 with d=0.5 and N=400 Sample =189
+Block 2 with d=0.5 and N=200 Sample =191
+Block 2 with d=0.5 and N=3500 Sample =79
+Block 2 with d=0.9 and N=2000 Sample =187
+Block 2 with d=0.5 and N=3500 Sample =61
+Block 2 with d=0.9 and N=200 Sample =141
+Block 2 with d=0.5 and N=3500 Sample =177
+Block 2 with d=0.5 and N=4500 Sample =29
+Block 2 with d=0.1 and N=600 Sample =121
+Block 2 with d=0.9 and N=2200 Sample =31
+Block 2 with d=0.9 and N=1600 Sample =87
+Block 2 with d=0.9 and N=2000 Sample =3
+Block 2 with d=0.1 and N=2600 Sample =79
+Block 2 with d=0.5 and N=2400 Sample =11
+Block 2 with d=0.9 and N=3000 Sample =67
+Block 2 with d=0.5 and N=2000 Sample =129
+Block 2 with d=0.9 and N=6000 Sample =179
+Block 2 with d=0.9 and N=2000 Sample =177
+Block 2 with d=0.5 and N=7000 Sample =77
+Block 2 with d=0.1 and N=2600 Sample =17
+Block 2 with d=0.5 and N=1400 Sample =139
+Block 2 with d=0.9 and N=2000 Sample =155
+Block 2 with d=0.9 and N=2000 Sample =91
+Block 2 with d=0.5 and N=400 Sample =63
+Block 2 with d=0.5 and N=2400 Sample =105
+Block 2 with d=0.5 and N=400 Sample =5
+Block 2 with d=0.9 and N=200 Sample =183
+Block 2 with d=0.9 and N=2000 Sample =159
+Block 2 with d=0.5 and N=600 Sample =199
+Block 2 with d=0.1 and N=7500 Sample =103
+Block 2 with d=0.5 and N=600 Sample =197
+Block 2 with d=0.5 and N=3500 Sample =173
+Block 2 with d=0.5 and N=200 Sample =9
+Block 2 with d=0.1 and N=400 Sample =91
+Block 2 with d=0.9 and N=2000 Sample =21
+Block 2 with d=0.9 and N=2200 Sample =75
+Block 2 with d=0.5 and N=400 Sample =195
+Block 2 with d=0.9 and N=1600 Sample =79
+Block 2 with d=0.5 and N=3500 Sample =7
+Block 2 with d=0.5 and N=400 Sample =5
+Block 2 with d=0.1 and N=3000 Sample =11
+Block 2 with d=0.1 and N=2600 Sample =13
+Block 2 with d=0.5 and N=2200 Sample =67
+Block 2 with d=0.9 and N=800 Sample =79
+Block 2 with d=0.5 and N=600 Sample =161
+Block 2 with d=0.1 and N=400 Sample =177
+Block 2 with d=0.1 and N=600 Sample =17
+Block 2 with d=0.5 and N=400 Sample =107
+Block 2 with d=0.1 and N=1200 Sample =5
+Block 2 with d=0.5 and N=5500 Sample =169
+Block 2 with d=0.5 and N=7500 Sample =185
+Block 2 with d=0.9 and N=6000 Sample =33
+Block 2 with d=0.5 and N=3500 Sample =95
+Block 2 with d=0.1 and N=800 Sample =41
+Block 2 with d=0.9 and N=2000 Sample =55
+Block 2 with d=0.5 and N=5500 Sample =13
+Block 2 with d=0.5 and N=600 Sample =121
+Block 2 with d=0.5 and N=3500 Sample =163
+Block 2 with d=0.5 and N=2000 Sample =193
+Block 2 with d=0.5 and N=600 Sample =7
+Block 2 with d=0.5 and N=600 Sample =173
+Block 2 with d=0.5 and N=7500 Sample =157
+Block 2 with d=0.9 and N=2200 Sample =189
+Block 2 with d=0.1 and N=1800 Sample =179
+Block 2 with d=0.9 and N=2400 Sample =25
+Block 2 with d=0.9 and N=200 Sample =169
+Block 2 with d=0.5 and N=4500 Sample =7
+Block 2 with d=0.9 and N=600 Sample =183
+Block 2 with d=0.1 and N=600 Sample =177
+Block 2 with d=0.5 and N=3500 Sample =141
+Block 2 with d=0.9 and N=1200 Sample =119
+Block 2 with d=0.9 and N=2000 Sample =107
+Block 2 with d=0.1 and N=1200 Sample =71
+Block 2 with d=0.1 and N=2200 Sample =113
+Block 2 with d=0.5 and N=7500 Sample =21
+Block 2 with d=0.1 and N=1200 Sample =63
+Block 2 with d=0.5 and N=7500 Sample =113
+Block 2 with d=0.9 and N=400 Sample =121
+Block 2 with d=0.9 and N=2000 Sample =111
+Block 2 with d=0.5 and N=4500 Sample =157
+Block 2 with d=0.5 and N=400 Sample =3
+Block 2 with d=0.1 and N=400 Sample =169
+Block 2 with d=0.9 and N=2000 Sample =29
+Block 2 with d=0.5 and N=400 Sample =77
+Block 2 with d=0.5 and N=400 Sample =153
+Block 2 with d=0.5 and N=5000 Sample =195
+Block 2 with d=0.5 and N=7500 Sample =23
+Block 2 with d=0.5 and N=400 Sample =117
+Block 2 with d=0.5 and N=2000 Sample =53
+Block 2 with d=0.5 and N=2000 Sample =183
+Block 2 with d=0.1 and N=2600 Sample =49
+Block 2 with d=0.9 and N=2000 Sample =169
+Block 2 with d=0.5 and N=400 Sample =75
+Block 2 with d=0.5 and N=3500 Sample =99
+Block 2 with d=0.5 and N=7500 Sample =57
+Block 2 with d=0.5 and N=7500 Sample =171
+Block 2 with d=0.5 and N=7500 Sample =17
+Block 2 with d=0.9 and N=2200 Sample =69
+Block 2 with d=0.5 and N=5500 Sample =37
+Block 2 with d=0.5 and N=5500 Sample =169
+Block 2 with d=0.9 and N=2400 Sample =73
+Block 2 with d=0.5 and N=400 Sample =99
+Block 2 with d=0.5 and N=3500 Sample =81
+Block 2 with d=0.1 and N=2600 Sample =45
+Block 2 with d=0.5 and N=3500 Sample =27
+Block 2 with d=0.5 and N=6000 Sample =101
+Block 2 with d=0.9 and N=7000 Sample =13
+Block 2 with d=0.5 and N=7500 Sample =77
+Block 2 with d=0.5 and N=7500 Sample =47
+Block 2 with d=0.9 and N=400 Sample =133
+Block 2 with d=0.5 and N=2200 Sample =47
+Block 2 with d=0.9 and N=800 Sample =93
+Block 2 with d=0.5 and N=7500 Sample =39
+Block 2 with d=0.9 and N=4500 Sample =17
+Block 2 with d=0.1 and N=2600 Sample =139
+Block 2 with d=0.5 and N=7000 Sample =9
+Block 2 with d=0.5 and N=7000 Sample =107
+Block 2 with d=0.9 and N=2000 Sample =97
 Block 2 with d=0.9 and N=4000 Sample =139
-Block 2 with d=0.9 and N=2800 Sample =128
-Block 2 with d=0.5 and N=6500 Sample =154
-Block 2 with d=0.9 and N=2800 Sample =91
-Block 2 with d=0.5 and N=3000 Sample =137
-Block 2 with d=0.5 and N=3000 Sample =199
-slurmstepd: error: Detected 1 oom_kill event in StepId=24725205.0. Some of the step tasks have been OOM Killed.
+Block 2 with d=0.5 and N=7000 Sample =27
+Block 2 with d=0.5 and N=7000 Sample =133
+Block 2 with d=0.5 and N=6500 Sample =15
+Block 2 with d=0.9 and N=2000 Sample =35
+Block 2 with d=0.5 and N=6000 Sample =195
+Block 2 with d=0.5 and N=7500 Sample =131
+Block 2 with d=0.5 and N=7000 Sample =119
+Block 2 with d=0.5 and N=7000 Sample =47
+Block 2 with d=0.5 and N=7000 Sample =73
+Block 2 with d=0.5 and N=7500 Sample =7
+Block 2 with d=0.1 and N=2200 Sample =91
+Block 2 with d=0.5 and N=400 Sample =143
+Block 2 with d=0.9 and N=4500 Sample =13
+Block 2 with d=0.5 and N=6000 Sample =97
+Block 2 with d=0.5 and N=7000 Sample =193
+Block 2 with d=0.5 and N=7000 Sample =135
+Block 2 with d=0.9 and N=4000 Sample =151
+Block 2 with d=0.1 and N=2600 Sample =151
+Block 2 with d=0.1 and N=2200 Sample =137
+Block 2 with d=0.1 and N=2600 Sample =85
+Block 2 with d=0.5 and N=7000 Sample =141
+Block 2 with d=0.9 and N=3500 Sample =161
+Block 2 with d=0.9 and N=2000 Sample =75
+Block 2 with d=0.5 and N=7000 Sample =111
+Block 2 with d=0.5 and N=3500 Sample =57
+Block 2 with d=0.1 and N=5500 Sample =143
+Block 2 with d=0.5 and N=7000 Sample =93
+Block 2 with d=0.5 and N=7000 Sample =61
+Block 2 with d=0.1 and N=2600 Sample =47
+Block 2 with d=0.5 and N=7000 Sample =41
+Block 2 with d=0.5 and N=7000 Sample =5
+Block 2 with d=0.1 and N=2600 Sample =9
+Block 2 with d=0.1 and N=2200 Sample =197
+Block 2 with d=0.5 and N=7500 Sample =127
+Block 2 with d=0.1 and N=2200 Sample =1
+Block 2 with d=0.1 and N=2600 Sample =165
+Block 2 with d=0.5 and N=7500 Sample =189
+Block 2 with d=0.5 and N=7500 Sample =43
+Block 2 with d=0.5 and N=7500 Sample =95
+Block 2 with d=0.9 and N=400 Sample =13
+Block 2 with d=0.5 and N=600 Sample =159
+Block 2 with d=0.5 and N=1400 Sample =53
+Block 2 with d=0.5 and N=7500 Sample =55
+Block 2 with d=0.5 and N=7500 Sample =13
+Block 2 with d=0.5 and N=2400 Sample =65
+Block 2 with d=0.5 and N=7500 Sample =71
+Block 2 with d=0.1 and N=2000 Sample =163
+Block 2 with d=0.5 and N=600 Sample =187
+Block 2 with d=0.5 and N=200 Sample =51
+Block 2 with d=0.5 and N=1000 Sample =153
+Block 2 with d=0.9 and N=4500 Sample =39
+Block 2 with d=0.5 and N=7000 Sample =77
+Block 2 with d=0.5 and N=3500 Sample =79
+Block 2 with d=0.5 and N=7000 Sample =187
+Block 2 with d=0.9 and N=3000 Sample =77
+Block 2 with d=0.5 and N=7000 Sample =19
+Block 2 with d=0.5 and N=1800 Sample =155
+Block 2 with d=0.5 and N=5500 Sample =153
+Block 2 with d=0.5 and N=2000 Sample =57
+Block 2 with d=0.1 and N=2200 Sample =77
+Block 2 with d=0.1 and N=2600 Sample =41
+Block 2 with d=0.9 and N=3500 Sample =31
+Block 2 with d=0.9 and N=2400 Sample =29
+Block 2 with d=0.1 and N=2600 Sample =63
+Block 2 with d=0.1 and N=2200 Sample =101
+Block 2 with d=0.1 and N=2600 Sample =173
+Block 2 with d=0.5 and N=7000 Sample =79
+Block 2 with d=0.5 and N=200 Sample =173
+Block 2 with d=0.1 and N=600 Sample =21
+Block 2 with d=0.5 and N=2400 Sample =103
+Block 2 with d=0.5 and N=200 Sample =15
+Block 2 with d=0.9 and N=5500 Sample =185
+Block 2 with d=0.9 and N=4500 Sample =3
+Block 2 with d=0.5 and N=2400 Sample =47
+Block 2 with d=0.5 and N=2400 Sample =91
+Block 2 with d=0.5 and N=7000 Sample =23
+Block 2 with d=0.5 and N=7000 Sample =15
+Block 2 with d=0.1 and N=5500 Sample =121
+Block 2 with d=0.9 and N=6000 Sample =73
+Block 2 with d=0.1 and N=2600 Sample =133
+Block 2 with d=0.5 and N=3500 Sample =137
+Block 2 with d=0.9 and N=3500 Sample =159
+Block 2 with d=0.5 and N=5000 Sample =153
+Block 2 with d=0.1 and N=5500 Sample =17
+Block 2 with d=0.5 and N=2000 Sample =63
+Block 2 with d=0.5 and N=2400 Sample =123
+Block 2 with d=0.1 and N=2000 Sample =79
+Block 2 with d=0.5 and N=2200 Sample =197
+Block 2 with d=0.9 and N=1600 Sample =119
+Block 2 with d=0.5 and N=1200 Sample =89
+Block 2 with d=0.1 and N=5500 Sample =37
+Block 2 with d=0.1 and N=2400 Sample =5
+Block 2 with d=0.1 and N=2600 Sample =107
+Block 2 with d=0.9 and N=3500 Sample =7
+Block 2 with d=0.9 and N=3500 Sample =195
+Block 2 with d=0.5 and N=5500 Sample =21
+Block 2 with d=0.9 and N=3500 Sample =35
+Block 2 with d=0.9 and N=1600 Sample =151
+Block 2 with d=0.1 and N=2600 Sample =129
+Block 2 with d=0.1 and N=5500 Sample =75
+Block 2 with d=0.1 and N=4000 Sample =139
+Block 2 with d=0.1 and N=5500 Sample =179
+Block 2 with d=0.5 and N=7000 Sample =85
+Block 2 with d=0.5 and N=7000 Sample =123
+Block 2 with d=0.1 and N=2600 Sample =161
+Block 2 with d=0.1 and N=2600 Sample =191
+Block 2 with d=0.5 and N=2400 Sample =107
+Block 2 with d=0.1 and N=5500 Sample =177
+Block 2 with d=0.9 and N=8000 Sample =5
+Block 2 with d=0.1 and N=2200 Sample =43
+Block 2 with d=0.5 and N=7000 Sample =37
+Block 2 with d=0.5 and N=7000 Sample =199
+Block 2 with d=0.5 and N=3500 Sample =19
+Block 2 with d=0.1 and N=2600 Sample =71
+Block 2 with d=0.9 and N=2200 Sample =161
+Block 2 with d=0.9 and N=5000 Sample =163
+Block 2 with d=0.9 and N=2600 Sample =185
+Block 2 with d=0.5 and N=7000 Sample =121
+Block 2 with d=0.1 and N=1800 Sample =195
+Block 2 with d=0.9 and N=1600 Sample =179
+Block 2 with d=0.1 and N=2600 Sample =7
+Block 2 with d=0.9 and N=2000 Sample =43
+Block 2 with d=0.9 and N=3000 Sample =61
+Block 2 with d=0.1 and N=200 Sample =137
+Block 2 with d=0.1 and N=2600 Sample =83
+Block 2 with d=0.5 and N=7000 Sample =195
+Block 2 with d=0.9 and N=3500 Sample =9
+Block 2 with d=0.9 and N=600 Sample =191
+Block 2 with d=0.5 and N=4500 Sample =101
+Block 2 with d=0.9 and N=1000 Sample =85
+Block 2 with d=0.1 and N=3000 Sample =157
+Block 2 with d=0.9 and N=2000 Sample =87
+Block 2 with d=0.5 and N=6000 Sample =89
+Block 2 with d=0.5 and N=400 Sample =197
+Block 2 with d=0.5 and N=2000 Sample =7
+Block 2 with d=0.9 and N=1000 Sample =177
+Block 2 with d=0.9 and N=3000 Sample =141
+Block 2 with d=0.5 and N=2200 Sample =103
+Block 2 with d=0.1 and N=2600 Sample =97
+Block 2 with d=0.9 and N=8000 Sample =169
+Block 2 with d=0.1 and N=2600 Sample =1
+Block 2 with d=0.1 and N=2200 Sample =101
+Block 2 with d=0.9 and N=3500 Sample =5
+Block 2 with d=0.9 and N=7000 Sample =143
+Block 2 with d=0.5 and N=2400 Sample =13
+Block 2 with d=0.9 and N=5500 Sample =127
+Block 2 with d=0.5 and N=2400 Sample =141
+Block 2 with d=0.1 and N=2200 Sample =199
+Block 2 with d=0.5 and N=3500 Sample =25
+Block 2 with d=0.9 and N=5000 Sample =17
+Block 2 with d=0.9 and N=8000 Sample =95
+Block 2 with d=0.5 and N=400 Sample =193
+Block 2 with d=0.5 and N=1400 Sample =177
+Block 2 with d=0.9 and N=800 Sample =183
+Block 2 with d=0.9 and N=2200 Sample =89
+Block 2 with d=0.5 and N=3500 Sample =197
+Block 2 with d=0.5 and N=2400 Sample =75
+Block 2 with d=0.5 and N=3500 Sample =183
+Block 2 with d=0.1 and N=2600 Sample =35
+Block 2 with d=0.9 and N=1600 Sample =129
+Block 2 with d=0.5 and N=200 Sample =39
+Block 2 with d=0.5 and N=3500 Sample =53
+Block 2 with d=0.5 and N=7000 Sample =95
+Block 2 with d=0.1 and N=2400 Sample =169
+Block 2 with d=0.9 and N=800 Sample =143
+Block 2 with d=0.5 and N=400 Sample =109
+Block 2 with d=0.9 and N=7000 Sample =37
+Block 2 with d=0.5 and N=1400 Sample =13
+Block 2 with d=0.1 and N=1400 Sample =179
+Block 2 with d=0.1 and N=600 Sample =69
+Block 2 with d=0.1 and N=2200 Sample =57
+Block 2 with d=0.5 and N=4000 Sample =141
+Block 2 with d=0.1 and N=2600 Sample =119
+Block 2 with d=0.5 and N=1200 Sample =153
+Block 2 with d=0.9 and N=2200 Sample =149
+Block 2 with d=0.9 and N=1600 Sample =153
+Block 2 with d=0.9 and N=3500 Sample =77
+Block 2 with d=0.1 and N=3000 Sample =5
+Block 2 with d=0.1 and N=2600 Sample =39
+Block 2 with d=0.9 and N=3500 Sample =97
+Block 2 with d=0.9 and N=3500 Sample =23
+Block 2 with d=0.1 and N=3500 Sample =61
+Block 2 with d=0.9 and N=8000 Sample =29
+Block 2 with d=0.5 and N=3500 Sample =83
+Block 2 with d=0.5 and N=3500 Sample =85
+Block 2 with d=0.9 and N=2200 Sample =29
+Block 2 with d=0.1 and N=1800 Sample =89
+Block 2 with d=0.9 and N=800 Sample =127
+Block 2 with d=0.1 and N=600 Sample =25
+Block 2 with d=0.5 and N=2400 Sample =69
+Block 2 with d=0.1 and N=2200 Sample =141
+Block 2 with d=0.5 and N=3500 Sample =133
+Block 2 with d=0.5 and N=2200 Sample =25
+Block 2 with d=0.1 and N=2600 Sample =123
+Block 2 with d=0.9 and N=3500 Sample =45
+Block 2 with d=0.5 and N=3500 Sample =113
+Block 2 with d=0.9 and N=1600 Sample =55
+Block 2 with d=0.1 and N=6000 Sample =191
+Block 2 with d=0.9 and N=2200 Sample =35
+Block 2 with d=0.9 and N=2000 Sample =121
+Block 2 with d=0.1 and N=2600 Sample =189
+Block 2 with d=0.1 and N=2600 Sample =113
+Block 2 with d=0.9 and N=2000 Sample =69
+Block 2 with d=0.1 and N=7000 Sample =137
+Block 2 with d=0.5 and N=400 Sample =49
+Block 2 with d=0.5 and N=2000 Sample =17
+Block 2 with d=0.9 and N=2200 Sample =175
+Block 2 with d=0.1 and N=2600 Sample =27
+Block 2 with d=0.9 and N=1000 Sample =193
+Block 2 with d=0.5 and N=400 Sample =173
+Block 2 with d=0.9 and N=1000 Sample =43
+Block 2 with d=0.5 and N=3500 Sample =199
+Block 2 with d=0.5 and N=1200 Sample =55
+Block 2 with d=0.9 and N=2000 Sample =81
+Block 2 with d=0.9 and N=1200 Sample =29
+Block 2 with d=0.5 and N=2800 Sample =119
+Block 2 with d=0.1 and N=400 Sample =153
+Block 2 with d=0.9 and N=8000 Sample =173
+Block 2 with d=0.9 and N=3500 Sample =91
+Block 2 with d=0.1 and N=3000 Sample =13
+Block 2 with d=0.1 and N=400 Sample =47
+Block 2 with d=0.9 and N=3500 Sample =21
+Block 2 with d=0.9 and N=3500 Sample =25
+Block 2 with d=0.9 and N=1600 Sample =53
+Block 2 with d=0.9 and N=6500 Sample =89
+Block 2 with d=0.1 and N=2400 Sample =119
+Block 2 with d=0.9 and N=2000 Sample =115
+Block 2 with d=0.1 and N=7000 Sample =121
+Block 2 with d=0.5 and N=200 Sample =33
+Block 2 with d=0.9 and N=4000 Sample =51
+Block 2 with d=0.5 and N=3500 Sample =101
+Block 2 with d=0.9 and N=1000 Sample =13
+Block 2 with d=0.9 and N=3000 Sample =65
+Block 2 with d=0.9 and N=4000 Sample =93
+Block 2 with d=0.9 and N=1400 Sample =151
+Block 2 with d=0.1 and N=5500 Sample =27
+Block 2 with d=0.5 and N=200 Sample =169
+Block 2 with d=0.1 and N=5500 Sample =163
+Block 2 with d=0.1 and N=2600 Sample =81
+Block 2 with d=0.9 and N=1600 Sample =77
+Block 2 with d=0.9 and N=2000 Sample =9
+Block 2 with d=0.5 and N=5500 Sample =161
+Block 2 with d=0.5 and N=200 Sample =11
+Block 2 with d=0.9 and N=8000 Sample =17
+Block 2 with d=0.9 and N=2000 Sample =153
+Block 2 with d=0.9 and N=3500 Sample =167
+Block 2 with d=0.1 and N=3000 Sample =183
+Block 2 with d=0.1 and N=3000 Sample =23
+Block 2 with d=0.9 and N=2000 Sample =179
+Block 2 with d=0.9 and N=4000 Sample =193
+Block 2 with d=0.9 and N=8000 Sample =19
+Block 2 with d=0.9 and N=1000 Sample =199
+Block 2 with d=0.1 and N=3000 Sample =19
+Block 2 with d=0.1 and N=1800 Sample =121
+Block 2 with d=0.5 and N=2000 Sample =169
+Block 2 with d=0.9 and N=4500 Sample =161
+Block 2 with d=0.5 and N=5500 Sample =159
+Block 2 with d=0.1 and N=2600 Sample =183
+Block 2 with d=0.9 and N=7000 Sample =173
+Block 2 with d=0.9 and N=2000 Sample =57
+Block 2 with d=0.1 and N=3500 Sample =123
+Block 2 with d=0.9 and N=4000 Sample =113
+Block 2 with d=0.9 and N=7500 Sample =191
+Block 2 with d=0.1 and N=5500 Sample =127
+Block 2 with d=0.1 and N=5500 Sample =91
+Block 2 with d=0.9 and N=8000 Sample =99
+Block 2 with d=0.5 and N=400 Sample =17
+Block 2 with d=0.1 and N=2000 Sample =29
+Block 2 with d=0.9 and N=2200 Sample =87
+Block 2 with d=0.9 and N=200 Sample =81
+Block 2 with d=0.1 and N=4500 Sample =65
+Block 2 with d=0.9 and N=1600 Sample =173
+Block 2 with d=0.9 and N=8000 Sample =147
+Block 2 with d=0.1 and N=3000 Sample =105
+Block 2 with d=0.9 and N=3500 Sample =15
+Block 2 with d=0.5 and N=400 Sample =157
+Block 2 with d=0.1 and N=2600 Sample =159
+Block 2 with d=0.1 and N=2600 Sample =171
+Block 2 with d=0.9 and N=1000 Sample =195
+Block 2 with d=0.1 and N=3000 Sample =119
+Block 2 with d=0.1 and N=3000 Sample =101
+Block 2 with d=0.5 and N=400 Sample =199
+Block 2 with d=0.9 and N=200 Sample =189
+Block 2 with d=0.9 and N=1000 Sample =73
+Block 2 with d=0.5 and N=400 Sample =135
+Block 2 with d=0.5 and N=2400 Sample =143
+Block 2 with d=0.9 and N=1200 Sample =175
+Block 2 with d=0.9 and N=2200 Sample =121
+Block 2 with d=0.1 and N=2600 Sample =109
+Block 2 with d=0.9 and N=4000 Sample =117
+Block 2 with d=0.5 and N=5500 Sample =133
+Block 2 with d=0.9 and N=8000 Sample =159
+Block 2 with d=0.1 and N=800 Sample =163
+Block 2 with d=0.5 and N=7000 Sample =45
+Block 2 with d=0.9 and N=2000 Sample =139
+Block 2 with d=0.5 and N=3500 Sample =195
+Block 2 with d=0.5 and N=400 Sample =163
+Block 2 with d=0.1 and N=2600 Sample =103
+Block 2 with d=0.9 and N=600 Sample =151
+Block 2 with d=0.9 and N=1600 Sample =149
+Block 2 with d=0.5 and N=400 Sample =87
+Block 2 with d=0.5 and N=3500 Sample =103
+Block 2 with d=0.9 and N=8000 Sample =55
+Block 2 with d=0.9 and N=800 Sample =163
+Block 2 with d=0.1 and N=2600 Sample =141
+Block 2 with d=0.1 and N=5000 Sample =67
+Block 2 with d=0.1 and N=400 Sample =121
+Block 2 with d=0.1 and N=2600 Sample =53
+Block 2 with d=0.5 and N=400 Sample =7
+Block 2 with d=0.9 and N=3500 Sample =1
+Block 2 with d=0.1 and N=2600 Sample =185
+Block 2 with d=0.1 and N=5500 Sample =13
+Block 2 with d=0.9 and N=3500 Sample =137
+Block 2 with d=0.1 and N=600 Sample =163
+Block 2 with d=0.9 and N=1600 Sample =187
+Block 2 with d=0.1 and N=3000 Sample =7
+Block 2 with d=0.9 and N=1000 Sample =57
+Block 2 with d=0.9 and N=1200 Sample =123
+Block 2 with d=0.5 and N=400 Sample =131
+Block 2 with d=0.9 and N=1200 Sample =103
+Block 2 with d=0.5 and N=3500 Sample =23
+Block 2 with d=0.9 and N=200 Sample =37
+Block 2 with d=0.5 and N=600 Sample =85
+Block 2 with d=0.5 and N=200 Sample =5
+Block 2 with d=0.9 and N=2000 Sample =7
+Block 2 with d=0.9 and N=1600 Sample =159
+Block 2 with d=0.1 and N=600 Sample =79
+Block 2 with d=0.9 and N=2200 Sample =37
+Block 2 with d=0.9 and N=1600 Sample =113
+Block 2 with d=0.9 and N=600 Sample =133
+Block 2 with d=0.9 and N=2200 Sample =147
+Block 2 with d=0.1 and N=6000 Sample =175
+Block 2 with d=0.1 and N=4000 Sample =89
+Block 2 with d=0.9 and N=8000 Sample =191
+Block 2 with d=0.1 and N=2200 Sample =151
+Block 2 with d=0.5 and N=2400 Sample =67
+Block 2 with d=0.9 and N=400 Sample =125
+Block 2 with d=0.1 and N=400 Sample =83
+Block 2 with d=0.9 and N=8000 Sample =193
+Block 2 with d=0.1 and N=1600 Sample =163
+Block 2 with d=0.9 and N=7000 Sample =75
+Block 2 with d=0.1 and N=400 Sample =3
+Block 2 with d=0.5 and N=2200 Sample =85
+Block 2 with d=0.5 and N=2200 Sample =65
+Block 2 with d=0.9 and N=2400 Sample =55
+Block 2 with d=0.9 and N=3500 Sample =93
+Block 2 with d=0.9 and N=2200 Sample =99
+Block 2 with d=0.1 and N=6000 Sample =43
+Block 2 with d=0.9 and N=8000 Sample =197
+Block 2 with d=0.9 and N=8000 Sample =37
+Block 2 with d=0.5 and N=2200 Sample =133
+Block 2 with d=0.5 and N=400 Sample =29
+Block 2 with d=0.5 and N=7000 Sample =167
+Block 2 with d=0.5 and N=3500 Sample =179
+Block 2 with d=0.9 and N=2200 Sample =9
+Block 2 with d=0.9 and N=2000 Sample =35
+Block 2 with d=0.5 and N=600 Sample =15
+Block 2 with d=0.5 and N=2200 Sample =95
+Block 2 with d=0.9 and N=2200 Sample =151
+Block 2 with d=0.5 and N=400 Sample =49
+Block 2 with d=0.5 and N=600 Sample =157
+Block 2 with d=0.9 and N=2400 Sample =153
+Block 2 with d=0.5 and N=2600 Sample =27
+Block 2 with d=0.5 and N=400 Sample =119
+Block 2 with d=0.1 and N=400 Sample =189
+Block 2 with d=0.1 and N=6000 Sample =197
+Block 2 with d=0.5 and N=7000 Sample =25
+Block 2 with d=0.1 and N=600 Sample =81
+Block 2 with d=0.1 and N=2200 Sample =125
+Block 2 with d=0.1 and N=600 Sample =157
+Block 2 with d=0.9 and N=5000 Sample =163
+Block 2 with d=0.5 and N=2800 Sample =89
+Block 2 with d=0.1 and N=3000 Sample =17
+Block 2 with d=0.5 and N=2200 Sample =89
+Block 2 with d=0.1 and N=4500 Sample =137
+Block 2 with d=0.9 and N=7000 Sample =109
+Block 2 with d=0.5 and N=2200 Sample =73
+Block 2 with d=0.5 and N=2200 Sample =5
+Block 2 with d=0.1 and N=2200 Sample =103
+Block 2 with d=0.9 and N=1000 Sample =39
+Block 2 with d=0.9 and N=1600 Sample =105
+Block 2 with d=0.5 and N=8000 Sample =137
+Block 2 with d=0.5 and N=3500 Sample =135
+Block 2 with d=0.9 and N=8000 Sample =21
+Block 2 with d=0.5 and N=600 Sample =33
+Block 2 with d=0.5 and N=200 Sample =19
+Block 2 with d=0.5 and N=1200 Sample =57
+Block 2 with d=0.1 and N=1600 Sample =59
+Block 2 with d=0.9 and N=2200 Sample =57
+Block 2 with d=0.1 and N=2800 Sample =25
+Block 2 with d=0.5 and N=2200 Sample =25
+Block 2 with d=0.1 and N=600 Sample =175
+Block 2 with d=0.9 and N=8000 Sample =43
+Block 2 with d=0.1 and N=3000 Sample =107
+Block 2 with d=0.5 and N=6000 Sample =115
+Block 2 with d=0.5 and N=1200 Sample =175
+Block 2 with d=0.5 and N=1400 Sample =63
+Block 2 with d=0.5 and N=1400 Sample =81
+Block 2 with d=0.5 and N=6000 Sample =41
+Block 2 with d=0.9 and N=2200 Sample =123
+Block 2 with d=0.9 and N=1600 Sample =9
+Block 2 with d=0.9 and N=1800 Sample =117
+Block 2 with d=0.5 and N=2200 Sample =81
+Block 2 with d=0.5 and N=1400 Sample =127
+Block 2 with d=0.9 and N=2200 Sample =157
+Block 2 with d=0.5 and N=1400 Sample =173
+Block 2 with d=0.9 and N=2000 Sample =133
+Block 2 with d=0.1 and N=2600 Sample =105
+Block 2 with d=0.1 and N=1600 Sample =199
+Block 2 with d=0.9 and N=2600 Sample =177
+Block 2 with d=0.1 and N=6000 Sample =7
+Block 2 with d=0.5 and N=400 Sample =133
+Block 2 with d=0.9 and N=1200 Sample =165
+Block 2 with d=0.5 and N=600 Sample =1
+Block 2 with d=0.1 and N=600 Sample =41
+Block 2 with d=0.5 and N=600 Sample =9
+Block 2 with d=0.1 and N=1600 Sample =141
+Block 2 with d=0.5 and N=2200 Sample =143
+Block 2 with d=0.1 and N=2200 Sample =157
+Block 2 with d=0.5 and N=400 Sample =151
+Block 2 with d=0.5 and N=3500 Sample =171
+Block 2 with d=0.1 and N=5500 Sample =83
+Block 2 with d=0.1 and N=1600 Sample =13
+Block 2 with d=0.1 and N=8000 Sample =187
+Block 2 with d=0.5 and N=7000 Sample =115
+Block 2 with d=0.1 and N=2200 Sample =187
+Block 2 with d=0.1 and N=600 Sample =111
+Block 2 with d=0.1 and N=2600 Sample =111
+Block 2 with d=0.9 and N=200 Sample =25
+Block 2 with d=0.9 and N=2000 Sample =111
+Block 2 with d=0.1 and N=2600 Sample =69
+Block 2 with d=0.1 and N=8000 Sample =169
+Block 2 with d=0.9 and N=200 Sample =197
+Block 2 with d=0.1 and N=600 Sample =95
+Block 2 with d=0.9 and N=2000 Sample =25
+Block 2 with d=0.5 and N=400 Sample =91
+Block 2 with d=0.5 and N=2400 Sample =73
+Block 2 with d=0.1 and N=2200 Sample =35
+Block 2 with d=0.5 and N=3500 Sample =37
+Block 2 with d=0.9 and N=2200 Sample =77
+Block 2 with d=0.5 and N=1800 Sample =185
+Block 2 with d=0.9 and N=2000 Sample =183
+Block 2 with d=0.9 and N=7000 Sample =103
+Block 2 with d=0.9 and N=600 Sample =83
+Block 2 with d=0.5 and N=1600 Sample =165
+Block 2 with d=0.5 and N=3500 Sample =123
+Block 2 with d=0.5 and N=7000 Sample =83
+Block 2 with d=0.9 and N=3000 Sample =135
+Block 2 with d=0.9 and N=600 Sample =181
+Block 2 with d=0.9 and N=1600 Sample =27
+Block 2 with d=0.5 and N=400 Sample =35
+Block 2 with d=0.5 and N=3500 Sample =119
+Block 2 with d=0.5 and N=600 Sample =171
+Block 2 with d=0.5 and N=2400 Sample =21
+Block 2 with d=0.5 and N=200 Sample =41
+Block 2 with d=0.5 and N=2200 Sample =53
+Block 2 with d=0.5 and N=600 Sample =163
+Block 2 with d=0.1 and N=3000 Sample =25
+Block 2 with d=0.5 and N=200 Sample =55
+Block 2 with d=0.1 and N=800 Sample =161
+Block 2 with d=0.9 and N=1200 Sample =11
+Block 2 with d=0.5 and N=400 Sample =81
+Block 2 with d=0.5 and N=600 Sample =127
+Block 2 with d=0.9 and N=1600 Sample =29
+Block 2 with d=0.9 and N=1600 Sample =57
+Block 2 with d=0.9 and N=3000 Sample =17
+Block 2 with d=0.1 and N=1600 Sample =147
+Block 2 with d=0.1 and N=1800 Sample =173
+Block 2 with d=0.9 and N=800 Sample =43
+Block 2 with d=0.1 and N=2600 Sample =155
+Block 2 with d=0.9 and N=2400 Sample =51
+Block 2 with d=0.5 and N=1200 Sample =131
+Block 2 with d=0.9 and N=2600 Sample =125
+Block 2 with d=0.5 and N=2600 Sample =17
+Block 2 with d=0.5 and N=1600 Sample =23
+Block 2 with d=0.9 and N=7000 Sample =15
+Block 2 with d=0.5 and N=7000 Sample =29
+Block 2 with d=0.9 and N=2200 Sample =139
+Block 2 with d=0.9 and N=1200 Sample =147
+Block 2 with d=0.9 and N=1000 Sample =61
+Block 2 with d=0.5 and N=2200 Sample =113
+Block 2 with d=0.9 and N=1200 Sample =69
+OpenBLAS: malloc failed in dsyrk_thread_UN
+Block 2 with d=0.1 and N=2600 Sample =121
+srun: error: n3268: task 0: Exited with exit code 1
+Block 2 with d=0.9 and N=1600 Sample =39
+Block 2 with d=0.9 and N=2000 Sample =129
+Block 2 with d=0.9 and N=3000 Sample =53
+Block 2 with d=0.9 and N=1000 Sample =79
+Block 2 with d=0.5 and N=7000 Sample =99
+Block 2 with d=0.5 and N=7000 Sample =91
+Block 2 with d=0.5 and N=200 Sample =67
+Block 2 with d=0.5 and N=7500 Sample =199
+Block 2 with d=0.9 and N=1200 Sample =197
+Block 2 with d=0.5 and N=7500 Sample =83
+Block 2 with d=0.1 and N=3000 Sample =63
+Block 2 with d=0.1 and N=600 Sample =43
+Block 2 with d=0.5 and N=6500 Sample =153
+Block 2 with d=0.9 and N=200 Sample =125
+Block 2 with d=0.5 and N=1200 Sample =37
+Block 2 with d=0.9 and N=600 Sample =177
+Block 2 with d=0.5 and N=6000 Sample =39
+Block 2 with d=0.1 and N=3500 Sample =137
+Block 2 with d=0.1 and N=600 Sample =161
+Block 2 with d=0.9 and N=1000 Sample =7
+Block 2 with d=0.5 and N=7500 Sample =49
+Block 2 with d=0.5 and N=7000 Sample =63
+Block 2 with d=0.5 and N=3500 Sample =55
+Block 2 with d=0.5 and N=600 Sample =107
+Block 2 with d=0.1 and N=3500 Sample =11
+Block 2 with d=0.1 and N=2600 Sample =57
+Block 2 with d=0.1 and N=2600 Sample =33
+Block 2 with d=0.9 and N=2600 Sample =71
+Block 2 with d=0.5 and N=2400 Sample =73
+Block 2 with d=0.9 and N=600 Sample =193
+Block 2 with d=0.9 and N=2200 Sample =137
+Block 2 with d=0.9 and N=2000 Sample =131
+Block 2 with d=0.9 and N=1600 Sample =197
+Block 2 with d=0.5 and N=2000 Sample =91
+Block 2 with d=0.9 and N=1600 Sample =7
+Block 2 with d=0.5 and N=7000 Sample =113
+Block 2 with d=0.9 and N=7000 Sample =91
+Block 2 with d=0.5 and N=400 Sample =133
+Block 2 with d=0.9 and N=1600 Sample =37
+Block 2 with d=0.9 and N=1600 Sample =15
+Block 2 with d=0.5 and N=2400 Sample =195
+Block 2 with d=0.9 and N=4000 Sample =11
+Block 2 with d=0.1 and N=400 Sample =133
+Block 2 with d=0.5 and N=7000 Sample =101
+Block 2 with d=0.1 and N=3000 Sample =91
+Block 2 with d=0.1 and N=3000 Sample =95
+Block 2 with d=0.5 and N=2400 Sample =165
+Block 2 with d=0.5 and N=400 Sample =93
+Block 2 with d=0.9 and N=1200 Sample =115
+Block 2 with d=0.9 and N=2200 Sample =93
+Block 2 with d=0.5 and N=7500 Sample =135
+Block 2 with d=0.5 and N=3500 Sample =77
+Block 2 with d=0.5 and N=2200 Sample =195
+Block 2 with d=0.9 and N=1000 Sample =15
+Block 2 with d=0.5 and N=7500 Sample =111
+Block 2 with d=0.5 and N=7500 Sample =145
+Block 2 with d=0.9 and N=2200 Sample =193
+Block 2 with d=0.5 and N=400 Sample =155
+Block 2 with d=0.5 and N=400 Sample =1
+Block 2 with d=0.9 and N=2600 Sample =173
+Block 2 with d=0.9 and N=1400 Sample =133
+Block 2 with d=0.5 and N=3500 Sample =21
+Block 2 with d=0.9 and N=1000 Sample =17
+Block 2 with d=0.9 and N=800 Sample =89
+Block 2 with d=0.5 and N=400 Sample =127
+Block 2 with d=0.1 and N=6000 Sample =79
+Block 2 with d=0.5 and N=600 Sample =15
+Block 2 with d=0.1 and N=2600 Sample =127
+Block 2 with d=0.5 and N=600 Sample =95
+Block 2 with d=0.9 and N=2000 Sample =85
+Block 2 with d=0.5 and N=2600 Sample =7
+Block 2 with d=0.5 and N=5500 Sample =131
+Block 2 with d=0.9 and N=2200 Sample =109
+Block 2 with d=0.9 and N=2200 Sample =69
+Block 2 with d=0.1 and N=2000 Sample =11
+Block 2 with d=0.5 and N=5500 Sample =139
+Block 2 with d=0.1 and N=600 Sample =73
+Block 2 with d=0.5 and N=2000 Sample =107
+Block 2 with d=0.5 and N=600 Sample =47
+Block 2 with d=0.5 and N=600 Sample =33
+Block 2 with d=0.5 and N=7500 Sample =191
+Block 2 with d=0.5 and N=7500 Sample =63
+Block 2 with d=0.1 and N=2000 Sample =113
+Block 2 with d=0.1 and N=2000 Sample =31
+Block 2 with d=0.5 and N=2400 Sample =177
+Block 2 with d=0.1 and N=3000 Sample =149
+Block 2 with d=0.5 and N=7000 Sample =67
+Block 2 with d=0.5 and N=800 Sample =137
+Block 2 with d=0.1 and N=2600 Sample =19
+Block 2 with d=0.1 and N=2200 Sample =107
+Block 2 with d=0.9 and N=6000 Sample =79
+Block 2 with d=0.5 and N=7500 Sample =97
+Block 2 with d=0.9 and N=2000 Sample =13
+Block 2 with d=0.5 and N=1800 Sample =25
+Block 2 with d=0.1 and N=2000 Sample =121
+Block 2 with d=0.9 and N=1200 Sample =127
+Block 2 with d=0.9 and N=2000 Sample =67
+Block 2 with d=0.9 and N=2000 Sample =77
+Block 2 with d=0.1 and N=600 Sample =35
+Block 2 with d=0.5 and N=5000 Sample =165
+Block 2 with d=0.5 and N=400 Sample =113
+Block 2 with d=0.1 and N=3500 Sample =89
+Block 2 with d=0.9 and N=2800 Sample =125
+Block 2 with d=0.5 and N=3500 Sample =121
+Block 2 with d=0.9 and N=2000 Sample =149
+Block 2 with d=0.1 and N=6000 Sample =105
+Block 2 with d=0.9 and N=400 Sample =151
+Block 2 with d=0.9 and N=1600 Sample =195
+Block 2 with d=0.5 and N=600 Sample =59
+Block 2 with d=0.1 and N=600 Sample =97
+Block 2 with d=0.1 and N=400 Sample =157
+Block 2 with d=0.9 and N=200 Sample =99
+Block 2 with d=0.1 and N=2600 Sample =197
+Block 2 with d=0.5 and N=400 Sample =67
+Block 2 with d=0.1 and N=4000 Sample =81
+Block 2 with d=0.5 and N=1200 Sample =57
+Block 2 with d=0.1 and N=3000 Sample =9
+Block 2 with d=0.9 and N=200 Sample =167
+Block 2 with d=0.9 and N=2000 Sample =151
+Block 2 with d=0.1 and N=2600 Sample =135
+Block 2 with d=0.5 and N=7000 Sample =137
+Block 2 with d=0.5 and N=5500 Sample =29
+Block 2 with d=0.1 and N=3500 Sample =41
+Block 2 with d=0.9 and N=3000 Sample =155
+Block 2 with d=0.5 and N=600 Sample =187
+Block 2 with d=0.1 and N=600 Sample =127
+Block 2 with d=0.9 and N=1000 Sample =191
+Block 2 with d=0.1 and N=600 Sample =193
+Block 2 with d=0.5 and N=1400 Sample =41
+Block 2 with d=0.5 and N=1200 Sample =127
+Block 2 with d=0.9 and N=400 Sample =161
+Block 2 with d=0.5 and N=7500 Sample =147
+Block 2 with d=0.9 and N=600 Sample =39
+Block 2 with d=0.9 and N=3000 Sample =195
+Block 2 with d=0.5 and N=2200 Sample =147
+Block 2 with d=0.5 and N=1400 Sample =165
+Block 2 with d=0.5 and N=4500 Sample =187
+Block 2 with d=0.5 and N=600 Sample =21
+Block 2 with d=0.1 and N=2600 Sample =67
+Block 2 with d=0.9 and N=3000 Sample =103
+Block 2 with d=0.5 and N=600 Sample =165
+Block 2 with d=0.1 and N=2600 Sample =75
+Block 2 with d=0.1 and N=600 Sample =63
+Block 2 with d=0.1 and N=600 Sample =169
+Block 2 with d=0.1 and N=1000 Sample =185
+Block 2 with d=0.5 and N=2400 Sample =175
+Block 2 with d=0.1 and N=600 Sample =1
+Block 2 with d=0.5 and N=1400 Sample =123
+Block 2 with d=0.5 and N=3500 Sample =5
+Block 2 with d=0.1 and N=2600 Sample =177
+Block 2 with d=0.1 and N=5500 Sample =199
+Block 2 with d=0.9 and N=200 Sample =51
+Block 2 with d=0.9 and N=1000 Sample =91
+Block 2 with d=0.1 and N=600 Sample =57
+Block 2 with d=0.9 and N=2000 Sample =99
+Block 2 with d=0.1 and N=2600 Sample =15
+Block 2 with d=0.1 and N=5500 Sample =21
+Block 2 with d=0.9 and N=2200 Sample =113
+Block 2 with d=0.9 and N=2600 Sample =23
+Block 2 with d=0.1 and N=3000 Sample =55
+Block 2 with d=0.1 and N=3000 Sample =51
+Block 2 with d=0.1 and N=3500 Sample =53
+Block 2 with d=0.9 and N=3500 Sample =99
+Block 2 with d=0.1 and N=3500 Sample =73
+Block 2 with d=0.1 and N=5500 Sample =59
+Block 2 with d=0.1 and N=3000 Sample =15
+Block 2 with d=0.1 and N=600 Sample =173
+Block 2 with d=0.9 and N=3000 Sample =87
+Block 2 with d=0.5 and N=7000 Sample =147
+Block 2 with d=0.1 and N=4000 Sample =47
+Block 2 with d=0.1 and N=4000 Sample =11
+Block 2 with d=0.5 and N=4000 Sample =169
+Block 2 with d=0.1 and N=1400 Sample =157
+Block 2 with d=0.5 and N=200 Sample =7
+Block 2 with d=0.9 and N=1200 Sample =149
+Block 2 with d=0.1 and N=3500 Sample =133
+Block 2 with d=0.9 and N=1600 Sample =51
+Block 2 with d=0.1 and N=2600 Sample =153
+Block 2 with d=0.1 and N=2200 Sample =117
+Block 2 with d=0.9 and N=4000 Sample =49
+Block 2 with d=0.1 and N=2600 Sample =115
+Block 2 with d=0.1 and N=3500 Sample =75
+Block 2 with d=0.9 and N=7000 Sample =115
+Block 2 with d=0.5 and N=7000 Sample =51
+Block 2 with d=0.1 and N=200 Sample =109
+Block 2 with d=0.1 and N=6000 Sample =157
+Block 2 with d=0.9 and N=3500 Sample =157
+Block 2 with d=0.1 and N=2000 Sample =155
+Block 2 with d=0.1 and N=3000 Sample =53
+Block 2 with d=0.9 and N=2000 Sample =5
+Block 2 with d=0.5 and N=2200 Sample =145
+Block 2 with d=0.9 and N=6000 Sample =183
+Block 2 with d=0.5 and N=400 Sample =53
+Block 2 with d=0.5 and N=1400 Sample =13
+Block 2 with d=0.1 and N=3000 Sample =59
+Block 2 with d=0.5 and N=7000 Sample =143
+Block 2 with d=0.1 and N=1600 Sample =137
+Block 2 with d=0.1 and N=5500 Sample =161
+Block 2 with d=0.5 and N=7000 Sample =35
+Block 2 with d=0.9 and N=3000 Sample =181
+Block 2 with d=0.5 and N=7000 Sample =169
+Block 2 with d=0.1 and N=600 Sample =191
+Block 2 with d=0.1 and N=600 Sample =167
+Block 2 with d=0.9 and N=2000 Sample =145
+Block 2 with d=0.1 and N=1000 Sample =97
+Block 2 with d=0.5 and N=7000 Sample =177
+Block 2 with d=0.5 and N=3500 Sample =121
+Block 2 with d=0.1 and N=4000 Sample =91
+Block 2 with d=0.5 and N=4000 Sample =153
+Block 2 with d=0.1 and N=2000 Sample =45
+Block 2 with d=0.1 and N=5500 Sample =179
+Block 2 with d=0.5 and N=2200 Sample =181
+Block 2 with d=0.1 and N=5000 Sample =83
+Block 2 with d=0.9 and N=3500 Sample =13
+Block 2 with d=0.1 and N=7500 Sample =91
+Block 2 with d=0.1 and N=5500 Sample =131
+Block 2 with d=0.5 and N=2800 Sample =9
+Block 2 with d=0.9 and N=2000 Sample =113
+Block 2 with d=0.9 and N=2200 Sample =103
+Block 2 with d=0.1 and N=1000 Sample =45
+Block 2 with d=0.1 and N=1400 Sample =41
+Block 2 with d=0.5 and N=600 Sample =103
+Block 2 with d=0.1 and N=600 Sample =171
+Block 2 with d=0.1 and N=5500 Sample =95
+Block 2 with d=0.1 and N=400 Sample =165
+Block 2 with d=0.9 and N=200 Sample =47
+Block 2 with d=0.1 and N=2000 Sample =199
+Block 2 with d=0.1 and N=1000 Sample =9
+Block 2 with d=0.5 and N=6000 Sample =91
+Block 2 with d=0.5 and N=8000 Sample =49
+Block 2 with d=0.1 and N=400 Sample =169
+Block 2 with d=0.1 and N=3500 Sample =165
+Block 2 with d=0.5 and N=400 Sample =85
+slurmstepd: error: Detected 1 oom_kill event in StepId=24733761.0. Some of the step tasks have been OOM Killed.
+srun: error: n3270: task 2: Out Of Memory
+Block 2 with d=0.9 and N=2200 Sample =49
+Block 2 with d=0.9 and N=1600 Sample =85
+Block 2 with d=0.1 and N=1000 Sample =89
+Block 2 with d=0.1 and N=2600 Sample =137
+Block 2 with d=0.5 and N=6000 Sample =73
+Block 2 with d=0.5 and N=7500 Sample =105
+Block 2 with d=0.9 and N=7000 Sample =87
+Block 2 with d=0.5 and N=400 Sample =127
+Block 2 with d=0.9 and N=2000 Sample =161
+Block 2 with d=0.1 and N=600 Sample =193
+Block 2 with d=0.1 and N=2200 Sample =47
+Block 2 with d=0.9 and N=4000 Sample =147
+Block 2 with d=0.1 and N=2200 Sample =87
+Block 2 with d=0.9 and N=8000 Sample =39
+Block 2 with d=0.5 and N=3500 Sample =73
+Block 2 with d=0.5 and N=400 Sample =31
+Block 2 with d=0.9 and N=2000 Sample =37
+Block 2 with d=0.9 and N=2800 Sample =137
+Block 2 with d=0.1 and N=2200 Sample =197
+Block 2 with d=0.1 and N=3500 Sample =145
+Block 2 with d=0.5 and N=7500 Sample =71
+Block 2 with d=0.5 and N=7000 Sample =197
+Block 2 with d=0.9 and N=1600 Sample =137
+Block 2 with d=0.9 and N=2600 Sample =43
+Block 2 with d=0.9 and N=7000 Sample =81
+Block 2 with d=0.9 and N=6500 Sample =105
+Block 2 with d=0.5 and N=2200 Sample =183
+Block 2 with d=0.9 and N=2000 Sample =23
+Block 2 with d=0.1 and N=3500 Sample =27
+Block 2 with d=0.5 and N=400 Sample =181
+Block 2 with d=0.1 and N=2600 Sample =133
+Block 2 with d=0.1 and N=1000 Sample =43
+Block 2 with d=0.1 and N=1000 Sample =159
+Block 2 with d=0.1 and N=3500 Sample =65
+Block 2 with d=0.5 and N=2200 Sample =169
+Block 2 with d=0.5 and N=400 Sample =55
+Block 2 with d=0.1 and N=1000 Sample =117
+Block 2 with d=0.9 and N=2200 Sample =145
+Block 2 with d=0.1 and N=1000 Sample =165
+Block 2 with d=0.1 and N=600 Sample =155
+Block 2 with d=0.1 and N=3500 Sample =51
+Block 2 with d=0.5 and N=7000 Sample =109
+Block 2 with d=0.1 and N=1000 Sample =175
+Block 2 with d=0.9 and N=1600 Sample =135
+Block 2 with d=0.5 and N=3500 Sample =35
+Block 2 with d=0.1 and N=3500 Sample =101
+Block 2 with d=0.9 and N=2000 Sample =195
+Block 2 with d=0.9 and N=5000 Sample =127
+Block 2 with d=0.1 and N=2200 Sample =39
+Block 2 with d=0.1 and N=600 Sample =113
+Block 2 with d=0.5 and N=6000 Sample =157
+Block 2 with d=0.9 and N=5000 Sample =103
+Block 2 with d=0.1 and N=3500 Sample =91
+Block 2 with d=0.1 and N=3500 Sample =193
+Block 2 with d=0.9 and N=600 Sample =107
+Block 2 with d=0.1 and N=2600 Sample =3
+Block 2 with d=0.1 and N=400 Sample =143
+Block 2 with d=0.1 and N=3500 Sample =79
+Block 2 with d=0.5 and N=2800 Sample =81
+Block 2 with d=0.5 and N=8000 Sample =89
+Block 2 with d=0.9 and N=7500 Sample =57
+Block 2 with d=0.5 and N=1200 Sample =63
+Block 2 with d=0.1 and N=3500 Sample =113
+Block 2 with d=0.5 and N=3500 Sample =11
+Block 2 with d=0.5 and N=400 Sample =111
+Block 2 with d=0.9 and N=2200 Sample =41
+Block 2 with d=0.1 and N=3500 Sample =53
+Block 2 with d=0.1 and N=400 Sample =123
+Block 2 with d=0.1 and N=400 Sample =175
+Block 2 with d=0.1 and N=1000 Sample =181
+Block 2 with d=0.5 and N=2200 Sample =161
+Block 2 with d=0.9 and N=1600 Sample =49
+Block 2 with d=0.5 and N=7500 Sample =195
+Block 2 with d=0.9 and N=7000 Sample =177
+Block 2 with d=0.5 and N=3500 Sample =149
+Block 2 with d=0.5 and N=7500 Sample =85
+Block 2 with d=0.5 and N=3500 Sample =127
+Block 2 with d=0.1 and N=600 Sample =177
+Block 2 with d=0.1 and N=3500 Sample =121
+Block 2 with d=0.5 and N=2400 Sample =69
+Block 2 with d=0.9 and N=2200 Sample =163
+Block 2 with d=0.9 and N=2200 Sample =183
+Block 2 with d=0.9 and N=2000 Sample =147
+Block 2 with d=0.1 and N=3500 Sample =189
+Block 2 with d=0.9 and N=3000 Sample =183
+Block 2 with d=0.9 and N=2200 Sample =97
+Block 2 with d=0.9 and N=1800 Sample =121
+Block 2 with d=0.1 and N=600 Sample =105
+Block 2 with d=0.5 and N=2200 Sample =119
+Block 2 with d=0.1 and N=1000 Sample =31
+Block 2 with d=0.1 and N=3500 Sample =141
+Block 2 with d=0.1 and N=2600 Sample =163
+Block 2 with d=0.1 and N=2600 Sample =101
+Block 2 with d=0.5 and N=6000 Sample =155
+Block 2 with d=0.5 and N=7500 Sample =129
+Block 2 with d=0.9 and N=2000 Sample =83
+Block 2 with d=0.1 and N=1000 Sample =91
+Block 2 with d=0.9 and N=4000 Sample =45
+Block 2 with d=0.9 and N=2200 Sample =141
+Block 2 with d=0.5 and N=6500 Sample =81
+Block 2 with d=0.5 and N=3500 Sample =169
+Block 2 with d=0.5 and N=2200 Sample =107
+Block 2 with d=0.1 and N=400 Sample =159
+Block 2 with d=0.1 and N=600 Sample =151
+Block 2 with d=0.9 and N=3000 Sample =1
+Block 2 with d=0.9 and N=200 Sample =163
+Block 2 with d=0.1 and N=1000 Sample =195
+Block 2 with d=0.5 and N=1400 Sample =105
+Block 2 with d=0.9 and N=2000 Sample =117
+Block 2 with d=0.1 and N=1000 Sample =149
+Block 2 with d=0.9 and N=1200 Sample =15
+Block 2 with d=0.1 and N=400 Sample =77
+Block 2 with d=0.1 and N=600 Sample =171
+Block 2 with d=0.1 and N=3500 Sample =127
+Block 2 with d=0.9 and N=5000 Sample =151
+Block 2 with d=0.9 and N=200 Sample =131
+Block 2 with d=0.5 and N=400 Sample =41
+Block 2 with d=0.9 and N=3000 Sample =45
+Block 2 with d=0.1 and N=600 Sample =143
+Block 2 with d=0.1 and N=3500 Sample =45
+Block 2 with d=0.5 and N=7500 Sample =89
+Block 2 with d=0.1 and N=600 Sample =107
+Block 2 with d=0.9 and N=2200 Sample =173
+Block 2 with d=0.1 and N=3500 Sample =105
+Block 2 with d=0.5 and N=2200 Sample =19
+Block 2 with d=0.1 and N=600 Sample =99
+Block 2 with d=0.5 and N=7000 Sample =157
+Block 2 with d=0.1 and N=600 Sample =173
+Block 2 with d=0.9 and N=6000 Sample =195
+Block 2 with d=0.5 and N=2200 Sample =69
+Block 2 with d=0.1 and N=1000 Sample =113
+Block 2 with d=0.9 and N=1200 Sample =119
+Block 2 with d=0.5 and N=1400 Sample =83
+Block 2 with d=0.1 and N=6000 Sample =125
+Block 2 with d=0.9 and N=1600 Sample =171
+Block 2 with d=0.5 and N=1400 Sample =75
+Block 2 with d=0.9 and N=7500 Sample =57
+Block 2 with d=0.9 and N=4000 Sample =67
+Block 2 with d=0.1 and N=2600 Sample =31
+Block 2 with d=0.1 and N=400 Sample =63
+Block 2 with d=0.5 and N=3500 Sample =175
+Block 2 with d=0.1 and N=600 Sample =19
+Block 2 with d=0.1 and N=600 Sample =187
+Block 2 with d=0.1 and N=2600 Sample =157
+Block 2 with d=0.9 and N=1000 Sample =159
+Block 2 with d=0.5 and N=2200 Sample =17
+Block 2 with d=0.5 and N=600 Sample =49
+Block 2 with d=0.1 and N=600 Sample =47
+Block 2 with d=0.1 and N=3500 Sample =71
+Block 2 with d=0.5 and N=6000 Sample =39
+Block 2 with d=0.1 and N=6000 Sample =119
+Block 2 with d=0.5 and N=7000 Sample =171
+Block 2 with d=0.9 and N=600 Sample =83
+Block 2 with d=0.1 and N=600 Sample =131
+Block 2 with d=0.1 and N=2600 Sample =89
+Block 2 with d=0.1 and N=2600 Sample =95
+Block 2 with d=0.9 and N=2200 Sample =17
+Block 2 with d=0.1 and N=600 Sample =9
+Block 2 with d=0.1 and N=3500 Sample =29
+Block 2 with d=0.5 and N=2600 Sample =137
+Block 2 with d=0.9 and N=8000 Sample =13
+Block 2 with d=0.9 and N=600 Sample =73
+Block 2 with d=0.5 and N=2200 Sample =29
+Block 2 with d=0.5 and N=600 Sample =5
+Block 2 with d=0.9 and N=5000 Sample =153
+Block 2 with d=0.9 and N=5000 Sample =171
+Block 2 with d=0.5 and N=8000 Sample =25
+Block 2 with d=0.5 and N=7000 Sample =33
+Block 2 with d=0.1 and N=1800 Sample =9
+Block 2 with d=0.9 and N=5000 Sample =67
+Block 2 with d=0.5 and N=5500 Sample =83
+Block 2 with d=0.1 and N=1000 Sample =119
+Block 2 with d=0.9 and N=5000 Sample =193
+Block 2 with d=0.9 and N=1400 Sample =69
+Block 2 with d=0.9 and N=1600 Sample =73
+Block 2 with d=0.5 and N=1400 Sample =187
+Block 2 with d=0.1 and N=2200 Sample =121
+Block 2 with d=0.1 and N=1000 Sample =191
+Block 2 with d=0.1 and N=600 Sample =123
+Block 2 with d=0.1 and N=1000 Sample =13
+Block 2 with d=0.1 and N=600 Sample =5
+Block 2 with d=0.5 and N=400 Sample =33
+Block 2 with d=0.5 and N=7000 Sample =181
+Block 2 with d=0.5 and N=3500 Sample =75
+Block 2 with d=0.1 and N=1000 Sample =141
+Block 2 with d=0.9 and N=7500 Sample =27
+Block 2 with d=0.9 and N=200 Sample =195
+Block 2 with d=0.1 and N=2600 Sample =39
+Block 2 with d=0.9 and N=5000 Sample =115
+Block 2 with d=0.5 and N=7000 Sample =49
+Block 2 with d=0.9 and N=5000 Sample =179
+Block 2 with d=0.9 and N=1000 Sample =99
+Block 2 with d=0.9 and N=1000 Sample =75
+Block 2 with d=0.1 and N=1000 Sample =15
+Block 2 with d=0.9 and N=200 Sample =49
+Block 2 with d=0.1 and N=2600 Sample =11
+Block 2 with d=0.5 and N=2400 Sample =93
+Block 2 with d=0.1 and N=2600 Sample =93
+Block 2 with d=0.9 and N=2000 Sample =1
+Block 2 with d=0.5 and N=7500 Sample =185
+Block 2 with d=0.9 and N=1600 Sample =183
+Block 2 with d=0.1 and N=3500 Sample =59
+Block 2 with d=0.1 and N=600 Sample =71
+Block 2 with d=0.1 and N=1000 Sample =123
+Block 2 with d=0.9 and N=600 Sample =165
+Block 2 with d=0.5 and N=3500 Sample =91
+Block 2 with d=0.5 and N=1400 Sample =175
+Block 2 with d=0.9 and N=1800 Sample =59
+Block 2 with d=0.5 and N=1400 Sample =103
+Block 2 with d=0.1 and N=1000 Sample =127
+Block 2 with d=0.1 and N=600 Sample =199
+Block 2 with d=0.1 and N=600 Sample =33
+Block 2 with d=0.1 and N=2600 Sample =195
+Block 2 with d=0.1 and N=600 Sample =109
+Block 2 with d=0.5 and N=1400 Sample =185
+Block 2 with d=0.5 and N=3500 Sample =17
+Block 2 with d=0.1 and N=600 Sample =195
+Block 2 with d=0.9 and N=5000 Sample =39
+Block 2 with d=0.1 and N=600 Sample =141
+Block 2 with d=0.1 and N=2600 Sample =37
+Block 2 with d=0.1 and N=600 Sample =113
+Block 2 with d=0.9 and N=2200 Sample =83
+Block 2 with d=0.9 and N=3500 Sample =169
+Block 2 with d=0.1 and N=600 Sample =127
+Block 2 with d=0.5 and N=400 Sample =83
+Block 2 with d=0.1 and N=3500 Sample =125
+Block 2 with d=0.1 and N=1000 Sample =37
+Block 2 with d=0.5 and N=1400 Sample =51
+Block 2 with d=0.9 and N=5000 Sample =117
+Block 2 with d=0.9 and N=1600 Sample =167
+Block 2 with d=0.9 and N=1000 Sample =173
+Block 2 with d=0.9 and N=1200 Sample =183
+Block 2 with d=0.1 and N=400 Sample =79
+Block 2 with d=0.9 and N=400 Sample =179
+Block 2 with d=0.1 and N=1000 Sample =77
+Block 2 with d=0.5 and N=400 Sample =51
+Block 2 with d=0.9 and N=3000 Sample =131
+Block 2 with d=0.9 and N=1200 Sample =181
+Block 2 with d=0.5 and N=7500 Sample =15
+Block 2 with d=0.1 and N=600 Sample =179
+Block 2 with d=0.5 and N=4500 Sample =145
+Block 2 with d=0.9 and N=5000 Sample =123
+Block 2 with d=0.1 and N=400 Sample =97
+Block 2 with d=0.9 and N=2600 Sample =165
+Block 2 with d=0.1 and N=3500 Sample =77
+Block 2 with d=0.1 and N=2600 Sample =21
+Block 2 with d=0.1 and N=600 Sample =97
+OpenBLAS: malloc failed in dsyrk_thread_UN
+Block 2 with d=0.9 and N=6000 Sample =181
+srun: error: n3271: task 3: Exited with exit code 1
+Block 2 with d=0.9 and N=5000 Sample =137
+Block 2 with d=0.1 and N=600 Sample =137
+Block 2 with d=0.9 and N=5000 Sample =81
+Block 2 with d=0.9 and N=5000 Sample =161
+Block 2 with d=0.1 and N=600 Sample =187
+Block 2 with d=0.1 and N=600 Sample =27
+Block 2 with d=0.5 and N=1400 Sample =183
+Block 2 with d=0.9 and N=5000 Sample =105
+Block 2 with d=0.1 and N=3500 Sample =183
+Block 2 with d=0.9 and N=6000 Sample =193
+Block 2 with d=0.1 and N=5500 Sample =121
+Block 2 with d=0.9 and N=5000 Sample =77
+Block 2 with d=0.9 and N=5500 Sample =93
+Block 2 with d=0.1 and N=6000 Sample =139
+Block 2 with d=0.1 and N=400 Sample =89
+Block 2 with d=0.9 and N=5000 Sample =157
+Block 2 with d=0.9 and N=6000 Sample =153
+Block 2 with d=0.9 and N=5000 Sample =15
+Block 2 with d=0.9 and N=1000 Sample =71
+Block 2 with d=0.1 and N=600 Sample =183
+Block 2 with d=0.1 and N=600 Sample =57
+Block 2 with d=0.9 and N=6000 Sample =139
+Block 2 with d=0.9 and N=1000 Sample =165
+Block 2 with d=0.5 and N=1400 Sample =31
+Block 2 with d=0.9 and N=1000 Sample =133
+Block 2 with d=0.9 and N=1000 Sample =117
+Block 2 with d=0.5 and N=1400 Sample =151
+Block 2 with d=0.9 and N=6000 Sample =5
+Block 2 with d=0.1 and N=1800 Sample =193
+Block 2 with d=0.9 and N=5000 Sample =109
+Block 2 with d=0.9 and N=5000 Sample =59
+Block 2 with d=0.5 and N=1400 Sample =155
+Block 2 with d=0.1 and N=600 Sample =195
+Block 2 with d=0.1 and N=600 Sample =65
+Block 2 with d=0.9 and N=6000 Sample =53
+Block 2 with d=0.9 and N=400 Sample =55
+Block 2 with d=0.1 and N=400 Sample =145
+Block 2 with d=0.1 and N=600 Sample =77
+Block 2 with d=0.1 and N=600 Sample =123
+Block 2 with d=0.1 and N=7500 Sample =75
+Block 2 with d=0.9 and N=7000 Sample =131
+Block 2 with d=0.1 and N=600 Sample =103
+Block 2 with d=0.9 and N=1200 Sample =45
+Block 2 with d=0.9 and N=6000 Sample =123
+Block 2 with d=0.9 and N=6000 Sample =99
+Block 2 with d=0.1 and N=400 Sample =193
+Block 2 with d=0.1 and N=600 Sample =61
+Block 2 with d=0.1 and N=400 Sample =147
+Block 2 with d=0.9 and N=1000 Sample =143
+Block 2 with d=0.5 and N=1400 Sample =137
+Block 2 with d=0.9 and N=2800 Sample =121
+Block 2 with d=0.5 and N=5500 Sample =189
+OpenBLAS: malloc failed in dsyrk_thread_UN
+srun: error: n3269: task 1: Exited with exit code 1
