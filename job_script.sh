@@ -1,23 +1,19 @@
 #!/bin/bash
-#SBATCH --job-name=cyounes-job  # Job name
-#SBATCH --account=randommatrix  # Account to charge
-#SBATCH --partition=compute     # Partition to use
-#SBATCH --nodes=4               # Number of nodes
-#SBATCH --ntasks=4              # One task per node
-#SBATCH --cpus-per-task=2      # 40 CPUs per node
-#SBATCH --mem=175G              # Memory allocation
-#SBATCH --time=48:00:00         # Maximum runtime
-#SBATCH --output=cyounes-job-%j.out  # Standard output log
-#SBATCH --error=cyounes-job-%j.err   # Standard error log
+#SBATCH --job-name=cyounes2-job  # Job name
+#SBATCH --account=amath  # Account to charge
+#SBATCH --partition=cpu-g2     # Partition to use
+#SBATCH --nodes=1               # Request 1 node
+#SBATCH --cpus-per-task=80      # Request CPUs
+#SBATCH --mem=1400G              # Memory allocation
+#SBATCH --time=24:00:00         # Maximum runtime
+#SBATCH --output=cyounes-Distjob-%j.out  # Standard output log
+#SBATCH --error=cyounes-Distjob-%j.err   # Standard error log
 
-# Load the Julia module
 module load elbert/julia/1.10.2/1.10.2
 
-scontrol show hostnames > hosts.txt
-cat hosts.txt  
+# scontrol show hostnames > hosts.txt
+# cat hosts.txt  
 
-# Set the number of Julia threads and assign CPUs to the task
-export JULIA_NUM_THREADS=8
+export JULIA_NUM_THREADS=80
 
-# Run the Julia script with taskset to bind the process to specific CPUs
-srun taskset -c 0-7 nice -n 0 julia Example1.jl > output.log 2>&1
+srun taskset -c 0-79 nice -n 0 julia Example1.jl > output.log 2>&1
