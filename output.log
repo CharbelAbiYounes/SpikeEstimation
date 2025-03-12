@@ -424,3 +424,6 @@ Block 2 with d=0.1 and N=2000
     TracyWidomBeta Being precompiled by another machine (hostname: n3457, pid: 94585, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
 Block 2 with d=0.1 and N=2200
 Block 2 with d=0.1 and N=2400
+Block 2 with d=0.1 and N=2600
+Block 2 with d=0.1 and N=2800
+Block 2 with d=0.1 and N=3000
