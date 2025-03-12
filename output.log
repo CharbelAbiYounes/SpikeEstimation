@@ -116,3 +116,6 @@ Block 1 with d=0.1 and N=1300
 Block 1 with d=0.1 and N=1400
 Block 1 with d=0.1 and N=1500
 Block 1 with d=0.1 and N=1600
+Block 1 with d=0.1 and N=1700
+srun: Job step aborted: Waiting up to 12 seconds for job step to finish.
+slurmstepd: error: *** STEP 24808193.0 ON n3446 CANCELLED AT 2025-03-12T16:30:58 ***
