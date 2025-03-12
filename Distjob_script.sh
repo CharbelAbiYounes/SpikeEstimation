@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=cyounes-job  # Job name
+#SBATCH --account=randommatrix  # Account to charge
+#SBATCH --partition=compute     # Partition to use
+#SBATCH --nodes=4               # Request 1 node
+#SBATCH --cpus-per-task=15      # Request 10 CPUs
+#SBATCH --mem=175G              # Memory allocation
+#SBATCH --time=48:00:00         # Maximum runtime
+#SBATCH --output=cyounes-job-%j.out  # Standard output log
+#SBATCH --error=cyounes-job-%j.err   # Standard error log
+
+scontrol show hostnames > hosts.txt
+cat hosts.txt
+
+module load elbert/julia/1.10.2/1.10.2
+
+scontrol show hostnames > hosts.txt
+cat hosts.txt  
+
+srun julia DistExample1.jl > output.log 2>&1
