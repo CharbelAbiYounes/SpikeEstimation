@@ -404,3 +404,482 @@ Block 2 with d=0.1 and N=2600
 Block 2 with d=0.1 and N=3000
 Block 2 with d=0.1 and N=2800
 Block 2 with d=0.1 and N=3500
+Block 2 with d=0.1 and N=4000
+Block 2 with d=0.1 and N=3000
+Block 2 with d=0.1 and N=3500
+Block 2 with d=0.1 and N=4000
+Block 2 with d=0.1 and N=3500
+Block 2 with d=0.1 and N=4000
+Block 2 with d=0.1 and N=4500
+Block 2 with d=0.1 and N=4500
+Block 2 with d=0.1 and N=4000
+Block 2 with d=0.1 and N=5000
+Block 2 with d=0.1 and N=4500
+Block 2 with d=0.1 and N=5000
+Block 2 with d=0.1 and N=4500
+Block 2 with d=0.1 and N=5500
+Block 2 with d=0.1 and N=5000
+Worker 29 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:947
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:955
+ [3] unsafe_read
+   @ ./io.jl:774 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:773
+ [5] read!
+   @ ./io.jl:775 [inlined]
+ [6] deserialize_hdr_raw
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+Worker 30 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:947
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:955
+ [3] unsafe_read
+   @ ./io.jl:774 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:773
+ [5] read!
+   @ ./io.jl:775 [inlined]
+ [6] deserialize_hdr_raw
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+Worker 28 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:947
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:955
+ [3] unsafe_read
+   @ ./io.jl:774 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:773
+ [5] read!
+   @ ./io.jl:775 [inlined]
+ [6] deserialize_hdr_raw
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+Worker 5 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:947
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:955
+ [3] unsafe_read
+   @ ./io.jl:774 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:773
+ [5] read!
+   @ ./io.jl:775 [inlined]
+ [6] deserialize_hdr_raw
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+Worker 8 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:947
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:955
+ [3] unsafe_read
+   @ ./io.jl:774 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:773
+ [5] read!
+   @ ./io.jl:775 [inlined]
+ [6] deserialize_hdr_raw
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+ERROR: LoadError: ProcessExitedException(28)
+Stacktrace:
+  [1] try_yieldto(undo::typeof(Base.ensure_rescheduled))
+    @ Base ./task.jl:931
+  [2] wait()
+    @ Base ./task.jl:995
+  [3] wait(c::Base.GenericCondition{ReentrantLock}; first::Bool)
+    @ Base ./condition.jl:130
+  [4] wait
+    @ ./condition.jl:125 [inlined]
+  [5] take_buffered(c::Channel{Any})
+    @ Base ./channels.jl:477
+  [6] take!(c::Channel{Any})
+    @ Base ./channels.jl:471
+  [7] take!(::Distributed.RemoteValue)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:726
+  [8] remotecall_fetch(::Function, ::Distributed.Worker, ::Int64, ::Vararg{Any}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:461
+  [9] remotecall_fetch(::Function, ::Distributed.Worker, ::Int64, ::Vararg{Any})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:454
+ [10] remotecall_fetch(::Function, ::Int64, ::Int64, ::Vararg{Any}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:492
+ [11] remotecall_pool(rc_f::Function, f::Function, pool::WorkerPool, args::Int64; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:126
+ [12] remotecall_pool
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:123 [inlined]
+ [13] remotecall_fetch
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:232 [inlined]
+ [14] #208
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:288 [inlined]
+ [15] (::Base.var"#1023#1028"{Distributed.var"#208#210"{Distributed.var"#208#209#211"{WorkerPool, var"#25#26"{Float64, Int64}}}})(r::Base.RefValue{Any}, args::Tuple{Int64})
+    @ Base ./asyncmap.jl:94
+ [16] (::Base.var"#1039#1040"{Base.var"#1023#1028"{Distributed.var"#208#210"{Distributed.var"#208#209#211"{WorkerPool, var"#25#26"{Float64, Int64}}}}, Channel{Any}, Nothing})()
+    @ Base ./asyncmap.jl:228
+Stacktrace:
+  [1] (::Base.var"#1033#1035")(x::Task)
+    @ Base ./asyncmap.jl:171
+  [2] foreach(f::Base.var"#1033#1035", itr::Vector{Any})
+    @ Base ./abstractarray.jl:3097
+  [3] maptwice(wrapped_f::Function, chnl::Channel{Any}, worker_tasks::Vector{Any}, c::UnitRange{Int64})
+    @ Base ./asyncmap.jl:171
+  [4] wrap_n_exec_twice
+    @ ./asyncmap.jl:147 [inlined]
+  [5] #async_usemap#1018
+    @ ./asyncmap.jl:97 [inlined]
+  [6] async_usemap
+    @ ./asyncmap.jl:78 [inlined]
+  [7] #asyncmap#1017
+    @ ./asyncmap.jl:75 [inlined]
+  [8] asyncmap
+    @ ./asyncmap.jl:74 [inlined]
+  [9] pmap(f::Function, p::WorkerPool, c::UnitRange{Int64}; distributed::Bool, batch_size::Int64, on_error::Nothing, retry_delays::Vector{Any}, retry_check::Nothing)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:126
+ [10] pmap(f::Function, p::WorkerPool, c::UnitRange{Int64})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:99
+ [11] pmap(f::Function, c::UnitRange{Int64}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:156
+ [12] top-level scope
+    @ ~/SpikeEstimation/DistExample1.jl:82
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/DistExample1.jl:77
+┌ Warning: Forcibly interrupting busy workers
+│   exception = rmprocs: pids [2, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20, 22, 23, 24, 25, 26, 27, 31] not terminated after 5.0 seconds.
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1253
+┌ Warning: rmprocs: process 1 not removed
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1049
+srun: error: n3119: task 0: Exited with exit code 1
+Block 2 with d=0.1 and N=5000
+Block 2 with d=0.1 and N=5500
+Block 2 with d=0.1 and N=5500
+Worker 37 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:947
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:955
+ [3] unsafe_read
+   @ ./io.jl:774 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:773
+ [5] read!
+   @ ./io.jl:775 [inlined]
+ [6] deserialize_hdr_raw
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+Worker 36 terminated.
+ERROR: LoadError: ProcessExitedException(37)
+Stacktrace:
+  [1] try_yieldto(undo::typeof(Base.ensure_rescheduled))
+    @ Base ./task.jl:931
+  [2] wait()
+    @ Base ./task.jl:995
+  [3] wait(c::Base.GenericCondition{ReentrantLock}; first::Bool)
+    @ Base ./condition.jl:130
+  [4] wait
+    @ ./condition.jl:125 [inlined]
+  [5] take_buffered(c::Channel{Any})
+    @ Base ./channels.jl:477
+  [6] take!(c::Channel{Any})
+    @ Base ./channels.jl:471
+  [7] take!(::Distributed.RemoteValue)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:726
+  [8] remotecall_fetch(::Function, ::Distributed.Worker, ::Int64, ::Vararg{Any}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:461
+  [9] remotecall_fetch(::Function, ::Distributed.Worker, ::Int64, ::Vararg{Any})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:454
+ [10] remotecall_fetch(::Function, ::Int64, ::Int64, ::Vararg{Any}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:492
+ [11] remotecall_pool(rc_f::Function, f::Function, pool::WorkerPool, args::Int64; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:126
+ [12] remotecall_pool
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:123 [inlined]
+ [13] remotecall_fetch
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:232 [inlined]
+ [14] #208
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:288 [inlined]
+ [15] (::Base.var"#1023#1028"{Distributed.var"#208#210"{Distributed.var"#208#209#211"{WorkerPool, var"#25#26"{Float64, Int64}}}})(r::Base.RefValue{Any}, args::Tuple{Int64})
+    @ Base ./asyncmap.jl:94
+ [16] (::Base.var"#1039#1040"{Base.var"#1023#1028"{Distributed.var"#208#210"{Distributed.var"#208#209#211"{WorkerPool, var"#25#26"{Float64, Int64}}}}, Channel{Any}, Nothing})()
+    @ Base ./asyncmap.jl:228
+Stacktrace:
+  [1] (::Base.var"#1033#1035")(x::Task)
+    @ Base ./asyncmap.jl:171
+  [2] foreach(f::Base.var"#1033#1035", itr::Vector{Any})
+    @ Base ./abstractarray.jl:3097
+  [3] maptwice(wrapped_f::Function, chnl::Channel{Any}, worker_tasks::Vector{Any}, c::UnitRange{Int64})
+    @ Base ./asyncmap.jl:171
+  [4] wrap_n_exec_twice
+    @ ./asyncmap.jl:147 [inlined]
+  [5] #async_usemap#1018
+    @ ./asyncmap.jl:97 [inlined]
+  [6] async_usemap
+    @ ./asyncmap.jl:78 [inlined]
+  [7] #asyncmap#1017
+    @ ./asyncmap.jl:75 [inlined]
+  [8] asyncmap
+    @ ./asyncmap.jl:74 [inlined]
+  [9] pmap(f::Function, p::WorkerPool, c::UnitRange{Int64}; distributed::Bool, batch_size::Int64, on_error::Nothing, retry_delays::Vector{Any}, retry_check::Nothing)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:126
+ [10] pmap(f::Function, p::WorkerPool, c::UnitRange{Int64})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:99
+ [11] pmap(f::Function, c::UnitRange{Int64}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:156
+ [12] top-level scope
+    @ ~/SpikeEstimation/DistExample1.jl:82
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/DistExample1.jl:77
+Block 2 with d=0.1 and N=5500
+┌ Warning: Forcibly interrupting busy workers
+│   exception = rmprocs: pids [22, 23, 24, 25, 26, 27, 28, 29, 30, 31] not terminated after 5.0 seconds.
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1253
+┌ Warning: rmprocs: process 1 not removed
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1049
+slurmstepd: error: Detected 1 oom_kill event in StepId=24796054.0. Some of the step tasks have been OOM Killed.
+srun: error: n3121: task 1: Out Of Memory
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:947
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:955
+ [3] unsafe_read
+   @ ./io.jl:774 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:773
+ [5] read!
+   @ ./io.jl:775 [inlined]
+ [6] deserialize_hdr_raw
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+ERROR: LoadError: ProcessExitedException(36)
+Stacktrace:
+  [1] try_yieldto(undo::typeof(Base.ensure_rescheduled))
+    @ Base ./task.jl:931
+  [2] wait()
+    @ Base ./Worker 37 terminated.task.jl:995
+
+UNHANDLED TASK ERROR: IOError: read: connection reset by peer (ECONNRESET)
+Stacktrace:
+  [1] wait_readnb(x::Sockets.TCPSocket, nb::Int64)
+    @ Base ./stream.jl:410
+  [2] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+    @ Base ./stream.jl:949
+  [3] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+    @ Base ./stream.jl:955
+  [4] unsafe_read
+    @ ./io.jl:774 [inlined]
+  [5] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+    @ Base ./io.jl:773
+  [6] read!
+    @ ./io.jl:775 [inlined]
+  [7] deserialize_hdr_raw
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+  [8] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+  [9] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [10] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+  [3] wait(c::Base.GenericCondition{ReentrantLock}; first::Bool)
+    @ Base ./condition.jl:130
+  [4] wait
+    @ ./condition.jl:125 [inlined]
+  [5] take_buffered(c::Channel{Any})
+    @ Base ./channels.jl:477
+  [6] take!(c::Channel{Any})
+    @ Base ./channels.jl:471
+  [7] take!(::Distributed.RemoteValue)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:726
+  [8] remotecall_fetch(::Function, ::Distributed.Worker, ::Int64, ::Vararg{Any}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:461
+  [9] remotecall_fetch(::Function, ::Distributed.Worker, ::Int64, ::Vararg{Any})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:454
+ [10] remotecall_fetch(::Function, ::Int64, ::Int64, ::Vararg{Any}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:492
+ [11] remotecall_pool(rc_f::Function, f::Function, pool::WorkerPool, args::Int64; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:126
+ [12] remotecall_pool
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:123 [inlined]
+ [13] remotecall_fetch
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:232 [inlined]
+ [14] #208
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:288 [inlined]
+ [15] (::Base.var"#1023#1028"{Distributed.var"#208#210"{Distributed.var"#208#209#211"{WorkerPool, var"#25#26"{Float64, Int64}}}})(r::Base.RefValue{Any}, args::Tuple{Int64})
+    @ Base ./asyncmap.jl:94
+ [16] (::Base.var"#1039#1040"{Base.var"#1023#1028"{Distributed.var"#208#210"{Distributed.var"#208#209#211"{WorkerPool, var"#25#26"{Float64, Int64}}}}, Channel{Any}, Nothing})()
+    @ Base ./asyncmap.jl:228
+Stacktrace:
+  [1] (::Base.var"#1033#1035")(x::Task)
+    @ Base ./asyncmap.jl:171
+  [2] foreach(f::Base.var"#1033#1035", itr::Vector{Any})
+    @ Base ./abstractarray.jl:3097
+  [3] maptwice(wrapped_f::Function, chnl::Channel{Any}, worker_tasks::Vector{Any}, c::UnitRange{Int64})
+    @ Base ./asyncmap.jl:171
+  [4] wrap_n_exec_twice
+    @ ./asyncmap.jl:147 [inlined]
+  [5] #async_usemap#1018
+    @ ./asyncmap.jl:97 [inlined]
+  [6] async_usemap
+    @ ./asyncmap.jl:78 [inlined]
+  [7] #asyncmap#1017
+    @ ./asyncmap.jl:75 [inlined]
+  [8] asyncmap
+    @ ./asyncmap.jl:74 [inlined]
+  [9] pmap(f::Function, p::WorkerPool, c::UnitRange{Int64}; distributed::Bool, batch_size::Int64, on_error::Nothing, retry_delays::Vector{Any}, retry_check::Nothing)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:126
+ [10] pmap(f::Function, p::WorkerPool, c::UnitRange{Int64})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:99
+ [11] pmap(f::Function, c::UnitRange{Int64}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:156
+ [12] top-level scope
+    @ ~/SpikeEstimation/DistExample1.jl:82
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/DistExample1.jl:77
+┌ Warning: Forcibly interrupting busy workers
+│   exception = rmprocs: pids [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 38, 39, 40] not terminated after 5.0 seconds.
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1253
+┌ Warning: rmprocs: process 1 not removed
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1049
+slurmstepd: error: Detected 2 oom_kill events in StepId=24796054.0. Some of the step tasks have been OOM Killed.
+Block 2 with d=0.1 and N=6000
+Block 2 with d=0.1 and N=6500
+Block 2 with d=0.1 and N=7000
+Block 2 with d=0.1 and N=7500
+Worker 38 terminated.
+UNHANDLED TASK ERROR: EOFError: read end of file
+Stacktrace:
+ [1] (::Base.var"#wait_locked#739")(s::Sockets.TCPSocket, buf::IOBuffer, nb::Int64)
+   @ Base ./stream.jl:947
+ [2] unsafe_read(s::Sockets.TCPSocket, p::Ptr{UInt8}, nb::UInt64)
+   @ Base ./stream.jl:955
+ [3] unsafe_read
+   @ ./io.jl:774 [inlined]
+ [4] unsafe_read(s::Sockets.TCPSocket, p::Base.RefValue{NTuple{4, Int64}}, n::Int64)
+   @ Base ./io.jl:773
+ [5] read!
+   @ ./io.jl:775 [inlined]
+ [6] deserialize_hdr_raw
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/messages.jl:167 [inlined]
+ [7] message_handler_loop(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:172
+ [8] process_tcp_streams(r_stream::Sockets.TCPSocket, w_stream::Sockets.TCPSocket, incoming::Bool)
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:133
+ [9] (::Distributed.var"#103#104"{Sockets.TCPSocket, Sockets.TCPSocket, Bool})()
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/process_messages.jl:121
+ERROR: LoadError: ProcessExitedException(38)
+Stacktrace:
+  [1] try_yieldto(undo::typeof(Base.ensure_rescheduled))
+    @ Base ./task.jl:931
+  [2] wait()
+    @ Base ./task.jl:995
+  [3] wait(c::Base.GenericCondition{ReentrantLock}; first::Bool)
+    @ Base ./condition.jl:130
+  [4] wait
+    @ ./condition.jl:125 [inlined]
+  [5] take_buffered(c::Channel{Any})
+    @ Base ./channels.jl:477
+  [6] take!(c::Channel{Any})
+    @ Base ./channels.jl:471
+  [7] take!(::Distributed.RemoteValue)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:726
+  [8] remotecall_fetch(::Function, ::Distributed.Worker, ::Int64, ::Vararg{Any}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:461
+  [9] remotecall_fetch(::Function, ::Distributed.Worker, ::Int64, ::Vararg{Any})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:454
+ [10] remotecall_fetch(::Function, ::Int64, ::Int64, ::Vararg{Any}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:492
+ [11] remotecall_pool(rc_f::Function, f::Function, pool::WorkerPool, args::Int64; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:126
+ [12] remotecall_pool
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:123 [inlined]
+ [13] remotecall_fetch
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:232 [inlined]
+ [14] #208
+    @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/workerpool.jl:288 [inlined]
+ [15] (::Base.var"#1023#1028"{Distributed.var"#208#210"{Distributed.var"#208#209#211"{WorkerPool, var"#25#26"{Float64, Int64}}}})(r::Base.RefValue{Any}, args::Tuple{Int64})
+    @ Base ./asyncmap.jl:94
+ [16] (::Base.var"#1039#1040"{Base.var"#1023#1028"{Distributed.var"#208#210"{Distributed.var"#208#209#211"{WorkerPool, var"#25#26"{Float64, Int64}}}}, Channel{Any}, Nothing})()
+    @ Base ./asyncmap.jl:228
+Stacktrace:
+  [1] (::Base.var"#1033#1035")(x::Task)
+    @ Base ./asyncmap.jl:171
+  [2] foreach(f::Base.var"#1033#1035", itr::Vector{Any})
+    @ Base ./abstractarray.jl:3097
+  [3] maptwice(wrapped_f::Function, chnl::Channel{Any}, worker_tasks::Vector{Any}, c::UnitRange{Int64})
+    @ Base ./asyncmap.jl:171
+  [4] wrap_n_exec_twice
+    @ ./asyncmap.jl:147 [inlined]
+  [5] #async_usemap#1018
+    @ ./asyncmap.jl:97 [inlined]
+  [6] async_usemap
+    @ ./asyncmap.jl:78 [inlined]
+  [7] #asyncmap#1017
+    @ ./asyncmap.jl:75 [inlined]
+  [8] asyncmap
+    @ ./asyncmap.jl:74 [inlined]
+  [9] pmap(f::Function, p::WorkerPool, c::UnitRange{Int64}; distributed::Bool, batch_size::Int64, on_error::Nothing, retry_delays::Vector{Any}, retry_check::Nothing)
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:126
+ [10] pmap(f::Function, p::WorkerPool, c::UnitRange{Int64})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:99
+ [11] pmap(f::Function, c::UnitRange{Int64}; kwargs::@Kwargs{})
+    @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/pmap.jl:156
+ [12] top-level scope
+    @ ~/SpikeEstimation/DistExample1.jl:82
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/DistExample1.jl:77
+┌ Warning: Forcibly interrupting busy workers
+│   exception = rmprocs: pids [13, 15, 16, 17, 21, 32, 34, 37] not terminated after 5.0 seconds.
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1253
+┌ Warning: rmprocs: process 1 not removed
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1049
+slurmstepd: error: Detected 1 oom_kill event in StepId=24796054.0. Some of the step tasks have been OOM Killed.
