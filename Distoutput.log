@@ -552,3 +552,154 @@ Warning: Permanently added 'n3329,10.64.66.73' (ECDSA) to the list of known host
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
+ERROR: LoadError: TaskFailedException
+
+    nested task error: Timed out waiting to read host:port string from worker.
+    Stacktrace:
+     [1] worker_from_id(pg::Distributed.ProcessGroup, i::Int64)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1093
+     [2] worker_from_id
+       @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1090 [inlined]
+     [3] remote_do
+       @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:557 [inlined]
+     [4] kill(manager::Distributed.SSHManager, pid::Int64, config::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:731
+     [5] create_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:604
+     [6] setup_launched_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig, launched_q::Vector{Int64})
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:545
+     [7] (::Distributed.var"#45#48"{Distributed.SSHManager, Vector{Int64}, WorkerConfig})()
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:501
+    
+    caused by: Timed out waiting to read host:port string from worker.
+    Stacktrace:
+     [1] read_worker_host_port(io::Base.PipeEndpoint)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:344
+     [2] connect(manager::Distributed.SSHManager, pid::Int64, config::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:575
+     [3] create_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:600
+     [4] setup_launched_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig, launched_q::Vector{Int64})
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:545
+     [5] (::Distributed.var"#45#48"{Distributed.SSHManager, Vector{Int64}, WorkerConfig})()
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:501
+Stacktrace:
+ [1] sync_end(c::Channel{Any})
+   @ Base ./task.jl:448
+ [2] macro expansion
+   @ ./task.jl:480 [inlined]
+ [3] addprocs_locked(manager::Distributed.SSHManager; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:490
+ [4] addprocs_locked
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:456 [inlined]
+ [5] addprocs(manager::Distributed.SSHManager; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:450
+ [6] addprocs
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:443 [inlined]
+ [7] addprocs(machines::Vector{String}; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:159
+ [8] top-level scope
+   @ ~/SpikeEstimation/DistExample1.jl:21
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/DistExample1.jl:21
+srun: error: n3334: task 3: Exited with exit code 1
+ERROR: LoadError: TaskFailedException
+
+    nested task error: Timed out waiting to read host:port string from worker.
+    Stacktrace:
+     [1] worker_from_id(pg::Distributed.ProcessGroup, i::Int64)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1093
+     [2] worker_from_id
+       @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1090 [inlined]
+     [3] remote_do
+       @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:557 [inlined]
+     [4] kill(manager::Distributed.SSHManager, pid::Int64, config::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:731
+     [5] create_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:604
+     [6] setup_launched_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig, launched_q::Vector{Int64})
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:545
+     [7] (::Distributed.var"#45#48"{Distributed.SSHManager, Vector{Int64}, WorkerConfig})()
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:501
+    
+    caused by: Timed out waiting to read host:port string from worker.
+    Stacktrace:
+     [1] read_worker_host_port(io::Base.PipeEndpoint)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:344
+     [2] connect(manager::Distributed.SSHManager, pid::Int64, config::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:575
+     [3] create_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:600
+     [4] setup_launched_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig, launched_q::Vector{Int64})
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:545
+     [5] (::Distributed.var"#45#48"{Distributed.SSHManager, Vector{Int64}, WorkerConfig})()
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:501
+Stacktrace:
+ [1] sync_end(c::Channel{Any})
+   @ Base ./task.jl:448
+ [2] macro expansion
+   @ ./task.jl:480 [inlined]
+ [3] addprocs_locked(manager::Distributed.SSHManager; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:490
+ [4] addprocs_locked
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:456 [inlined]
+ [5] addprocs(manager::Distributed.SSHManager; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:450
+ [6] addprocs
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:443 [inlined]
+ [7] addprocs(machines::Vector{String}; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:159
+ [8] top-level scope
+   @ ~/SpikeEstimation/DistExample1.jl:21
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/DistExample1.jl:21
+srun: error: n3168: task 0: Exited with exit code 1
+ERROR: LoadError: TaskFailedException
+
+    nested task error: Timed out waiting to read host:port string from worker.
+    Stacktrace:
+     [1] worker_from_id(pg::Distributed.ProcessGroup, i::Int64)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1093
+     [2] worker_from_id
+       @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1090 [inlined]
+     [3] remote_do
+       @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/remotecall.jl:557 [inlined]
+     [4] kill(manager::Distributed.SSHManager, pid::Int64, config::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:731
+     [5] create_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:604
+     [6] setup_launched_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig, launched_q::Vector{Int64})
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:545
+     [7] (::Distributed.var"#45#48"{Distributed.SSHManager, Vector{Int64}, WorkerConfig})()
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:501
+    
+    caused by: Timed out waiting to read host:port string from worker.
+    Stacktrace:
+     [1] read_worker_host_port(io::Base.PipeEndpoint)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:344
+     [2] connect(manager::Distributed.SSHManager, pid::Int64, config::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:575
+     [3] create_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig)
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:600
+     [4] setup_launched_worker(manager::Distributed.SSHManager, wconfig::WorkerConfig, launched_q::Vector{Int64})
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:545
+     [5] (::Distributed.var"#45#48"{Distributed.SSHManager, Vector{Int64}, WorkerConfig})()
+       @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:501
+Stacktrace:
+ [1] sync_end(c::Channel{Any})
+   @ Base ./task.jl:448
+ [2] macro expansion
+   @ ./task.jl:480 [inlined]
+ [3] addprocs_locked(manager::Distributed.SSHManager; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:490
+ [4] addprocs_locked
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:456 [inlined]
+ [5] addprocs(manager::Distributed.SSHManager; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:450
+ [6] addprocs
+   @ /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:443 [inlined]
+ [7] addprocs(machines::Vector{String}; kwargs::@Kwargs{tunnel::Bool})
+   @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/managers.jl:159
+ [8] top-level scope
+   @ ~/SpikeEstimation/DistExample1.jl:21
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/DistExample1.jl:21
+srun: error: n3329: task 2: Exited with exit code 1
+Warning: Permanently added 'n3334,10.64.66.78' (ECDSA) to the list of known hosts.
