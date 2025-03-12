@@ -9,22 +9,24 @@
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-  ? ApproxFun
 Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3119, pid: 92503, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3273, pid: 2338, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3275, pid: 32694, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ? TracyWidomBeta
-   Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+    ApproxFun Being precompiled by another machine (hostname: n3119, pid: 92503, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? ApproxFun
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3284, pid: 11386, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3119, pid: 92503, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3273, pid: 2338, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    TracyWidomBeta Being precompiled by another machine (hostname: n3119, pid: 92503, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3119, pid: 92503, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
+   Resolving package versions...
   ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 67 seconds. 285 already precompiled.
+  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
@@ -36,10 +38,38 @@ Precompiling project...
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
    Resolving package versions...
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 122 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3122, pid: 18006, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 140 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
   ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3284, pid: 11386, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 92 seconds. 285 already precompiled.
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 50 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -50,8 +80,20 @@ Precompiling project...
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
    Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ? ApproxFun
+Precompiling project...
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3124, pid: 69062, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
+   Resolving package versions...
   ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 60 seconds. 285 already precompiled.
+  1 dependency successfully precompiled in 37 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -71,18 +113,56 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: g3103, pid: 7838, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-  ? ApproxFun
 Precompiling project...
   ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3275, pid: 32694, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    TracyWidomBeta Being precompiled by another machine (hostname: n3124, pid: 69062, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 61 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+Precompiling project...
+   Resolving package versions...
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 56 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
   ? TracyWidomBeta
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3284, pid: 12337, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: g3103, pid: 7838, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
   1 dependency successfully precompiled in 66 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
@@ -95,80 +175,23 @@ Precompiling project...
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
-   Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-    ApproxFun Being precompiled by another machine (hostname: n3275, pid: 32694, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ✓ ApproxFun
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3284, pid: 11386, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3275, pid: 32694, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ? ApproxFun
   ? TracyWidomBeta
-  1 dependency successfully precompiled in 63 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3284, pid: 11386, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 85 seconds. 285 already precompiled.
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
   ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3264, pid: 54534, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 121 seconds. 285 already precompiled.
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-Precompiling project...
    Resolving package versions...
+Precompiling project...
   ? ApproxFun
   ? TracyWidomBeta
-   Resolving package versions...
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 55 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
@@ -187,644 +210,197 @@ Precompiling project...
 Precompiling project...
   ? ApproxFun
   ? TracyWidomBeta
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-  ? TracyWidomBeta
    Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-Block 2 with d=0.1 and N=200 Sample =87
-Block 2 with d=0.1 and N=200 Sample =159
-  ? ApproxFun
-  ? TracyWidomBeta
-Block 2 with d=0.1 and N=200 Sample =135
-Block 2 with d=0.1 and N=800 Sample =25
-Block 2 with d=0.1 and N=800 Sample =33
-Block 2 with d=0.1 and N=200 Sample =53
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-Block 2 with d=0.1 and N=800 Sample =49
-  ? ApproxFun
-Block 2 with d=0.1 and N=800 Sample =37
-Block 2 with d=0.1 and N=800 Sample =17
-Block 2 with d=0.1 and N=800 Sample =186
-Block 2 with d=0.1 and N=800 Sample =13
-Block 2 with d=0.1 and N=800 Sample =53
-  ? TracyWidomBeta
-Block 2 with d=0.1 and N=800 Sample =73
-   Resolving package versions...
-Block 2 with d=0.1 and N=800 Sample =1
-Block 2 with d=0.1 and N=800 Sample =174
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-Block 2 with d=0.1 and N=800 Sample =120
-  ? ApproxFun
-Block 2 with d=0.1 and N=800 Sample =9
-Block 2 with d=0.1 and N=800 Sample =29
-Block 2 with d=0.1 and N=800 Sample =165
-Block 2 with d=0.1 and N=800 Sample =5
-  ? TracyWidomBeta
-   Resolving package versions...
-Block 2 with d=0.1 and N=800 Sample =21
-Block 2 with d=0.1 and N=800 Sample =105
-Block 2 with d=0.1 and N=800 Sample =41
-Block 2 with d=0.1 and N=800 Sample =180
-Block 2 with d=0.1 and N=800 Sample =189
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3264, pid: 59531, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ? TracyWidomBeta
-   Resolving package versions...
-  ✓ ApproxFun
-Block 2 with d=0.1 and N=1200 Sample =138
-Block 2 with d=0.1 and N=1200 Sample =177
-  ? TracyWidomBeta
-  1 dependency successfully precompiled in 32 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-Block 2 with d=0.1 and N=1200 Sample =57
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-Block 2 with d=0.1 and N=800 Sample =45
-  ? ApproxFun
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3264, pid: 54534, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-Block 2 with d=0.1 and N=800 Sample =177
-Block 2 with d=0.1 and N=1200 Sample =105
-Block 2 with d=0.1 and N=200 Sample =93
-Block 2 with d=0.1 and N=400 Sample =17
-Block 2 with d=0.1 and N=800 Sample =159
-  ? TracyWidomBeta
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3273, pid: 2338, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-Block 2 with d=0.1 and N=2800 Sample =13
-Block 2 with d=0.1 and N=1400 Sample =192
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 53 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-Block 2 with d=0.1 and N=2800 Sample =77
-Block 2 with d=0.1 and N=2800 Sample =5
-   Resolving package versions...
-Block 2 with d=0.1 and N=1200 Sample =144
-Block 2 with d=0.1 and N=1600 Sample =171
-Block 2 with d=0.1 and N=800 Sample =117
-Block 2 with d=0.1 and N=2800 Sample =1
-Block 2 with d=0.1 and N=2800 Sample =73
-Block 2 with d=0.1 and N=2800 Sample =84
-Block 2 with d=0.1 and N=2800 Sample =180
-Block 2 with d=0.1 and N=2800 Sample =135
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 32 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-  ? TracyWidomBeta
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-Block 2 with d=0.1 and N=2800 Sample =37
-Block 2 with d=0.1 and N=2800 Sample =25
-Block 2 with d=0.1 and N=2800 Sample =17
-Block 2 with d=0.1 and N=2800 Sample =49
-Block 2 with d=0.1 and N=2800 Sample =41
-  ? TracyWidomBeta
-Block 2 with d=0.1 and N=2800 Sample =45
-Block 2 with d=0.1 and N=1200 Sample =156
-Block 2 with d=0.1 and N=2800 Sample =147
-Block 2 with d=0.1 and N=800 Sample =87
-Block 2 with d=0.1 and N=2800 Sample =174
-Block 2 with d=0.1 and N=2800 Sample =9
-Block 2 with d=0.1 and N=2800 Sample =29
-Block 2 with d=0.1 and N=2600 Sample =1
-Block 2 with d=0.1 and N=2800 Sample =33
-Block 2 with d=0.1 and N=2800 Sample =65
-Block 2 with d=0.1 and N=800 Sample =195
-Block 2 with d=0.1 and N=800 Sample =147
-Block 2 with d=0.1 and N=2800 Sample =61
-Block 2 with d=0.1 and N=2800 Sample =111
-Block 2 with d=0.1 and N=600 Sample =141
-Block 2 with d=0.1 and N=600 Sample =159
-Block 2 with d=0.1 and N=400 Sample =186
-Block 2 with d=0.1 and N=600 Sample =49
-Block 2 with d=0.1 and N=600 Sample =147
-Block 2 with d=0.1 and N=400 Sample =49
-Block 2 with d=0.1 and N=600 Sample =41
-Block 2 with d=0.1 and N=600 Sample =126
-Block 2 with d=0.1 and N=2800 Sample =153
-Block 2 with d=0.1 and N=2800 Sample =105
-Block 2 with d=0.1 and N=2800 Sample =99
-Block 2 with d=0.1 and N=600 Sample =171
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Block 2 with d=0.1 and N=600 Sample =114
-Block 2 with d=0.1 and N=2800 Sample =21
-Precompiling project...
-  ? ApproxFun
-Block 2 with d=0.1 and N=4000 Sample =141
-  ? TracyWidomBeta
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-  ? TracyWidomBeta
-Block 2 with d=0.1 and N=1200 Sample =84
-Block 2 with d=0.1 and N=1600 Sample =108
-Block 2 with d=0.1 and N=2800 Sample =126
-Block 2 with d=0.1 and N=1400 Sample =117
-Block 2 with d=0.1 and N=1600 Sample =156
-Block 2 with d=0.1 and N=1600 Sample =53
-Block 2 with d=0.1 and N=2800 Sample =198
-Block 2 with d=0.1 and N=200 Sample =90
-Block 2 with d=0.1 and N=5500 Sample =138
-Block 2 with d=0.1 and N=1200 Sample =96
-Block 2 with d=0.1 and N=2600 Sample =5
-Block 2 with d=0.1 and N=2800 Sample =195
-Block 2 with d=0.1 and N=5500 Sample =65
-Block 2 with d=0.1 and N=800 Sample =192
-Block 2 with d=0.1 and N=1600 Sample =77
-Block 2 with d=0.1 and N=1600 Sample =41
-Block 2 with d=0.1 and N=200 Sample =9
-Block 2 with d=0.1 and N=200 Sample =41
-Block 2 with d=0.1 and N=800 Sample =5
-Block 2 with d=0.1 and N=1600 Sample =117
-Block 2 with d=0.1 and N=5500 Sample =53
-Block 2 with d=0.1 and N=1200 Sample =81
-Block 2 with d=0.1 and N=800 Sample =87
-Block 2 with d=0.1 and N=800 Sample =57
-Block 2 with d=0.1 and N=800 Sample =29
-Block 2 with d=0.1 and N=1600 Sample =1
-Block 2 with d=0.1 and N=800 Sample =53
-Block 2 with d=0.1 and N=800 Sample =138
-Block 2 with d=0.1 and N=1600 Sample =57
-Block 2 with d=0.1 and N=1600 Sample =9
-Block 2 with d=0.1 and N=1600 Sample =49
-Block 2 with d=0.1 and N=6000 Sample =105
-Block 2 with d=0.1 and N=800 Sample =1
-Block 2 with d=0.1 and N=1600 Sample =5
-Block 2 with d=0.1 and N=400 Sample =120
-Block 2 with d=0.1 and N=800 Sample =65
-Block 2 with d=0.1 and N=800 Sample =174
-Block 2 with d=0.1 and N=800 Sample =120
-Block 2 with d=0.1 and N=1800 Sample =174
-Block 2 with d=0.1 and N=800 Sample =195
-Block 2 with d=0.1 and N=1600 Sample =45
-Block 2 with d=0.1 and N=1600 Sample =159
-Block 2 with d=0.1 and N=1600 Sample =13
-Block 2 with d=0.1 and N=1600 Sample =21
-Block 2 with d=0.1 and N=1600 Sample =33
-Block 2 with d=0.1 and N=1600 Sample =37
-Block 2 with d=0.1 and N=2000 Sample =41
-Block 2 with d=0.1 and N=1600 Sample =90
-Block 2 with d=0.1 and N=2000 Sample =153
-Block 2 with d=0.1 and N=1600 Sample =25
-Block 2 with d=0.1 and N=1600 Sample =29
-Block 2 with d=0.1 and N=2000 Sample =93
-Block 2 with d=0.1 and N=2000 Sample =33
-Block 2 with d=0.1 and N=800 Sample =25
-Block 2 with d=0.1 and N=800 Sample =126
-Block 2 with d=0.1 and N=2000 Sample =21
-Block 2 with d=0.1 and N=800 Sample =165
-Block 2 with d=0.1 and N=2000 Sample =49
-Block 2 with d=0.1 and N=2000 Sample =25
-Block 2 with d=0.1 and N=2000 Sample =5
-Block 2 with d=0.1 and N=1400 Sample =65
-Block 2 with d=0.1 and N=2000 Sample =120
-Block 2 with d=0.1 and N=2000 Sample =53
-Block 2 with d=0.1 and N=2000 Sample =1
-Block 2 with d=0.1 and N=2000 Sample =57
-Block 2 with d=0.1 and N=800 Sample =108
-Block 2 with d=0.1 and N=800 Sample =17
-Block 2 with d=0.1 and N=800 Sample =129
-Block 2 with d=0.1 and N=1800 Sample =84
-Block 2 with d=0.1 and N=1800 Sample =81
-Block 2 with d=0.1 and N=2000 Sample =123
-Block 2 with d=0.1 and N=2000 Sample =13
-Block 2 with d=0.1 and N=2000 Sample =37
-Block 2 with d=0.1 and N=1800 Sample =99
-Block 2 with d=0.1 and N=1800 Sample =13
-Block 2 with d=0.1 and N=1800 Sample =45
-Block 2 with d=0.1 and N=1800 Sample =96
-Block 2 with d=0.1 and N=1800 Sample =123
-Block 2 with d=0.1 and N=1800 Sample =25
-Block 2 with d=0.1 and N=2000 Sample =9
-Block 2 with d=0.1 and N=1800 Sample =195
-Block 2 with d=0.1 and N=1800 Sample =33
-Block 2 with d=0.1 and N=2000 Sample =45
-Block 2 with d=0.1 and N=1800 Sample =129
-Block 2 with d=0.1 and N=1800 Sample =186
-Block 2 with d=0.1 and N=2000 Sample =29
-Block 2 with d=0.1 and N=1800 Sample =87
-Block 2 with d=0.1 and N=2000 Sample =17
-Block 2 with d=0.1 and N=1800 Sample =5
-Block 2 with d=0.1 and N=1600 Sample =61
-Block 2 with d=0.1 and N=1600 Sample =102
-Block 2 with d=0.1 and N=1600 Sample =17
-Block 2 with d=0.1 and N=1600 Sample =65
-Block 2 with d=0.1 and N=2000 Sample =141
-Block 2 with d=0.1 and N=1800 Sample =165
-Block 2 with d=0.1 and N=5500 Sample =69
-Block 2 with d=0.1 and N=5500 Sample =150
-Block 2 with d=0.1 and N=400 Sample =195
-Block 2 with d=0.1 and N=2200 Sample =174
-Block 2 with d=0.1 and N=7500 Sample =13
-Block 2 with d=0.1 and N=400 Sample =153
-Block 2 with d=0.1 and N=5500 Sample =5
-Block 2 with d=0.1 and N=800 Sample =84
-Block 2 with d=0.1 and N=1800 Sample =17
-Block 2 with d=0.1 and N=800 Sample =126
-Block 2 with d=0.1 and N=200 Sample =153
-Block 2 with d=0.1 and N=1800 Sample =159
-Block 2 with d=0.1 and N=800 Sample =189
-Block 2 with d=0.1 and N=1800 Sample =192
-Block 2 with d=0.1 and N=800 Sample =192
-Block 2 with d=0.1 and N=2000 Sample =111
-Block 2 with d=0.1 and N=800 Sample =77
-Block 2 with d=0.1 and N=800 Sample =168
-Block 2 with d=0.1 and N=4000 Sample =135
-Block 2 with d=0.1 and N=400 Sample =84
-Block 2 with d=0.1 and N=4000 Sample =141
-Block 2 with d=0.1 and N=600 Sample =37
-Block 2 with d=0.1 and N=600 Sample =33
-Block 2 with d=0.1 and N=4000 Sample =21
-Block 2 with d=0.1 and N=4000 Sample =13
-Block 2 with d=0.1 and N=1600 Sample =168
-Block 2 with d=0.1 and N=2000 Sample =25
-Block 2 with d=0.1 and N=4000 Sample =102
-Block 2 with d=0.1 and N=4000 Sample =33
-Block 2 with d=0.1 and N=1600 Sample =138
-Block 2 with d=0.1 and N=2600 Sample =45
-Block 2 with d=0.1 and N=1600 Sample =111
-Block 2 with d=0.1 and N=1400 Sample =84
-Block 2 with d=0.1 and N=7000 Sample =84
-Block 2 with d=0.1 and N=400 Sample =73
-Block 2 with d=0.1 and N=1600 Sample =81
-Block 2 with d=0.1 and N=1600 Sample =84
-Block 2 with d=0.1 and N=200 Sample =183
-Block 2 with d=0.1 and N=2000 Sample =65
-Block 2 with d=0.1 and N=1600 Sample =132
-Block 2 with d=0.1 and N=1200 Sample =129
-Block 2 with d=0.1 and N=200 Sample =1
-Block 2 with d=0.1 and N=600 Sample =57
-Block 2 with d=0.1 and N=1800 Sample =168
-Block 2 with d=0.1 and N=1600 Sample =120
-Block 2 with d=0.1 and N=1800 Sample =147
-Block 2 with d=0.1 and N=800 Sample =153
-Block 2 with d=0.1 and N=800 Sample =69
-Block 2 with d=0.1 and N=2200 Sample =144
-Block 2 with d=0.1 and N=5500 Sample =25
-Block 2 with d=0.1 and N=800 Sample =168
-Block 2 with d=0.1 and N=800 Sample =65
-Block 2 with d=0.1 and N=2200 Sample =129
-Block 2 with d=0.1 and N=1800 Sample =9
-Block 2 with d=0.1 and N=800 Sample =156
-Block 2 with d=0.1 and N=400 Sample =186
-Block 2 with d=0.1 and N=1800 Sample =93
-Block 2 with d=0.1 and N=1400 Sample =132
-Block 2 with d=0.1 and N=4000 Sample =77
-Block 2 with d=0.1 and N=2200 Sample =5
-Block 2 with d=0.1 and N=2200 Sample =53
-Block 2 with d=0.1 and N=1800 Sample =189
-Block 2 with d=0.1 and N=1800 Sample =1
-Block 2 with d=0.1 and N=2000 Sample =192
-Block 2 with d=0.1 and N=2200 Sample =150
-Block 2 with d=0.1 and N=1200 Sample =126
-Block 2 with d=0.1 and N=4000 Sample =153
-Block 2 with d=0.1 and N=1400 Sample =102
-Block 2 with d=0.1 and N=7000 Sample =141
-Block 2 with d=0.1 and N=1200 Sample =171
-Block 2 with d=0.1 and N=2800 Sample =189
-Block 2 with d=0.1 and N=5500 Sample =73
-Block 2 with d=0.1 and N=1400 Sample =147
-Block 2 with d=0.1 and N=1400 Sample =129
-Block 2 with d=0.1 and N=2600 Sample =69
-Block 2 with d=0.1 and N=1800 Sample =144
-Block 2 with d=0.1 and N=2600 Sample =153
-Block 2 with d=0.1 and N=1800 Sample =105
-Block 2 with d=0.1 and N=2600 Sample =114
-Block 2 with d=0.1 and N=1800 Sample =21
-Block 2 with d=0.1 and N=800 Sample =81
-Block 2 with d=0.1 and N=1800 Sample =57
-Block 2 with d=0.1 and N=2200 Sample =117
-Block 2 with d=0.1 and N=1800 Sample =41
-Block 2 with d=0.1 and N=1800 Sample =129
-Block 2 with d=0.1 and N=7500 Sample =165
-Block 2 with d=0.1 and N=200 Sample =9
-Block 2 with d=0.1 and N=200 Sample =25
-Block 2 with d=0.1 and N=1600 Sample =144
-Block 2 with d=0.1 and N=2200 Sample =102
-Block 2 with d=0.1 and N=1600 Sample =129
-Block 2 with d=0.1 and N=200 Sample =159
+Block 2 with d=0.1 and N=200 Sample =196
+Block 2 with d=0.1 and N=200 Sample =66
 Block 2 with d=0.1 and N=200 Sample =21
-Block 2 with d=0.1 and N=1800 Sample =57
-Block 2 with d=0.1 and N=200 Sample =105
-Block 2 with d=0.1 and N=1600 Sample =69
-Block 2 with d=0.1 and N=1400 Sample =114
-Block 2 with d=0.1 and N=2000 Sample =37
-Block 2 with d=0.1 and N=2400 Sample =195
-Block 2 with d=0.1 and N=1200 Sample =141
-Block 2 with d=0.1 and N=2400 Sample =126
-Block 2 with d=0.1 and N=2800 Sample =135
-Block 2 with d=0.1 and N=1800 Sample =45
-Block 2 with d=0.1 and N=200 Sample =117
-Block 2 with d=0.1 and N=1200 Sample =49
-Block 2 with d=0.1 and N=7500 Sample =144
-Block 2 with d=0.1 and N=2800 Sample =114
-Block 2 with d=0.1 and N=1200 Sample =13
-Block 2 with d=0.1 and N=200 Sample =132
-Block 2 with d=0.1 and N=4000 Sample =61
-Block 2 with d=0.1 and N=4000 Sample =9
-Block 2 with d=0.1 and N=1600 Sample =153
-Block 2 with d=0.1 and N=4000 Sample =144
-Block 2 with d=0.1 and N=2800 Sample =90
-Block 2 with d=0.1 and N=1200 Sample =33
-Block 2 with d=0.1 and N=2200 Sample =183
-Block 2 with d=0.1 and N=7500 Sample =153
-Block 2 with d=0.1 and N=200 Sample =45
-Block 2 with d=0.1 and N=1600 Sample =99
+Block 2 with d=0.1 and N=200 Sample =16
+Block 2 with d=0.1 and N=200 Sample =26
+Block 2 with d=0.1 and N=200 Sample =51
+Block 2 with d=0.1 and N=200 Sample =71
+Block 2 with d=0.1 and N=200 Sample =1
+Block 2 with d=0.1 and N=200 Sample =31
+Block 2 with d=0.1 and N=200 Sample =46
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Block 2 with d=0.1 and N=200 Sample =11
+Precompiling project...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ? ApproxFun
+Block 2 with d=0.1 and N=200 Sample =41
+  ? TracyWidomBeta
+Precompiling project...
 Block 2 with d=0.1 and N=200 Sample =96
-Block 2 with d=0.1 and N=2000 Sample =108
-Block 2 with d=0.1 and N=200 Sample =5
-Block 2 with d=0.1 and N=2600 Sample =162
-Block 2 with d=0.1 and N=4000 Sample =87
-Block 2 with d=0.1 and N=200 Sample =105
-Block 2 with d=0.1 and N=6500 Sample =192
-Block 2 with d=0.1 and N=400 Sample =61
-Block 2 with d=0.1 and N=4000 Sample =57
+   Resolving package versions...
+  ? ApproxFun
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3123, pid: 59110, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? ApproxFun
+Block 2 with d=0.1 and N=200 Sample =36
+  ? TracyWidomBeta
+Block 2 with d=0.1 and N=200 Sample =6
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ✓ ApproxFun
+Precompiling project...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+    ApproxFun Being precompiled by another machine (hostname: n3119, pid: 98356, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 25 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3122, pid: 17374, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  ✓ ApproxFun
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 27 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+  ✓ ApproxFun
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 69 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+Block 2 with d=0.1 and N=1000 Sample =51
+Block 2 with d=0.1 and N=200 Sample =161
 Block 2 with d=0.1 and N=200 Sample =126
-Block 2 with d=0.1 and N=2600 Sample =189
-Block 2 with d=0.1 and N=2200 Sample =135
-Block 2 with d=0.1 and N=400 Sample =81
-Block 2 with d=0.1 and N=2800 Sample =69
-Block 2 with d=0.1 and N=2800 Sample =168
-Block 2 with d=0.1 and N=5000 Sample =171
-Block 2 with d=0.1 and N=5000 Sample =168
-Block 2 with d=0.1 and N=2800 Sample =129
-Block 2 with d=0.1 and N=1600 Sample =135
-Block 2 with d=0.1 and N=1800 Sample =5
-Block 2 with d=0.1 and N=1800 Sample =93
-Block 2 with d=0.1 and N=5000 Sample =77
-Block 2 with d=0.1 and N=5000 Sample =147
-Block 2 with d=0.1 and N=5000 Sample =153
-Block 2 with d=0.1 and N=2800 Sample =108
-Block 2 with d=0.1 and N=7500 Sample =159
-Block 2 with d=0.1 and N=1600 Sample =73
-Block 2 with d=0.1 and N=400 Sample =5
-Block 2 with d=0.1 and N=800 Sample =198
-Block 2 with d=0.1 and N=2400 Sample =41
-Block 2 with d=0.1 and N=3500 Sample =77
-Block 2 with d=0.1 and N=2400 Sample =123
-Block 2 with d=0.1 and N=1800 Sample =41
-Block 2 with d=0.1 and N=800 Sample =198
-Block 2 with d=0.1 and N=2800 Sample =81
-Block 2 with d=0.1 and N=5000 Sample =129
-Block 2 with d=0.1 and N=5000 Sample =57
-Block 2 with d=0.1 and N=5000 Sample =25
-Block 2 with d=0.1 and N=1800 Sample =53
-Block 2 with d=0.1 and N=2600 Sample =168
-Block 2 with d=0.1 and N=5500 Sample =123
-Block 2 with d=0.1 and N=6000 Sample =180
-Block 2 with d=0.1 and N=200 Sample =17
-Block 2 with d=0.1 and N=5500 Sample =108
-Block 2 with d=0.1 and N=2000 Sample =177
-Block 2 with d=0.1 and N=3000 Sample =29
-Block 2 with d=0.1 and N=800 Sample =108
-Block 2 with d=0.1 and N=3500 Sample =29
-Block 2 with d=0.1 and N=1000 Sample =84
-Block 2 with d=0.1 and N=800 Sample =9
-Block 2 with d=0.1 and N=2800 Sample =192
-Block 2 with d=0.1 and N=800 Sample =123
-Block 2 with d=0.1 and N=4500 Sample =77
-Block 2 with d=0.1 and N=200 Sample =96
-Block 2 with d=0.1 and N=5000 Sample =81
-Block 2 with d=0.1 and N=4000 Sample =41
-Block 2 with d=0.1 and N=6500 Sample =177
-Block 2 with d=0.1 and N=1400 Sample =81
-Block 2 with d=0.1 and N=1800 Sample =144
-Block 2 with d=0.1 and N=1400 Sample =108
-Block 2 with d=0.1 and N=2200 Sample =186
-Block 2 with d=0.1 and N=1200 Sample =17
-Block 2 with d=0.1 and N=3000 Sample =132
-Block 2 with d=0.1 and N=4000 Sample =9
-Block 2 with d=0.1 and N=6500 Sample =81
-Block 2 with d=0.1 and N=1000 Sample =77
-Block 2 with d=0.1 and N=600 Sample =69
-Block 2 with d=0.1 and N=800 Sample =45
-Block 2 with d=0.1 and N=3000 Sample =174
-Block 2 with d=0.1 and N=800 Sample =150
-Block 2 with d=0.1 and N=6500 Sample =162
-Block 2 with d=0.1 and N=800 Sample =132
-Block 2 with d=0.1 and N=2600 Sample =73
-Block 2 with d=0.1 and N=200 Sample =126
-Block 2 with d=0.1 and N=800 Sample =102
-Block 2 with d=0.1 and N=600 Sample =25
-Block 2 with d=0.1 and N=1800 Sample =156
-Block 2 with d=0.1 and N=1600 Sample =57
-Block 2 with d=0.1 and N=800 Sample =141
-Block 2 with d=0.1 and N=1000 Sample =33
-Block 2 with d=0.1 and N=1000 Sample =1
-Block 2 with d=0.1 and N=1000 Sample =138
-Block 2 with d=0.1 and N=1800 Sample =177
-Block 2 with d=0.1 and N=7000 Sample =189
-Block 2 with d=0.1 and N=1400 Sample =33
-Block 2 with d=0.1 and N=800 Sample =49
-Block 2 with d=0.1 and N=7000 Sample =117
-Block 2 with d=0.1 and N=2400 Sample =96
-Block 2 with d=0.1 and N=2200 Sample =111
-Block 2 with d=0.1 and N=2000 Sample =132
-Block 2 with d=0.1 and N=2200 Sample =81
-Block 2 with d=0.1 and N=2200 Sample =61
-Block 2 with d=0.1 and N=2800 Sample =61
-Block 2 with d=0.1 and N=1600 Sample =93
-Block 2 with d=0.1 and N=600 Sample =195
-Block 2 with d=0.1 and N=2200 Sample =129
-Block 2 with d=0.1 and N=1600 Sample =87
-Block 2 with d=0.1 and N=7000 Sample =183
-Block 2 with d=0.1 and N=2200 Sample =5
-Block 2 with d=0.1 and N=1600 Sample =183
-Block 2 with d=0.1 and N=1800 Sample =65
-Block 2 with d=0.1 and N=200 Sample =49
-Block 2 with d=0.1 and N=2800 Sample =96
-Block 2 with d=0.1 and N=400 Sample =105
-Block 2 with d=0.1 and N=400 Sample =99
-Block 2 with d=0.1 and N=4500 Sample =156
-Block 2 with d=0.1 and N=2000 Sample =61
-Block 2 with d=0.1 and N=7000 Sample =144
-Block 2 with d=0.1 and N=1200 Sample =45
-Block 2 with d=0.1 and N=800 Sample =111
-Block 2 with d=0.1 and N=7500 Sample =90
-Block 2 with d=0.1 and N=2200 Sample =13
-Block 2 with d=0.1 and N=2400 Sample =168
-Block 2 with d=0.1 and N=2200 Sample =195
-Block 2 with d=0.1 and N=1800 Sample =102
-Block 2 with d=0.1 and N=2400 Sample =33
-Block 2 with d=0.1 and N=1800 Sample =138
-Block 2 with d=0.1 and N=400 Sample =138
-Block 2 with d=0.1 and N=800 Sample =132
-Block 2 with d=0.1 and N=2000 Sample =73
-Block 2 with d=0.1 and N=600 Sample =135
-Block 2 with d=0.1 and N=1400 Sample =49
-Block 2 with d=0.1 and N=1000 Sample =159
-Block 2 with d=0.1 and N=1000 Sample =96
-Block 2 with d=0.1 and N=1000 Sample =153
-Block 2 with d=0.1 and N=1600 Sample =168
-Block 2 with d=0.1 and N=600 Sample =108
-Block 2 with d=0.1 and N=2200 Sample =126
-Block 2 with d=0.1 and N=1200 Sample =81
-Block 2 with d=0.1 and N=1200 Sample =132
-Block 2 with d=0.1 and N=1800 Sample =37
-Block 2 with d=0.1 and N=2000 Sample =87
-Block 2 with d=0.1 and N=1200 Sample =53
-Block 2 with d=0.1 and N=1200 Sample =29
-Block 2 with d=0.1 and N=1600 Sample =198
-Block 2 with d=0.1 and N=2000 Sample =195
-Block 2 with d=0.1 and N=1200 Sample =153
-Block 2 with d=0.1 and N=4000 Sample =141
-Block 2 with d=0.1 and N=2600 Sample =37
-Block 2 with d=0.1 and N=1200 Sample =171
-Block 2 with d=0.1 and N=2400 Sample =138
-Block 2 with d=0.1 and N=400 Sample =150
-Block 2 with d=0.1 and N=2400 Sample =108
-Block 2 with d=0.1 and N=1600 Sample =77
-Block 2 with d=0.1 and N=200 Sample =90
-Block 2 with d=0.1 and N=1600 Sample =198
-Block 2 with d=0.1 and N=4000 Sample =53
-Block 2 with d=0.1 and N=1600 Sample =5
-Block 2 with d=0.1 and N=2000 Sample =147
-Block 2 with d=0.1 and N=2000 Sample =57
-Block 2 with d=0.1 and N=3000 Sample =141
-Block 2 with d=0.1 and N=5000 Sample =141
-Block 2 with d=0.1 and N=2200 Sample =165
-Block 2 with d=0.1 and N=5000 Sample =29
-Block 2 with d=0.1 and N=4500 Sample =69
-Block 2 with d=0.1 and N=2000 Sample =99
-Block 2 with d=0.1 and N=2600 Sample =25
-Block 2 with d=0.1 and N=1600 Sample =37
-Block 2 with d=0.1 and N=1600 Sample =13
-Block 2 with d=0.1 and N=5000 Sample =156
-Block 2 with d=0.1 and N=6000 Sample =49
-Block 2 with d=0.1 and N=4500 Sample =102
-Block 2 with d=0.1 and N=1600 Sample =33
-Block 2 with d=0.1 and N=2400 Sample =120
-Block 2 with d=0.1 and N=3500 Sample =61
-Block 2 with d=0.1 and N=1600 Sample =25
-Block 2 with d=0.1 and N=4500 Sample =105
-Block 2 with d=0.1 and N=5500 Sample =129
-Block 2 with d=0.1 and N=2200 Sample =69
-Block 2 with d=0.1 and N=2000 Sample =156
-Block 2 with d=0.1 and N=1600 Sample =53
-Block 2 with d=0.1 and N=2200 Sample =114
-Block 2 with d=0.1 and N=1600 Sample =1
-Block 2 with d=0.1 and N=1800 Sample =159
-Block 2 with d=0.1 and N=2000 Sample =198
-Block 2 with d=0.1 and N=1200 Sample =102
-Block 2 with d=0.1 and N=6000 Sample =192
-Block 2 with d=0.1 and N=4000 Sample =99
-Block 2 with d=0.1 and N=1200 Sample =57
-Block 2 with d=0.1 and N=6500 Sample =90
-Block 2 with d=0.1 and N=3000 Sample =138
-Block 2 with d=0.1 and N=1200 Sample =5
-Block 2 with d=0.1 and N=2800 Sample =53
-Block 2 with d=0.1 and N=7000 Sample =21
-Block 2 with d=0.1 and N=1200 Sample =162
-slurmstepd: error: Detected 1 oom_kill event in StepId=24756666.0. Some of the step tasks have been OOM Killed.
-srun: error: n3284: task 3: Out Of Memory
-Block 2 with d=0.1 and N=2000 Sample =84
-Block 2 with d=0.1 and N=2800 Sample =57
-Block 2 with d=0.1 and N=2600 Sample =99
-Block 2 with d=0.1 and N=200 Sample =17
-Block 2 with d=0.1 and N=1400 Sample =9
-Block 2 with d=0.1 and N=600 Sample =90
-Block 2 with d=0.1 and N=4500 Sample =171
-Block 2 with d=0.1 and N=2200 Sample =168
-Block 2 with d=0.1 and N=7500 Sample =13
-Block 2 with d=0.1 and N=1800 Sample =132
-Block 2 with d=0.1 and N=1600 Sample =108
-Block 2 with d=0.1 and N=6500 Sample =165
-Block 2 with d=0.1 and N=7500 Sample =61
-Block 2 with d=0.1 and N=1800 Sample =53
-Block 2 with d=0.1 and N=2000 Sample =147
-Block 2 with d=0.1 and N=1800 Sample =29
-Block 2 with d=0.1 and N=4500 Sample =77
-Block 2 with d=0.1 and N=1600 Sample =90
-Block 2 with d=0.1 and N=2800 Sample =168
-Block 2 with d=0.1 and N=1400 Sample =141
-Block 2 with d=0.1 and N=600 Sample =1
-Block 2 with d=0.1 and N=600 Sample =21
-Block 2 with d=0.1 and N=5000 Sample =53
-Block 2 with d=0.1 and N=1000 Sample =111
-Block 2 with d=0.1 and N=2800 Sample =174
-Block 2 with d=0.1 and N=4500 Sample =189
+Block 2 with d=0.1 and N=800 Sample =191
 Block 2 with d=0.1 and N=800 Sample =21
-Block 2 with d=0.1 and N=1600 Sample =174
-Block 2 with d=0.1 and N=600 Sample =180
-Block 2 with d=0.1 and N=2000 Sample =65
-Block 2 with d=0.1 and N=4000 Sample =126
-Block 2 with d=0.1 and N=800 Sample =123
-slurmstepd: error: Detected 1 oom_kill event in StepId=24756666.0. Some of the step tasks have been OOM Killed.
-Block 2 with d=0.1 and N=1400 Sample =5
-Block 2 with d=0.1 and N=600 Sample =53
-Block 2 with d=0.1 and N=8000 Sample =156
-Block 2 with d=0.1 and N=4000 Sample =25
-Block 2 with d=0.1 and N=4000 Sample =135
-Block 2 with d=0.1 and N=800 Sample =37
-Block 2 with d=0.1 and N=2200 Sample =57
-Block 2 with d=0.1 and N=2800 Sample =5
-Block 2 with d=0.1 and N=400 Sample =174
-slurmstepd: error: Detected 1 oom_kill event in StepId=24756666.0. Some of the step tasks have been OOM Killed.
-Block 2 with d=0.1 and N=2800 Sample =183
-Block 2 with d=0.1 and N=4500 Sample =49
-Block 2 with d=0.1 and N=4500 Sample =108
-Block 2 with d=0.1 and N=7500 Sample =25
-Block 2 with d=0.1 and N=4500 Sample =156
-slurmstepd: error: Detected 1 oom_kill event in StepId=24756666.0. Some of the step tasks have been OOM Killed.
+Block 2 with d=0.1 and N=1000 Sample =121
+Block 2 with d=0.1 and N=200 Sample =126
+Block 2 with d=0.1 and N=200 Sample =36
+Block 2 with d=0.1 and N=200 Sample =91
+Block 2 with d=0.1 and N=200 Sample =1
+Block 2 with d=0.1 and N=2600 Sample =6
+Block 2 with d=0.1 and N=200 Sample =106
+Block 2 with d=0.1 and N=2600 Sample =81
+Block 2 with d=0.1 and N=2600 Sample =91
+Block 2 with d=0.1 and N=200 Sample =76
+Block 2 with d=0.1 and N=2600 Sample =161
+Block 2 with d=0.1 and N=200 Sample =136
+Block 2 with d=0.1 and N=2600 Sample =61
+Block 2 with d=0.1 and N=2600 Sample =1
+Block 2 with d=0.1 and N=200 Sample =56
+Block 2 with d=0.1 and N=200 Sample =26
+Block 2 with d=0.1 and N=200 Sample =71
+Block 2 with d=0.1 and N=200 Sample =86
+Block 2 with d=0.1 and N=2600 Sample =71
+Block 2 with d=0.1 and N=2600 Sample =96
+Block 2 with d=0.1 and N=200 Sample =21
+Block 2 with d=0.1 and N=200 Sample =56
+Block 2 with d=0.1 and N=2600 Sample =111
+Block 2 with d=0.1 and N=800 Sample =6
+Block 2 with d=0.1 and N=1200 Sample =186
+Block 2 with d=0.1 and N=1200 Sample =136
+Block 2 with d=0.1 and N=2200 Sample =46
+Block 2 with d=0.1 and N=2200 Sample =141
+Block 2 with d=0.1 and N=2200 Sample =136
+Block 2 with d=0.1 and N=2400 Sample =26
+Block 2 with d=0.1 and N=2200 Sample =121
+Block 2 with d=0.1 and N=2200 Sample =76
+Block 2 with d=0.1 and N=2400 Sample =1
+Block 2 with d=0.1 and N=2200 Sample =176
+Block 2 with d=0.1 and N=2200 Sample =26
+Block 2 with d=0.1 and N=2200 Sample =91
+Block 2 with d=0.1 and N=2200 Sample =156
+Block 2 with d=0.1 and N=1200 Sample =86
+Block 2 with d=0.1 and N=2200 Sample =56
+Block 2 with d=0.1 and N=2200 Sample =1
+Block 2 with d=0.1 and N=2200 Sample =81
+Block 2 with d=0.1 and N=1200 Sample =76
+Block 2 with d=0.1 and N=1200 Sample =41
+Block 2 with d=0.1 and N=1200 Sample =11
+Block 2 with d=0.1 and N=1200 Sample =51
+Block 2 with d=0.1 and N=200 Sample =131
+Block 2 with d=0.1 and N=1200 Sample =71
+Block 2 with d=0.1 and N=1200 Sample =21
+Block 2 with d=0.1 and N=1200 Sample =31
+Block 2 with d=0.1 and N=200 Sample =116
+Block 2 with d=0.1 and N=1200 Sample =36
+Block 2 with d=0.1 and N=1200 Sample =26
+Block 2 with d=0.1 and N=1400 Sample =51
+Block 2 with d=0.1 and N=1400 Sample =36
+Block 2 with d=0.1 and N=200 Sample =96
+Block 2 with d=0.1 and N=1200 Sample =1
+Block 2 with d=0.1 and N=1200 Sample =121
+Block 2 with d=0.1 and N=1400 Sample =46
+Block 2 with d=0.1 and N=1200 Sample =56
+Block 2 with d=0.1 and N=2200 Sample =11
+Block 2 with d=0.1 and N=1200 Sample =151
+Block 2 with d=0.1 and N=2200 Sample =71
+Block 2 with d=0.1 and N=2200 Sample =16
+Block 2 with d=0.1 and N=1200 Sample =46
+Block 2 with d=0.1 and N=2600 Sample =66
+Block 2 with d=0.1 and N=2200 Sample =21
+Block 2 with d=0.1 and N=2400 Sample =81
+Block 2 with d=0.1 and N=1200 Sample =16
+Block 2 with d=0.1 and N=2200 Sample =106
+Block 2 with d=0.1 and N=2200 Sample =6
+Block 2 with d=0.1 and N=2400 Sample =106
+Block 2 with d=0.1 and N=2800 Sample =16
+Block 2 with d=0.1 and N=2400 Sample =11
+Block 2 with d=0.1 and N=1400 Sample =181
+Block 2 with d=0.1 and N=1200 Sample =6
+Block 2 with d=0.1 and N=1400 Sample =121
+Block 2 with d=0.1 and N=2400 Sample =196
+Block 2 with d=0.1 and N=200 Sample =141
+Block 2 with d=0.1 and N=2600 Sample =41
+
+[59110] signal (11.1): Segmentation fault
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/Example1.jl:128
+Allocations: 39797811 (Pool: 39619210; Big: 178601); GC: 73
+Block 2 with d=0.1 and N=800 Sample =181
+srun: error: n3123: task 2: Segmentation fault (core dumped)
+Block 2 with d=0.1 and N=1400 Sample =6
