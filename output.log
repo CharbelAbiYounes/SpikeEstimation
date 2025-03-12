@@ -1,2 +1,4 @@
-taskset: failed to set pid 85874's affinity: Invalid argument
+ERROR: LoadError: UndefVarError: `@threads` not defined
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/Example1.jl:83
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/Example1.jl:69
 srun: error: n3446: task 0: Exited with exit code 1
