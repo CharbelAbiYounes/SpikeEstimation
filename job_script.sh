@@ -4,7 +4,7 @@
 #SBATCH --partition=compute     # Partition to use
 #SBATCH --nodes=4               # Number of nodes
 #SBATCH --ntasks=4              # One task per node
-#SBATCH --cpus-per-task=40      # 40 CPUs per node
+#SBATCH --cpus-per-task=15      # 40 CPUs per node
 #SBATCH --mem=175G              # Memory allocation
 #SBATCH --time=48:00:00         # Maximum runtime
 #SBATCH --output=cyounes-job-%j.out  # Standard output log
