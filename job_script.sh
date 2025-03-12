@@ -16,4 +16,4 @@ module load elbert/julia/1.10.2/1.10.2
 
 export JULIA_NUM_THREADS=80
 
-srun taskset -c 0-79 nice -n 0 julia Example1.jl > output.log 2>&1
+srun nice -n 0 julia Example1.jl > output.log 2>&1
