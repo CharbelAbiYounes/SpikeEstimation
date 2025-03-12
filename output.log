@@ -404,3 +404,40 @@ Allocations: 39797811 (Pool: 39619210; Big: 178601); GC: 73
 Block 2 with d=0.1 and N=800 Sample =181
 srun: error: n3123: task 2: Segmentation fault (core dumped)
 Block 2 with d=0.1 and N=1400 Sample =6
+Block 2 with d=0.1 and N=1400 Sample =91
+Block 2 with d=0.1 and N=200 Sample =71
+Block 2 with d=0.1 and N=200 Sample =56
+Block 2 with d=0.1 and N=1400 Sample =31
+Block 2 with d=0.1 and N=2600 Sample =131
+Block 2 with d=0.1 and N=2600 Sample =181
+Block 2 with d=0.1 and N=4500 Sample =61
+Block 2 with d=0.1 and N=200 Sample =31
+Block 2 with d=0.1 and N=200 Sample =36
+Block 2 with d=0.1 and N=2600 Sample =31
+Block 2 with d=0.1 and N=2600 Sample =76
+Block 2 with d=0.1 and N=2200 Sample =96
+Block 2 with d=0.1 and N=2200 Sample =116
+Block 2 with d=0.1 and N=2200 Sample =146
+Block 2 with d=0.1 and N=200 Sample =51
+Block 2 with d=0.1 and N=5500 Sample =111
+Block 2 with d=0.1 and N=2600 Sample =106
+Block 2 with d=0.1 and N=2600 Sample =51
+Block 2 with d=0.1 and N=200 Sample =151
+Block 2 with d=0.1 and N=400 Sample =166
+Block 2 with d=0.1 and N=5500 Sample =31
+Block 2 with d=0.1 and N=3500 Sample =121
+Block 2 with d=0.1 and N=5500 Sample =136
+Block 2 with d=0.1 and N=3500 Sample =171
+Block 2 with d=0.1 and N=400 Sample =136
+Block 2 with d=0.1 and N=400 Sample =146
+Block 2 with d=0.1 and N=200 Sample =61
+Block 2 with d=0.1 and N=5500 Sample =26
+Block 2 with d=0.1 and N=5500 Sample =91
+Block 2 with d=0.1 and N=1200 Sample =96
+Block 2 with d=0.1 and N=6500 Sample =31
+Block 2 with d=0.1 and N=1200 Sample =111
+Block 2 with d=0.1 and N=5500 Sample =121
+Block 2 with d=0.1 and N=5500 Sample =86
+Block 2 with d=0.1 and N=1600 Sample =181
+srun: Job step aborted: Waiting up to 12 seconds for job step to finish.
+slurmstepd: error: *** STEP 24782837.0 ON n3119 CANCELLED AT 2025-03-12T07:59:35 ***
