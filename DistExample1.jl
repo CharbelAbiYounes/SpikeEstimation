@@ -30,9 +30,11 @@ end
 log_file_t2 = open("progress_t2.log", "w")
 log_file_t2Det = open("progress_t2Det.log", "w")
 
-Nvec = vcat(200:200:3000,3500:500:8000)
+# Nvec = vcat(200:200:3000,3500:500:8000)
+Nvec = 6000:500:8000
 len_N = length(Nvec)
-dvec = [0.1,0.5,0.9]
+# dvec = [0.1,0.5,0.9]
+dvec = [0.1]
 len_d = length(dvec)
 σ = sqrt(1.5)
 σ_out = [5,5,4.5]

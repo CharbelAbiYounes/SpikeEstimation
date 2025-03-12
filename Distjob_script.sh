@@ -9,9 +9,6 @@
 #SBATCH --output=cyounes-job-%j.out  # Standard output log
 #SBATCH --error=cyounes-job-%j.err   # Standard error log
 
-scontrol show hostnames > hosts.txt
-cat hosts.txt
-
 module load elbert/julia/1.10.2/1.10.2
 
 scontrol show hostnames > hosts.txt
