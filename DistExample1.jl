@@ -16,7 +16,7 @@ using LinearAlgebra, Distributions, Random, Plots, LaTeXStrings, DataFrames, CSV
 imgFolder = "Figures"
 tableFolder = "Tables"
 
-num_procs = 40
+num_procs = 10
 addprocs([nodes[2] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[3] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[4] for j in 1:num_procs],tunnel=true)
