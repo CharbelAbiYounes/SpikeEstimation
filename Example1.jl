@@ -1,16 +1,16 @@
-# using Pkg
-# Pkg.add("LinearAlgebra")
-# Pkg.add("Distributions")
-# Pkg.add("Random")
-# Pkg.add("Plots")
-# Pkg.add("LaTeXStrings")
-# Pkg.add("DataFrames")
-# Pkg.add("CSV")
+using Pkg
+Pkg.add("LinearAlgebra")
+Pkg.add("Distributions")
+Pkg.add("Random")
+Pkg.add("Plots")
+Pkg.add("LaTeXStrings")
+Pkg.add("DataFrames")
+Pkg.add("CSV")
 
-# using LinearAlgebra, Distributions, Random, Plots, LaTeXStrings, DataFrames, CSV, Base.Threads
-# include("SpikeEstimation.jl")
-# imgFolder = "Figures"
-# tableFolder = "Tables"
+using LinearAlgebra, Distributions, Random, Plots, LaTeXStrings, DataFrames, CSV, Base.Threads
+include("SpikeEstimation.jl")
+imgFolder = "Figures"
+tableFolder = "Tables"
 
 # N = 5000
 # σ = sqrt(1.5)

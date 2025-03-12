@@ -14,4 +14,4 @@ module load elbert/julia/1.10.2/1.10.2
 scontrol show hostnames > hosts.txt
 cat hosts.txt  
 
-srun julia DistExample1.jl > output.log 2>&1
+srun julia DistExample1.jl > Distoutput.log 2>&1
