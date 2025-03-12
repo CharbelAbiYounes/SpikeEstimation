@@ -113,6 +113,7 @@ tableFolder = "Tables"
 
 # t2 = Threads.@spawn begin
 log_file_t2 = open("progress_t2.log", "w")
+log_file_t2Det = open("progress_t2Det.log", "w")
 Nvec = vcat(200:200:3000,3500:500:8000)
 len_N = length(Nvec)
 dvec = [0.1,0.5,0.9]
@@ -153,6 +154,10 @@ hErr = zeros(Float64,len_d,SampleNbr,len_N)
                 hAvrg[j] = yAvrg[j]/(sqrt(γplus-x[j])*sqrt(x[j]-γmin))
             end
             hErr[m,κ,ℓ] = maximum(abs.(hAvrg-true_h))
+            msg = "Block 2 with d=$(d) and N=$(N)\n"
+            print(msg)
+            write(log_file_t2Det, msg)
+            flush(log_file_t2Det)
         end
         msg = "Block 2 with d=$(d) and N=$(N)\n"
         print(msg)
@@ -161,6 +166,7 @@ hErr = zeros(Float64,len_d,SampleNbr,len_N)
     end
 end
 close(log_file_t2)
+close(log_file_t2Det)
 SuppErr1 = sum(SuppErr[1,:,:],dims=1)/SampleNbr
 SuppErr2 = sum(SuppErr[2,:,:],dims=1)/SampleNbr
 SuppErr3 = sum(SuppErr[3,:,:],dims=1)/SampleNbr
