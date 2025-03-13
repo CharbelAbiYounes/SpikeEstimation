@@ -16,7 +16,7 @@ using LinearAlgebra, Distributions, Random, Plots, LaTeXStrings, DataFrames, CSV
 imgFolder = "Figures"
 tableFolder = "Tables"
 
-num_procs = 10
+num_procs = 30
 addprocs([nodes[2] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[3] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[4] for j in 1:num_procs],tunnel=true)
@@ -30,11 +30,10 @@ end
 log_file_t2 = open("progress_t2.log", "w")
 log_file_t2Det = open("progress_t2Det.log", "w")
 
-# Nvec = vcat(200:200:3000,3500:500:8000)
-Nvec = 6000:500:8000
+Nvec = vcat(200:200:3000,3500:500:8000)
 len_N = length(Nvec)
 # dvec = [0.1,0.5,0.9]
-dvec = [0.1]
+dvec = [0.5,0.9]
 len_d = length(dvec)
 σ = sqrt(1.5)
 σ_out = [5,5,4.5]
@@ -98,46 +97,52 @@ close(log_file_t2Det)
 
 SuppErr1 = sum(SuppErr[1,:,:],dims=1)/SampleNbr
 SuppErr2 = sum(SuppErr[2,:,:],dims=1)/SampleNbr
-SuppErr3 = sum(SuppErr[3,:,:],dims=1)/SampleNbr
+# SuppErr3 = sum(SuppErr[3,:,:],dims=1)/SampleNbr
 hErr1 = sum(hErr[1,:,:],dims=1)/SampleNbr
 hErr2 = sum(hErr[2,:,:],dims=1)/SampleNbr
-hErr3 = sum(hErr[3,:,:],dims=1)/SampleNbr
+# hErr3 = sum(hErr[3,:,:],dims=1)/SampleNbr
 SuppErr1_std = std(SuppErr[1, :, :], dims=1)
 SuppErr2_std = std(SuppErr[2, :, :], dims=1)
-SuppErr3_std = std(SuppErr[3, :, :], dims=1)
+# SuppErr3_std = std(SuppErr[3, :, :], dims=1)
 hErr1_std = std(hErr[1, :, :], dims=1)
 hErr2_std = std(hErr[2, :, :], dims=1)
-hErr3_std = std(hErr[3, :, :], dims=1)
+# hErr3_std = std(hErr[3, :, :], dims=1)
 SuppErr1 = SuppErr1'
 SuppErr2 = SuppErr2'
-SuppErr3 = SuppErr3'
+# SuppErr3 = SuppErr3'
 hErr1 = hErr1'
 hErr2 = hErr2'
-hErr3 = hErr3'
+# hErr3 = hErr3'
 SuppErr1_std = SuppErr1_std'
 SuppErr2_std = SuppErr2_std'
-SuppErr3_std = SuppErr3_std'
+# SuppErr3_std = SuppErr3_std'
 hErr1_std = hErr1_std'
 hErr2_std = hErr2_std'
-hErr3_std = hErr3_std'
-tb = DataFrame(A=Nvec,B=vec(SuppErr1),C=vec(SuppErr1_std),D=vec(SuppErr2),E=vec(SuppErr2_std),F=vec(SuppErr3),G=vec(SuppErr3_std))
-CSV.write(joinpath(tableFolder,"Ex1SuppErr.csv"),tb)
-tb = DataFrame(A=Nvec,B=vec(hErr1),C=vec(hErr1_std),D=vec(hErr2),E=vec(hErr2_std),F=vec(hErr3),G=vec(hErr3_std))
-CSV.write(joinpath(tableFolder,"Ex1hErr.csv"),tb)
+# hErr3_std = hErr3_std'
+# tb = DataFrame(A=Nvec,B=vec(SuppErr1),C=vec(SuppErr1_std),D=vec(SuppErr2),E=vec(SuppErr2_std),F=vec(SuppErr3),G=vec(SuppErr3_std))
+# CSV.write(joinpath(tableFolder,"Ex1SuppErr.csv"),tb)
+tb = DataFrame(A=Nvec,B=vec(SuppErr1),C=vec(SuppErr1_std),D=vec(SuppErr2),E=vec(SuppErr2_std))
+CSV.write(joinpath(tableFolder,"Ex1SuppErr0509.csv"),tb)
+# tb = DataFrame(A=Nvec,B=vec(hErr1),C=vec(hErr1_std),D=vec(hErr2),E=vec(hErr2_std),F=vec(hErr3),G=vec(hErr3_std))
+# CSV.write(joinpath(tableFolder,"Ex1hErr.csv"),tb)
+tb = DataFrame(A=Nvec,B=vec(hErr1),C=vec(hErr1_std),D=vec(hErr2),E=vec(hErr2_std))
+CSV.write(joinpath(tableFolder,"Ex1hErrd0509.csv"),tb)
 checkpt = convert(Int64,ceil(len_N/4))
-p2 = plot(Nvec,(SuppErr3[checkpt]*(Nvec[checkpt])^(1/2))*(Nvec).^(-1/2),color=:orange,linewidth=3,label=L"\mathrm{O}(N^{-1/2})",xlabel="N",ylabel="Errors in support",legend=:topright,yscale=:log10,linestyle=:dash,framestyle=:box)
+# p2 = plot(Nvec,(SuppErr3[checkpt]*(Nvec[checkpt])^(1/2))*(Nvec).^(-1/2),color=:orange,linewidth=3,label=L"\mathrm{O}(N^{-1/2})",xlabel="N",ylabel="Errors in support",legend=:topright,yscale=:log10,linestyle=:dash,framestyle=:box)
+p2 = plot(Nvec,(SuppErr2[checkpt]*(Nvec[checkpt])^(1/2))*(Nvec).^(-1/2),color=:orange,linewidth=3,label=L"\mathrm{O}(N^{-1/2})",xlabel="N",ylabel="Errors in support",legend=:topright,yscale=:log10,linestyle=:dash,framestyle=:box)
 p2 = plot!(Nvec,SuppErr1,yerror=SuppErr1_std,color=:red,linewidth=2,label="")
 p2 = scatter!(Nvec, SuppErr1, markersize=4, color=:red, marker=:diamond, label="d="*string(dvec[1]))
 p2 = plot!(Nvec,SuppErr2,yerror=SuppErr2_std,color=:blue,linewidth=2,label="")
 p2 = scatter!(Nvec, SuppErr2, markersize=4, color=:blue, marker=:square, label="d="*string(dvec[2]))
-p2 = plot!(Nvec,SuppErr3,yerror=SuppErr3_std,color=:green,linewidth=2,label="")
-p2 = scatter!(Nvec, SuppErr3, markersize=4, color=:green, marker=:circ, label="d="*string(dvec[3]))
-savefig(p2,joinpath(imgFolder, "Ex1Fig5.png"))
+# p2 = plot!(Nvec,SuppErr3,yerror=SuppErr3_std,color=:green,linewidth=2,label="")
+# p2 = scatter!(Nvec, SuppErr3, markersize=4, color=:green, marker=:circ, label="d="*string(dvec[3]))
+savefig(p2,joinpath(imgFolder, "Ex1Fig5d0509.png"))
+# p3 = plot(Nvec,(hErr1[checkpt]*(Nvec[checkpt])^(1/2))*(Nvec).^(-1/2),color=:orange,linewidth=3,label=L"\mathrm{O}(N^{-1/2})",xlabel="N",ylabel=latexstring("\\text{Errors in } \\hat{h}"),legend=:topright,yscale=:log10,linestyle=:dash,framestyle=:box)
 p3 = plot(Nvec,(hErr1[checkpt]*(Nvec[checkpt])^(1/2))*(Nvec).^(-1/2),color=:orange,linewidth=3,label=L"\mathrm{O}(N^{-1/2})",xlabel="N",ylabel=latexstring("\\text{Errors in } \\hat{h}"),legend=:topright,yscale=:log10,linestyle=:dash,framestyle=:box)
 p3 = plot!(Nvec,hErr1,color=:red,linewidth=2,label="")
 p3 = scatter!(Nvec, hErr1, markersize=4, color=:red, marker=:diamond, label="d="*string(dvec[1]))
 p3 = plot!(Nvec,hErr2,color=:blue,linewidth=2,label="")
 p3 = scatter!(Nvec, hErr2, markersize=4, color=:blue, marker=:square, label="d="*string(dvec[2]))
-p3 = plot!(Nvec,hErr3,color=:green,linewidth=2,label="")
-p3 = scatter!(Nvec, hErr3, markersize=4, color=:green, marker=:circ, label="d="*string(dvec[3]))
-savefig(p3,joinpath(imgFolder, "Ex1Fig6.png"))
+# p3 = plot!(Nvec,hErr3,color=:green,linewidth=2,label="")
+# p3 = scatter!(Nvec, hErr3, markersize=4, color=:green, marker=:circ, label="d="*string(dvec[3]))
+savefig(p3,joinpath(imgFolder, "Ex1Fig6d0509.png"))

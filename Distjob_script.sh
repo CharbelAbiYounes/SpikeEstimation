@@ -3,7 +3,7 @@
 #SBATCH --account=randommatrix  # Account to charge
 #SBATCH --partition=compute     # Partition to use
 #SBATCH --nodes=4               # Request 1 node
-#SBATCH --cpus-per-task=10      # Request 10 CPUs
+#SBATCH --cpus-per-task=30      # Request CPUs
 #SBATCH --mem=175G              # Memory allocation
 #SBATCH --time=48:00:00         # Maximum runtime
 #SBATCH --output=cyounes-job-%j.out  # Standard output log
