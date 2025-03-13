@@ -16,7 +16,7 @@ using LinearAlgebra, Distributions, Random, Plots, LaTeXStrings, DataFrames, CSV
 imgFolder = "Figures"
 tableFolder = "Tables"
 
-num_procs = 30
+num_procs = 10
 addprocs([nodes[2] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[3] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[4] for j in 1:num_procs],tunnel=true)
@@ -80,7 +80,7 @@ for m in 1:len_d
     for ℓ in 1:len_N
         N = Nvec[ℓ]
 
-        results = pmap(_ -> process_sample(d, N, σ, σ_out, jmp, vecNbr), 1:SampleNbr)
+        results = pmap(_ -> process_sample(d, N, σ, σ_out, jmp, vecNbr), 1:SampleNbr;batch_size=10)
 
         SuppErr[m, :, ℓ] .= first.(results)
         hErr[m, :, ℓ] .= last.(results)
