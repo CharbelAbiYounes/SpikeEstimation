@@ -111,13 +111,13 @@ for ℓ = 1:len_d
         LanTime[ℓ,j] = LanTime[ℓ,j]/SampleNbr
     end
     tb = DataFrame(A=Nvec,B=Percent[ℓ,:])
-    CSV.write(joinpath(tableFolder,"Ex1AvrgPrctImprov"*string(ℓ)*".csv"),tb)
+    CSV.write(joinpath(tableFolder,"OneEx1AvrgPrctImprov"*string(ℓ)*".csv"),tb)
     tb = DataFrame(A=Nvec,B=Avrg[ℓ,:])
-    CSV.write(joinpath(tableFolder,"Ex1AvrgAvrgImprov"*string(ℓ)*".csv"),tb)
+    CSV.write(joinpath(tableFolder,"OneEx1AvrgAvrgImprov"*string(ℓ)*".csv"),tb)
     tb = DataFrame(A=Nvec,B=LanTime[ℓ,:])
-    CSV.write(joinpath(tableFolder,"Ex1AvrgLanTime"*string(ℓ)*".csv"),tb)
+    CSV.write(joinpath(tableFolder,"OneEx1AvrgLanTime"*string(ℓ)*".csv"),tb)
     tb = DataFrame(A=Nvec,B=EigTime[ℓ,:])
-    CSV.write(joinpath(tableFolder,"Ex1AvrgEigTime"*string(ℓ)*".csv"),tb)
+    CSV.write(joinpath(tableFolder,"OneEx1AvrgEigTime"*string(ℓ)*".csv"),tb)
 end
 p4 = plot(Nvec,Percent[1,:],color=:red,linewidth=3,label="",xlabel="N",ylabel="Probability of correct estimation",legend=:topright,framestyle=:box)
 p4 = scatter!(Nvec, Percent[1,:], markersize=4, color=:red, marker=:diamond, label="d="*string(dvec[1]))
