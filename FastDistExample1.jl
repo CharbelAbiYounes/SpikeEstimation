@@ -16,7 +16,7 @@ using LinearAlgebra, Distributions, Random, Plots, LaTeXStrings, DataFrames, CSV
 imgFolder = "Figures"
 tableFolder = "Tables"
 
-num_procs = 5
+num_procs = 80
 addprocs(num_procs-1)
 
 @everywhere begin
@@ -27,18 +27,15 @@ end
 logfile = open("progress_Distt1.log", "w")
 Detlogfile = open("progress_Distt1Det.log", "w")
 
-# Nvec = 200:200:8000
-Nvec = 1000:200:1200
+Nvec = 200:200:8000
 lenN = length(Nvec)
-# dvec = [0.1,0.5,0.9]
-dvec = [0.1]
+dvec = [0.1,0.5,0.9]
 len_d = length(dvec)
 σ = sqrt(1.5)
 σout = [5,5,4.5]
 jmp = 5
 vecNbr = 1
-# SampleNbr = 200 
-SampleNbr = 5 
+SampleNbr = 200 
 Percent = zeros(Float64,len_d,lenN)
 SpikeNbr = zeros(Float64,len_d,lenN)
 LanTime = zeros(Float64,len_d,lenN)
