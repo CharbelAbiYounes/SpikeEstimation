@@ -93,3 +93,10 @@ Block 1 with d=0.1 and N=5000
 Block 1 with d=0.1 and N=5100
 Block 1 with d=0.1 and N=5200
 Block 1 with d=0.1 and N=5300
+Block 1 with d=0.1 and N=5400
+Block 1 with d=0.1 and N=5500
+Block 1 with d=0.1 and N=5600
+Block 1 with d=0.1 and N=5700
+Block 1 with d=0.1 and N=5800
+slurmstepd: error: *** STEP 24808748.0 ON n3446 CANCELLED AT 2025-03-13T16:32:59 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 12 seconds for job step to finish.
