@@ -1,34 +1,44 @@
+    Updating registry at `~/.julia/registries/General.toml`
    Resolving package versions...
+    Updating registry at `~/.julia/registries/General.toml`
    Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+    Updating registry at `~/.julia/registries/General.toml`
    Resolving package versions...
-Precompiling project...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-  ? ApproxFun
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-   Resolving package versions...
-  ? TracyWidomBeta
+    Updating registry at `~/.julia/registries/General.toml`
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3464, pid: 5510, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3430, pid: 37255, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3464, pid: 3162, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-  ? ApproxFun
-    ApproxFun Being precompiled by another machine (hostname: n3430, pid: 37324, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ? TracyWidomBeta
+    ApproxFun Being precompiled by another machine (hostname: n3464, pid: 2937, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3464, pid: 2937, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 106 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
   ✓ ApproxFun
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3428, pid: 46571, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3464, pid: 2937, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ? TracyWidomBeta
-  1 dependency successfully precompiled in 25 seconds. 285 already precompiled.
+  1 dependency successfully precompiled in 147 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
@@ -43,12 +53,18 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3416, pid: 60916, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3156, pid: 61023, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3464, pid: 2937, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
   ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3416, pid: 60916, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ? TracyWidomBeta
-  1 dependency successfully precompiled in 71 seconds. 285 already precompiled.
+Precompiling project...
+    TracyWidomBeta Being precompiled by another machine (hostname: n3464, pid: 2937, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3464, pid: 2937, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 59 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
@@ -60,14 +76,10 @@ Precompiling project...
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
    Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
   ✓ ApproxFun
-    ApproxFun Being precompiled by another machine (hostname: n3428, pid: 46796, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-    TracyWidomBeta Being precompiled by another machine (hostname: n3428, pid: 46423, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    TracyWidomBeta Being precompiled by another machine (hostname: n3159, pid: 23658, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 54 seconds. 285 already precompiled.
+  2 dependencies successfully precompiled in 143 seconds. 285 already precompiled.
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -82,17 +94,9 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
   ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3430, pid: 37255, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3416, pid: 60916, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3430, pid: 37255, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3430, pid: 37255, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    TracyWidomBeta Being precompiled by another machine (hostname: n3158, pid: 84159, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 125 seconds. 285 already precompiled.
+  2 dependencies successfully precompiled in 204 seconds. 285 already precompiled.
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -106,63 +110,7 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3428, pid: 46423, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3418, pid: 83991, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 96 seconds. 285 already precompiled.
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 57 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 140 seconds. 285 already precompiled.
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
+    ApproxFun Being precompiled by another machine (hostname: n3159, pid: 25205, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
   1 dependency successfully precompiled in 52 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
@@ -178,54 +126,12 @@ Precompiling project...
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-  ? ApproxFun
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3428, pid: 47561, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ? TracyWidomBeta
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-  ? TracyWidomBeta
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-  ? TracyWidomBeta
-Warning: Permanently added 'n3418,10.64.66.162' (ECDSA) to the list of known hosts.
-Warning: Permanently added 'n3428,10.64.66.172' (ECDSA) to the list of known hosts.
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+    ApproxFun Being precompiled by another machine (hostname: n3158, pid: 84159, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ ApproxFun
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3416, pid: 60916, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-Warning: Permanently added 'n3430,10.64.66.174' (ECDSA) to the list of known hosts.
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-  ? TracyWidomBeta
-  1 dependency successfully precompiled in 76 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3430, pid: 39436, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    TracyWidomBeta Being precompiled by another machine (hostname: n3156, pid: 61023, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 35 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies successfully precompiled in 340 seconds. 285 already precompiled.
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -236,65 +142,67 @@ Precompiling project...
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
    Resolving package versions...
-Block 2 with d=0.1 and N=200
-Block 2 with d=0.1 and N=400
-Block 2 with d=0.1 and N=600
   ✓ ApproxFun
-Block 2 with d=0.1 and N=800
-Block 2 with d=0.1 and N=1000
-  ? TracyWidomBeta
-  1 dependency successfully precompiled in 58 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-Block 2 with d=0.1 and N=1200
-  ? TracyWidomBeta
-   Resolving package versions...
-Block 2 with d=0.1 and N=1400
-Block 2 with d=0.1 and N=1600
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-Block 2 with d=0.1 and N=1800
-  ? ApproxFun
-  ? TracyWidomBeta
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Block 2 with d=0.1 and N=2000
-  ? TracyWidomBeta
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-    ApproxFun Being precompiled by another machine (hostname: g3113, pid: 60190, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: g3113, pid: 60190, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: g3113, pid: 62517, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3416, pid: 60916, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    TracyWidomBeta Being precompiled by another machine (hostname: n3158, pid: 84159, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 49 seconds. 285 already precompiled.
+  2 dependencies successfully precompiled in 76 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3159, pid: 23658, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 89 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3158, pid: 86376, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3158, pid: 86376, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 65 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  ✓ ApproxFun
+  ✓ ApproxFun
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+    TracyWidomBeta Being precompiled by another machine (hostname: n3159, pid: 23658, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3159, pid: 25881, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 60 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
@@ -309,13 +217,25 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3156, pid: 61023, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ ApproxFun
-Block 2 with d=0.1 and N=2200
-    TracyWidomBeta Being precompiled by another machine (hostname: n3430, pid: 37255, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3430, pid: 37255, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    TracyWidomBeta Being precompiled by another machine (hostname: n3155, pid: 63771, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 103 seconds. 285 already precompiled.
+  2 dependencies successfully precompiled in 92 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3156, pid: 61023, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 94 seconds. 285 already precompiled.
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -329,7 +249,157 @@ Block 2 with d=0.1 and N=2200
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
   ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 58 seconds. 285 already precompiled.
+  2 dependencies successfully precompiled in 112 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+Precompiling project...
+  ? ApproxFun
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ? TracyWidomBeta
+   Resolving package versions...
+Precompiling project...
+  ? ApproxFun
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ? ApproxFun
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    TracyWidomBeta Being precompiled by another machine (hostname: n3159, pid: 23658, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3159, pid: 26623, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3159, pid: 26623, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
+   Resolving package versions...
+  ✓ ApproxFun
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+    TracyWidomBeta Being precompiled by another machine (hostname: n3158, pid: 84159, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+Precompiling project...
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3158, pid: 84159, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3158, pid: 84159, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 73 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3159, pid: 26917, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 38 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+Warning: Permanently added 'n3156,10.64.65.156' (ECDSA) to the list of known hosts.
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 75 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+Warning: Permanently added 'n3158,10.64.65.158' (ECDSA) to the list of known hosts.
+  ✓ ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3155, pid: 63771, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+Warning: Permanently added 'n3159,10.64.65.159' (ECDSA) to the list of known hosts.
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 111 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3158, pid: 84159, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ✓ TracyWidomBeta
+  2 dependencies successfully precompiled in 94 seconds. 285 already precompiled.
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 74 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+Precompiling project...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ? ApproxFun
+Precompiling project...
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3156, pid: 61023, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ? TracyWidomBeta
+   Resolving package versions...
+Precompiling project...
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3155, pid: 63771, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 75 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
@@ -345,13 +415,11 @@ Block 2 with d=0.1 and N=2200
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3416, pid: 60916, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3418, pid: 83991, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3418, pid: 83991, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3158, pid: 89589, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+    ApproxFun Being precompiled by another machine (hostname: n3158, pid: 89589, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 177 seconds. 285 already precompiled.
+  1 dependency successfully precompiled in 65 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -361,34 +429,11 @@ Precompiling project...
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3430, pid: 41352, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 42 seconds. 285 already precompiled.
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3418, pid: 83991, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
   ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3416, pid: 60916, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-Block 2 with d=0.1 and N=2400
   ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3416, pid: 60916, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 83 seconds. 285 already precompiled.
+    TracyWidomBeta Being precompiled by another machine (hostname: n3155, pid: 63771, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 63 seconds. 285 already precompiled.
   1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
@@ -403,9 +448,10 @@ Block 2 with d=0.1 and N=2400
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
-    ApproxFun Being precompiled by another machine (hostname: n3418, pid: 88388, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3156, pid: 61023, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
   ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 73 seconds. 285 already precompiled.
+  2 dependencies successfully precompiled in 112 seconds. 285 already precompiled.
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -416,10 +462,38 @@ Precompiling project...
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
    Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+  ✓ TracyWidomBeta
+  1 dependency successfully precompiled in 57 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
+  2 dependencies had output during precompilation:
+┌ ApproxFun
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+┌ TracyWidomBeta
+│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
+│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
+└  
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+Precompiling project...
+    ApproxFun Being precompiled by another machine (hostname: n3156, pid: 61023, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile)
+  ? ApproxFun
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
   ✓ ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3430, pid: 37255, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 88 seconds. 285 already precompiled.
+Precompiling project...
+  ? ApproxFun
+    TracyWidomBeta Being precompiled by another machine (hostname: n3155, pid: 63771, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
+  ? TracyWidomBeta
+  1 dependency successfully precompiled in 98 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -430,7 +504,8 @@ Precompiling project...
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
   ✓ TracyWidomBeta
-  2 dependencies successfully precompiled in 61 seconds. 285 already precompiled.
+  1 dependency successfully precompiled in 81 seconds. 285 already precompiled.
+  1 dependency failed but may be precompilable after restarting julia
   2 dependencies had output during precompilation:
 ┌ ApproxFun
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
@@ -440,101 +515,9 @@ Precompiling project...
 │  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
 │  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
 └  
-Block 2 with d=0.1 and N=2600
-Block 2 with d=0.1 and N=200
-Block 2 with d=0.1 and N=400
-Block 2 with d=0.1 and N=600
-Block 2 with d=0.1 and N=800
-Block 2 with d=0.1 and N=200
-Block 2 with d=0.1 and N=400
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-Block 2 with d=0.1 and N=600
-  ? ApproxFun
-Block 2 with d=0.1 and N=1000
-  ? TracyWidomBeta
    Resolving package versions...
-Block 2 with d=0.1 and N=800
-Block 2 with d=0.1 and N=1200
-Block 2 with d=0.1 and N=1000
-Block 2 with d=0.1 and N=1400
-Block 2 with d=0.1 and N=1200
-Block 2 with d=0.1 and N=2800
-Block 2 with d=0.1 and N=1400
-Block 2 with d=0.1 and N=1600
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
   ? ApproxFun
   ? TracyWidomBeta
-   Resolving package versions...
-Block 2 with d=0.1 and N=1600
-Block 2 with d=0.1 and N=1800
-Block 2 with d=0.1 and N=1800
-Block 2 with d=0.1 and N=2000
-Block 2 with d=0.1 and N=3000
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-  ? TracyWidomBeta
-Block 2 with d=0.1 and N=2000
-Block 2 with d=0.1 and N=2200
-Block 2 with d=0.1 and N=200
-Block 2 with d=0.1 and N=400
-Block 2 with d=0.1 and N=600
-Block 2 with d=0.1 and N=800
-Block 2 with d=0.1 and N=2200
-Block 2 with d=0.1 and N=1000
-Block 2 with d=0.1 and N=1200
-Block 2 with d=0.1 and N=2400
-Block 2 with d=0.1 and N=1400
-Block 2 with d=0.1 and N=2400
-Block 2 with d=0.1 and N=3500
-Block 2 with d=0.1 and N=1600
-Block 2 with d=0.1 and N=2600
-Block 2 with d=0.1 and N=1800
-Block 2 with d=0.1 and N=2600
-Block 2 with d=0.1 and N=2000
-Block 2 with d=0.1 and N=2200
-Block 2 with d=0.1 and N=2800
-Block 2 with d=0.1 and N=2800
-Block 2 with d=0.1 and N=2400
-Block 2 with d=0.1 and N=4000
-Block 2 with d=0.1 and N=3000
-Block 2 with d=0.1 and N=2600
-Block 2 with d=0.1 and N=3000
-Block 2 with d=0.1 and N=2800
-Block 2 with d=0.1 and N=3500
-Block 2 with d=0.1 and N=3500
-Block 2 with d=0.1 and N=4500
-Block 2 with d=0.1 and N=3000
-Block 2 with d=0.1 and N=3500
-Block 2 with d=0.1 and N=4000
-Block 2 with d=0.1 and N=4000
-Block 2 with d=0.1 and N=5000
-Block 2 with d=0.1 and N=4000
-Block 2 with d=0.1 and N=4500
-Block 2 with d=0.1 and N=4500
-Block 2 with d=0.1 and N=4500
-Block 2 with d=0.1 and N=5500
-Block 2 with d=0.1 and N=5000
-Block 2 with d=0.1 and N=5000
-Block 2 with d=0.1 and N=5000
-Block 2 with d=0.1 and N=6000
-GKS: cannot open display - headless operation mode active
-┌ Warning: Forcibly interrupting busy workers
-│   exception = rmprocs: pids [2, 4] not terminated after 5.0 seconds.
-└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1253
-┌ Warning: rmprocs: process 1 not removed
-└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1049
-Block 2 with d=0.1 and N=5500
-Block 2 with d=0.1 and N=5500
-Block 2 with d=0.1 and N=5500
-Block 2 with d=0.1 and N=6000
-GKS: cannot open display - headless operation mode active
-Block 2 with d=0.1 and N=6000
-GKS: cannot open display - headless operation mode active
-Block 2 with d=0.1 and N=6000
-GKS: cannot open display - headless operation mode active
