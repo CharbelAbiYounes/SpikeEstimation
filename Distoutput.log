@@ -529,3 +529,20 @@ Block 2 with d=0.1 and N=7000
 Block 2 with d=0.1 and N=7000
 Block 2 with d=0.1 and N=7000
 Block 2 with d=0.1 and N=7000
+Block 2 with d=0.1 and N=7500
+Block 2 with d=0.1 and N=7500
+Block 2 with d=0.1 and N=7500
+Block 2 with d=0.1 and N=7500
+Block 2 with d=0.1 and N=8000
+GKS: cannot open display - headless operation mode active
+┌ Warning: Forcibly interrupting busy workers
+│   exception = rmprocs: pids [10] not terminated after 5.0 seconds.
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1253
+┌ Warning: rmprocs: process 1 not removed
+└ @ Distributed /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/Distributed/src/cluster.jl:1049
+Block 2 with d=0.1 and N=8000
+GKS: cannot open display - headless operation mode active
+Block 2 with d=0.1 and N=8000
+GKS: cannot open display - headless operation mode active
+Block 2 with d=0.1 and N=8000
+GKS: cannot open display - headless operation mode active

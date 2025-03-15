@@ -1,9 +1,14 @@
-    Updating registry at `~/.julia/registries/General.toml`
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/mmfs1/home/cyounes/.julia/compiled/v1.10/ApproxFun/jGqLz_bfW0y.ji.pidfile"
+└ @ FileWatching.Pidfile /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:244
   ? ApproxFun
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile"
+└ @ FileWatching.Pidfile /mmfs1/sw/contrib/elbert-src/julia/1.10.2/julia-1.10.2/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:244
   ? TracyWidomBeta
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
@@ -28,37 +33,7 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
   ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3463, pid: 18792, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 42 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-   Resolving package versions...
-  No Changes to `~/.julia/environments/v1.10/Project.toml`
-  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
-Precompiling project...
-  ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3463, pid: 18792, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 42 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
+  ? TracyWidomBeta
    Resolving package versions...
   No Changes to `~/.julia/environments/v1.10/Project.toml`
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
@@ -70,32 +45,49 @@ Precompiling project...
   No Changes to `~/.julia/environments/v1.10/Manifest.toml`
 Precompiling project...
   ? ApproxFun
-    TracyWidomBeta Being precompiled by another machine (hostname: n3463, pid: 18792, pidfile: /mmfs1/home/cyounes/.julia/compiled/v1.10/TracyWidomBeta/bvPLg_bfW0y.ji.pidfile)
-  ✓ TracyWidomBeta
-  1 dependency successfully precompiled in 48 seconds. 285 already precompiled.
-  1 dependency failed but may be precompilable after restarting julia
-  2 dependencies had output during precompilation:
-┌ ApproxFun
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
-┌ TracyWidomBeta
-│  WARNING: Method definition eigvals(ApproxFunBase.Operator{T} where T, Integer) in module ApproxFunBase at /mmfs1/home/cyounes/.julia/packages/ApproxFunBase/wPgxd/src/eigen.jl:4 overwritten in module ApproxFun at /mmfs1/home/cyounes/.julia/packages/ApproxFun/GDlBJ/src/Extras/eigs.jl:4.
-│  ERROR: Method overwriting is not permitted during Module precompilation. Use `__precompile__(false)` to opt-out of precompilation.
-└  
+  ? TracyWidomBeta
+   Resolving package versions...
+  No Changes to `~/.julia/environments/v1.10/Project.toml`
+  No Changes to `~/.julia/environments/v1.10/Manifest.toml`
+Precompiling project...
+  ? ApproxFun
+  ? TracyWidomBeta
+Block 2 with d=0.1 and N=200
+Block 2 with d=0.1 and N=400
+Block 2 with d=0.1 and N=600
+Block 2 with d=0.1 and N=800
 Block 2 with d=0.1 and N=1000
 Block 2 with d=0.1 and N=1200
-ERROR: LoadError: BoundsError: attempt to access 1×2 Matrix{Float64} at index [2, 1:2]
-Stacktrace:
- [1] throw_boundserror(A::Matrix{Float64}, I::Tuple{Int64, Base.Slice{Base.OneTo{Int64}}})
-   @ Base ./abstractarray.jl:737
- [2] checkbounds
-   @ ./abstractarray.jl:702 [inlined]
- [3] _getindex
-   @ ./multidimensional.jl:888 [inlined]
- [4] getindex(::Matrix{Float64}, ::Int64, ::Function)
-   @ Base ./abstractarray.jl:1291
- [5] top-level scope
-   @ ~/SpikeEstimation/FastDistExample1.jl:96
-in expression starting at /mmfs1/home/cyounes/SpikeEstimation/FastDistExample1.jl:96
-srun: error: n3464: task 0: Exited with exit code 1
+Block 2 with d=0.1 and N=1400
+Block 2 with d=0.1 and N=1600
+Block 2 with d=0.1 and N=1800
+Block 2 with d=0.1 and N=2000
+Block 2 with d=0.1 and N=2200
+Block 2 with d=0.1 and N=2400
+Block 2 with d=0.1 and N=2600
+Block 2 with d=0.1 and N=2800
+Block 2 with d=0.1 and N=3000
+Block 2 with d=0.1 and N=3200
+Block 2 with d=0.1 and N=3400
+Block 2 with d=0.1 and N=3600
+Block 2 with d=0.1 and N=3800
+Block 2 with d=0.1 and N=4000
+Block 2 with d=0.1 and N=4200
+Block 2 with d=0.1 and N=4400
+Block 2 with d=0.1 and N=4600
+Block 2 with d=0.1 and N=4800
+Block 2 with d=0.1 and N=5000
+Block 2 with d=0.1 and N=5200
+Block 2 with d=0.1 and N=5400
+Block 2 with d=0.1 and N=5600
+Block 2 with d=0.1 and N=5800
+Block 2 with d=0.1 and N=6000
+Block 2 with d=0.1 and N=6200
+Block 2 with d=0.1 and N=6400
+Block 2 with d=0.1 and N=6600
+Block 2 with d=0.1 and N=6800
+Block 2 with d=0.1 and N=7000
+Block 2 with d=0.1 and N=7200
+Block 2 with d=0.1 and N=7400
+Block 2 with d=0.1 and N=7600
+Block 2 with d=0.1 and N=7800
