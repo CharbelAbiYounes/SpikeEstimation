@@ -4,7 +4,7 @@
 #SBATCH --partition=cpu-g2     # Partition to use
 #SBATCH --nodes=1               # Request 1 node
 #SBATCH --cpus-per-task=90      # Request CPUs
-#SBATCH --mem=1500G              # Memory allocation
+#SBATCH --mem=1400G              # Memory allocation
 #SBATCH --time=48:00:00         # Maximum runtime
 #SBATCH --output=cyounes-job-%j.out  # Standard output log
 #SBATCH --error=cyounes-job-%j.err   # Standard error log
