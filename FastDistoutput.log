@@ -1202,3 +1202,9 @@ Block 2 with d=0.1 and N=3500
 Block 2 with d=0.1 and N=3700
 Block 2 with d=0.1 and N=3800
 Block 2 with d=0.1 and N=3600
+srun: Job step aborted: Waiting up to 12 seconds for job step to finish.
+slurmstepd: error: *** STEP 24855186.0 ON n3091 CANCELLED AT 2025-03-15T12:39:29 ***
+
+[15042] signal (15): Terminated
+in expression starting at /mmfs1/home/cyounes/SpikeEstimation/FastDistExample1.jl:60
+epoll_wait at /lib64/libc.so.6 (unknown line)
