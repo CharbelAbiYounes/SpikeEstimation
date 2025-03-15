@@ -16,7 +16,7 @@ f = open("hosts.txt")
 nodes = readlines(f)
 close(f)
 
-num_procs = 30
+num_procs = 10
 addprocs([nodes[2] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[3] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[4] for j in 1:num_procs],tunnel=true)
