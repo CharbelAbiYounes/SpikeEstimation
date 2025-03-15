@@ -59,7 +59,7 @@ end
 
 for m in 1:len_d
     d = dvec[m]
-    for ℓ in 1:len_N
+    for ℓ in 1:lenN
         N = Nvec[ℓ]
         M = convert(Int64,ceil(N/d))
         k = convert(Int64,floor(log(N)/2))
