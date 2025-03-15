@@ -8,10 +8,6 @@ Pkg.add("DataFrames")
 Pkg.add("CSV")
 Pkg.add("Distributed")
 
-f = open("hosts.txt")
-nodes = readlines(f)
-close(f)
-
 using LinearAlgebra, Distributions, Random, Plots, LaTeXStrings, DataFrames, CSV, Distributed
 imgFolder = "Figures"
 tableFolder = "Tables"
