@@ -16,7 +16,7 @@ f = open("hosts.txt")
 nodes = readlines(f)
 close(f)
 
-num_procs = 10
+num_procs = 6
 addprocs([nodes[2] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[3] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[4] for j in 1:num_procs],tunnel=true)
@@ -30,9 +30,10 @@ end
 logfile = open("progress_Distt1.log", "w")
 Detlogfile = open("progress_Distt1Det.log", "w")
 
-Nvec = 100:100:8000
+Nvec = 100:100:7800
 lenN = length(Nvec)
-dvec = [0.1,0.5,0.9]
+# dvec = [0.1,0.5,0.9]
+dvec = [0.5,0.9]
 len_d = length(dvec)
 σ = sqrt(1.5)
 σout = [5,5,4.5]
@@ -74,42 +75,42 @@ for m in 1:len_d
         LanTime[m, ℓ] = sum(x -> x[2], results) / SampleNbr  
         SpikeNbr[m, ℓ] = sum(x -> x[3], results) / SampleNbr
         Percent[m, ℓ] = sum(Int(x[3] == 3) for x in results) / SampleNbr  
-        msg = "Block 2 with d=$(d) and N=$(N)\n"
+        msg = "d=$(d) and N=$(N)\n"
         print(msg)
         write(logfile, msg)
         flush(logfile)
         tb = DataFrame(A=Nvec[1:ℓ],B=Percent[m,1:ℓ])
-        CSV.write(joinpath(tableFolder,"Prct"*string(m)*".csv"),tb)
+        CSV.write(joinpath(tableFolder,"S0509Prct"*string(m)*".csv"),tb)
         tb = DataFrame(A=Nvec[1:ℓ],B=SpikeNbr[m,1:ℓ])
-        CSV.write(joinpath(tableFolder,"Avrg"*string(m)*".csv"),tb)
+        CSV.write(joinpath(tableFolder,"S0509Avrg"*string(m)*".csv"),tb)
         tb = DataFrame(A=Nvec[1:ℓ],B=LanTime[m,1:ℓ])
-        CSV.write(joinpath(tableFolder,"LanTime"*string(m)*".csv"),tb)
+        CSV.write(joinpath(tableFolder,"S0509LanTime"*string(m)*".csv"),tb)
         tb = DataFrame(A=Nvec[1:ℓ],B=EigTime[m,1:ℓ])
-        CSV.write(joinpath(tableFolder,"EigTime"*string(m)*".csv"),tb)
+        CSV.write(joinpath(tableFolder,"S0509EigTime"*string(m)*".csv"),tb)
     end
 end
 close(logfile)
 close(Detlogfile)
 
-p = plot(Nvec,Percent[1,:],color=:red,linewidth=3,label="",xlabel="N",ylabel="Probability of correct estimation",legend=:topright,framestyle=:box)
-p = scatter!(Nvec, Percent[1,:], markersize=4, color=:red, marker=:diamond, label="d="*string(dvec[1]))
-p = plot!(Nvec,Percent[2,:],color=:blue,linewidth=3,label="")
-p = scatter!(Nvec, Percent[2,:], markersize=4, color=:blue, marker=:square, label="d="*string(dvec[2]))
-p = plot!(Nvec,Percent[3,:],color=:green,linewidth=3,label="")
-p = scatter!(Nvec, Percent[3,:], markersize=4, color=:green, marker=:circ, label="d="*string(dvec[3]))
-savefig(p,joinpath(imgFolder, "Avrg.png"))
-p = plot(Nvec,EigTime[1,:],color=:red,linewidth=2,label="",xlabel="N",ylabel="Time (in seconds)",legend=:topleft,framestyle=:box)
-p = scatter!(Nvec, EigTime[1,:], markersize=4, color=:red, marker=:diamond, label="Eigenvalue Computation")
-p = plot!(Nvec,LanTime[1,:],color=:orange,linewidth=2,label="")
-p = scatter!(Nvec, LanTime[1,:], markersize=4, color=:orange, marker=:square, label="Lanczos Approach")
-savefig(p,joinpath(imgFolder, "Time01.png"))
-p = plot(Nvec,EigTime[2,:],color=:red,linewidth=2,label="",xlabel="N",ylabel="Time (in seconds)",legend=:topleft,framestyle=:box)
-p = scatter!(Nvec, EigTime[2,:], markersize=4, color=:red, marker=:diamond, label="Eigenvalue Computation")
-p = plot!(Nvec,LanTime[2,:],color=:orange,linewidth=2,label="")
-p = scatter!(Nvec, LanTime[2,:], markersize=4, color=:orange, marker=:square, label="Lanczos Approach")
-savefig(p,joinpath(imgFolder, "Time05.png"))
-p = plot(Nvec,EigTime[3,:],color=:red,linewidth=2,label="",xlabel="N",ylabel="Time (in seconds)",legend=:topleft,framestyle=:box)
-p = scatter!(Nvec, EigTime[3,:], markersize=4, color=:red, marker=:diamond, label="Eigenvalue Computation")
-p = plot!(Nvec,LanTime[3,:],color=:orange,linewidth=2,label="")
-p = scatter!(Nvec, LanTime[3,:], markersize=4, color=:orange, marker=:square, label="Lanczos Approach")
-savefig(p,joinpath(imgFolder, "Time05.png"))
+# p = plot(Nvec,Percent[1,:],color=:red,linewidth=3,label="",xlabel="N",ylabel="Probability of correct estimation",legend=:topright,framestyle=:box)
+# p = scatter!(Nvec, Percent[1,:], markersize=4, color=:red, marker=:diamond, label="d="*string(dvec[1]))
+# p = plot!(Nvec,Percent[2,:],color=:blue,linewidth=3,label="")
+# p = scatter!(Nvec, Percent[2,:], markersize=4, color=:blue, marker=:square, label="d="*string(dvec[2]))
+# p = plot!(Nvec,Percent[3,:],color=:green,linewidth=3,label="")
+# p = scatter!(Nvec, Percent[3,:], markersize=4, color=:green, marker=:circ, label="d="*string(dvec[3]))
+# savefig(p,joinpath(imgFolder, "Avrg.png"))
+# p = plot(Nvec,EigTime[1,:],color=:red,linewidth=2,label="",xlabel="N",ylabel="Time (in seconds)",legend=:topleft,framestyle=:box)
+# p = scatter!(Nvec, EigTime[1,:], markersize=4, color=:red, marker=:diamond, label="Eigenvalue Computation")
+# p = plot!(Nvec,LanTime[1,:],color=:orange,linewidth=2,label="")
+# p = scatter!(Nvec, LanTime[1,:], markersize=4, color=:orange, marker=:square, label="Lanczos Approach")
+# savefig(p,joinpath(imgFolder, "Time01.png"))
+# p = plot(Nvec,EigTime[2,:],color=:red,linewidth=2,label="",xlabel="N",ylabel="Time (in seconds)",legend=:topleft,framestyle=:box)
+# p = scatter!(Nvec, EigTime[2,:], markersize=4, color=:red, marker=:diamond, label="Eigenvalue Computation")
+# p = plot!(Nvec,LanTime[2,:],color=:orange,linewidth=2,label="")
+# p = scatter!(Nvec, LanTime[2,:], markersize=4, color=:orange, marker=:square, label="Lanczos Approach")
+# savefig(p,joinpath(imgFolder, "Time05.png"))
+# p = plot(Nvec,EigTime[3,:],color=:red,linewidth=2,label="",xlabel="N",ylabel="Time (in seconds)",legend=:topleft,framestyle=:box)
+# p = scatter!(Nvec, EigTime[3,:], markersize=4, color=:red, marker=:diamond, label="Eigenvalue Computation")
+# p = plot!(Nvec,LanTime[3,:],color=:orange,linewidth=2,label="")
+# p = scatter!(Nvec, LanTime[3,:], markersize=4, color=:orange, marker=:square, label="Lanczos Approach")
+# savefig(p,joinpath(imgFolder, "Time05.png"))
