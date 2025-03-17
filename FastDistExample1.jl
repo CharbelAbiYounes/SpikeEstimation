@@ -16,7 +16,7 @@ f = open("hosts.txt")
 nodes = readlines(f)
 close(f)
 
-num_procs = 6
+num_procs = 2
 addprocs([nodes[2] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[3] for j in 1:num_procs],tunnel=true)
 addprocs([nodes[4] for j in 1:num_procs],tunnel=true)
@@ -30,10 +30,10 @@ end
 logfile = open("progress_Distt1.log", "w")
 Detlogfile = open("progress_Distt1Det.log", "w")
 
-Nvec = 100:100:7800
+# Nvec = 100:100:8000
+Nvec = 7900:8000
 lenN = length(Nvec)
-# dvec = [0.1,0.5,0.9]
-dvec = [0.5,0.9]
+dvec = [0.1,0.5,0.9]
 len_d = length(dvec)
 σ = sqrt(1.5)
 σout = [5,5,4.5]
@@ -80,13 +80,13 @@ for m in 1:len_d
         write(logfile, msg)
         flush(logfile)
         tb = DataFrame(A=Nvec[1:ℓ],B=Percent[m,1:ℓ])
-        CSV.write(joinpath(tableFolder,"S0509Prct"*string(m)*".csv"),tb)
+        CSV.write(joinpath(tableFolder,"L010509Prct"*string(m)*".csv"),tb)
         tb = DataFrame(A=Nvec[1:ℓ],B=SpikeNbr[m,1:ℓ])
-        CSV.write(joinpath(tableFolder,"S0509Avrg"*string(m)*".csv"),tb)
+        CSV.write(joinpath(tableFolder,"L010509Avrg"*string(m)*".csv"),tb)
         tb = DataFrame(A=Nvec[1:ℓ],B=LanTime[m,1:ℓ])
-        CSV.write(joinpath(tableFolder,"S0509LanTime"*string(m)*".csv"),tb)
+        CSV.write(joinpath(tableFolder,"L010509LanTime"*string(m)*".csv"),tb)
         tb = DataFrame(A=Nvec[1:ℓ],B=EigTime[m,1:ℓ])
-        CSV.write(joinpath(tableFolder,"S0509EigTime"*string(m)*".csv"),tb)
+        CSV.write(joinpath(tableFolder,"L010509EigTime"*string(m)*".csv"),tb)
     end
 end
 close(logfile)
