@@ -12,15 +12,17 @@ using LinearAlgebra, Distributions, Random, Plots, LaTeXStrings, DataFrames, CSV
 imgFolder = "Figures"
 tableFolder = "Tables"
 
-f = open("hosts.txt")
-nodes = readlines(f)
-close(f)
+# f = open("hosts.txt")
+# nodes = readlines(f)
+# close(f)
 
-num_procs = 2
-addprocs([nodes[2] for j in 1:num_procs],tunnel=true)
-addprocs([nodes[3] for j in 1:num_procs],tunnel=true)
-addprocs([nodes[4] for j in 1:num_procs],tunnel=true)
-addprocs(num_procs-1)
+# num_procs = 2
+# addprocs([nodes[2] for j in 1:num_procs],tunnel=true)
+# addprocs([nodes[3] for j in 1:num_procs],tunnel=true)
+# addprocs([nodes[4] for j in 1:num_procs],tunnel=true)
+# addprocs(num_procs-1)
+
+addprocs(25)
 
 @everywhere begin
     using LinearAlgebra, Distributions, Random
@@ -31,7 +33,7 @@ logfile = open("progress_Distt1.log", "w")
 Detlogfile = open("progress_Distt1Det.log", "w")
 
 # Nvec = 100:100:8000
-Nvec = 7900:8000
+Nvec = 7900:100:8000
 lenN = length(Nvec)
 dvec = [0.1,0.5,0.9]
 len_d = length(dvec)
